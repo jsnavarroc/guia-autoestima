@@ -62,16 +62,62 @@
         ]
       },
       "questions": [
-        { "id": "ros_1", "text": "Siento que soy una persona digna de aprecio, al menos en igual medida que los demás" },
-        { "id": "ros_2", "text": "Siento que tengo cualidades positivas", "reverse": false },
-        { "id": "ros_3", "text": "En general, me inclino a pensar que soy un/a fracasado/a", "reverse": true },
-        { "id": "ros_4", "text": "Soy capaz de hacer las cosas tan bien como la mayoría de la gente" },
-        { "id": "ros_5", "text": "Siento que no tengo mucho de lo que estar orgulloso/a", "reverse": true },
-        { "id": "ros_6", "text": "Tengo una actitud positiva hacia mí mismo/a" },
-        { "id": "ros_7", "text": "En general, estoy satisfecho/a conmigo mismo/a" },
-        { "id": "ros_8", "text": "Desearía valorarme más a mí mismo/a", "reverse": true },
-        { "id": "ros_9", "text": "A veces me siento verdaderamente inútil", "reverse": true },
-        { "id": "ros_10", "text": "A veces pienso que no soy bueno/a para nada", "reverse": true }
+        {
+          "id": "ros_1",
+          "text": "Siento que soy una persona digna de aprecio, al menos en igual medida que los demás",
+          "help": "Esta pregunta evalúa cómo percibes tu valor como persona en relación con los demás. Nos ayuda a entender si tiendes a verte como alguien con el mismo derecho a ser respetado/a que cualquier otra persona."
+        },
+        {
+          "id": "ros_2",
+          "text": "Siento que tengo cualidades positivas",
+          "reverse": false,
+          "help": "Aquí exploramos tu capacidad para reconocer tus fortalezas y aspectos positivos. Tiene que ver con cómo percibes tus propias cualidades y talentos."
+        },
+        {
+          "id": "ros_3",
+          "text": "En general, me inclino a pensar que soy un/a fracasado/a",
+          "reverse": true,
+          "help": "Esta pregunta mide si tienes una tendencia a definirte globalmente de forma negativa. Es diferente a reconocer errores puntuales: se trata de si te ves a ti mismo/a como persona de forma derrotista."
+        },
+        {
+          "id": "ros_4",
+          "text": "Soy capaz de hacer las cosas tan bien como la mayoría de la gente",
+          "help": "Evaluamos tu percepción de competencia general. No se trata de ser el/la mejor, sino de si sientes que puedes desempeñarte al nivel de la mayoría de las personas."
+        },
+        {
+          "id": "ros_5",
+          "text": "Siento que no tengo mucho de lo que estar orgulloso/a",
+          "reverse": true,
+          "help": "Esta pregunta explora si puedes identificar logros, cualidades o experiencias en tu vida de las que te sientas orgulloso/a. Refleja cómo valoras tu propia historia."
+        },
+        {
+          "id": "ros_6",
+          "text": "Tengo una actitud positiva hacia mí mismo/a",
+          "help": "Aquí medimos tu disposición general hacia ti mismo/a. Es una mirada amplia a si predomina una visión favorable o desfavorable cuando piensas en quién eres."
+        },
+        {
+          "id": "ros_7",
+          "text": "En general, estoy satisfecho/a conmigo mismo/a",
+          "help": "Esta pregunta captura tu nivel de satisfacción global contigo mismo/a. Es un indicador directo de autoestima: cómo te sientes al hacer un balance general de quién eres."
+        },
+        {
+          "id": "ros_8",
+          "text": "Desearía valorarme más a mí mismo/a",
+          "reverse": true,
+          "help": "Exploramos si sientes que hay una brecha entre cuánto te valoras y cuánto te gustaría valorarte. Refleja el deseo de tener una mejor relación contigo mismo/a."
+        },
+        {
+          "id": "ros_9",
+          "text": "A veces me siento verdaderamente inútil",
+          "reverse": true,
+          "help": "Esta pregunta detecta si experimentas momentos en los que sientes que no sirves para nada. Es una forma intensa de autocrítica que impacta directamente la autoestima."
+        },
+        {
+          "id": "ros_10",
+          "text": "A veces pienso que no soy bueno/a para nada",
+          "reverse": true,
+          "help": "Similar a la anterior, esta pregunta mide si generalizas tus dificultades al punto de sentir que no eres competente en ningún área. Evalúa un patrón de pensamiento totalizador sobre ti mismo/a."
+        }
       ]
     },
     {
@@ -94,18 +140,83 @@
         ]
       },
       "questions": [
-        { "id": "scs_1", "text": "Cuando fallo en algo importante para mí, me invaden sentimientos de que no soy suficiente", "reverse": true, "subscale": "self_judgment" },
-        { "id": "scs_2", "text": "Trato de ser comprensivo y paciente con los aspectos de mi personalidad que no me gustan", "subscale": "self_kindness" },
-        { "id": "scs_3", "text": "Cuando algo doloroso ocurre, trato de tener una visión equilibrada de la situación", "subscale": "mindfulness" },
-        { "id": "scs_4", "text": "Cuando siento que no doy la talla, me recuerdo que la mayoría de las personas se sienten así a veces", "subscale": "common_humanity" },
-        { "id": "scs_5", "text": "Trato de ver mis defectos como parte de la condición humana", "subscale": "common_humanity" },
-        { "id": "scs_6", "text": "Cuando paso por un momento muy difícil, me doy el cuidado y la ternura que necesito", "subscale": "self_kindness" },
-        { "id": "scs_7", "text": "Cuando algo me molesta, trato de mantener mis emociones en equilibrio", "subscale": "mindfulness" },
-        { "id": "scs_8", "text": "Cuando fallo en algo que es importante para mí, tiendo a sentirme solo/a en mi fracaso", "reverse": true, "subscale": "isolation" },
-        { "id": "scs_9", "text": "Cuando me siento deprimido/a, tiendo a obsesionarme con todo lo que está mal", "reverse": true, "subscale": "over_identification" },
-        { "id": "scs_10", "text": "Cuando siento que no soy suficiente, me recuerdo que casi todo el mundo se siente así en algún momento", "subscale": "common_humanity" },
-        { "id": "scs_11", "text": "Me critico y me juzgo duramente por mis defectos y errores", "reverse": true, "subscale": "self_judgment" },
-        { "id": "scs_12", "text": "Soy intolerante e impaciente con los aspectos de mi personalidad que no me gustan", "reverse": true, "subscale": "self_judgment" }
+        {
+          "id": "scs_1",
+          "text": "Cuando fallo en algo importante para mí, me invaden sentimientos de que no soy suficiente",
+          "reverse": true,
+          "subscale": "self_judgment",
+          "help": "Aquí exploramos cómo reaccionas emocionalmente ante el fracaso. Algunas personas se juzgan muy duramente cuando fallan, mientras otras logran mantener perspectiva. No hay respuesta correcta."
+        },
+        {
+          "id": "scs_2",
+          "text": "Trato de ser comprensivo y paciente con los aspectos de mi personalidad que no me gustan",
+          "subscale": "self_kindness",
+          "help": "Esta pregunta mide tu nivel de amabilidad hacia ti mismo/a cuando reconoces defectos propios. Se trata de si puedes tratarte con la misma paciencia que le darías a un amigo."
+        },
+        {
+          "id": "scs_3",
+          "text": "Cuando algo doloroso ocurre, trato de tener una visión equilibrada de la situación",
+          "subscale": "mindfulness",
+          "help": "Evaluamos tu capacidad de mantener perspectiva ante el dolor, sin minimizarlo ni exagerarlo. Es un componente de la atención plena aplicada a momentos difíciles."
+        },
+        {
+          "id": "scs_4",
+          "text": "Cuando siento que no doy la talla, me recuerdo que la mayoría de las personas se sienten así a veces",
+          "subscale": "common_humanity",
+          "help": "Esta pregunta explora si puedes ver tus dificultades como parte de la experiencia humana compartida, en lugar de sentir que eres la única persona que las experimenta."
+        },
+        {
+          "id": "scs_5",
+          "text": "Trato de ver mis defectos como parte de la condición humana",
+          "subscale": "common_humanity",
+          "help": "Medimos si puedes contextualizar tus imperfecciones dentro de lo que significa ser humano. Todos tenemos defectos, pero no todos logran aceptarlos como algo natural."
+        },
+        {
+          "id": "scs_6",
+          "text": "Cuando paso por un momento muy difícil, me doy el cuidado y la ternura que necesito",
+          "subscale": "self_kindness",
+          "help": "Aquí evaluamos si sabes cuidarte emocionalmente en los momentos de mayor vulnerabilidad. Se trata de si te permites ser compasivo/a contigo cuando más lo necesitas."
+        },
+        {
+          "id": "scs_7",
+          "text": "Cuando algo me molesta, trato de mantener mis emociones en equilibrio",
+          "subscale": "mindfulness",
+          "help": "Esta pregunta mide tu capacidad de regulación emocional consciente. No se trata de reprimir emociones, sino de no dejarte arrastrar completamente por ellas."
+        },
+        {
+          "id": "scs_8",
+          "text": "Cuando fallo en algo que es importante para mí, tiendo a sentirme solo/a en mi fracaso",
+          "reverse": true,
+          "subscale": "isolation",
+          "help": "Exploramos si el fracaso te hace sentir aislado/a, como si nadie más pasara por lo mismo. Este sentimiento de soledad ante las dificultades es un patrón que afecta la autocompasión."
+        },
+        {
+          "id": "scs_9",
+          "text": "Cuando me siento deprimido/a, tiendo a obsesionarme con todo lo que está mal",
+          "reverse": true,
+          "subscale": "over_identification",
+          "help": "Esta pregunta mide si tiendes a sobreidentificarte con tus emociones negativas, entrando en un ciclo de rumiación donde todo parece ir mal. Es un patrón que amplifica el malestar."
+        },
+        {
+          "id": "scs_10",
+          "text": "Cuando siento que no soy suficiente, me recuerdo que casi todo el mundo se siente así en algún momento",
+          "subscale": "common_humanity",
+          "help": "Evaluamos si puedes normalizar tus sentimientos de insuficiencia reconociendo que son universales. Esta perspectiva reduce el aislamiento emocional."
+        },
+        {
+          "id": "scs_11",
+          "text": "Me critico y me juzgo duramente por mis defectos y errores",
+          "reverse": true,
+          "subscale": "self_judgment",
+          "help": "Aquí medimos la intensidad de tu autocrítica. Todas las personas se evalúan, pero hay una diferencia entre una autocrítica constructiva y una que es destructiva y desproporcionada."
+        },
+        {
+          "id": "scs_12",
+          "text": "Soy intolerante e impaciente con los aspectos de mi personalidad que no me gustan",
+          "reverse": true,
+          "subscale": "self_judgment",
+          "help": "Esta pregunta explora si te tratas con dureza cuando encuentras aspectos propios que no te gustan. La intolerancia hacia uno mismo es lo opuesto a la autocompasión."
+        }
       ]
     },
     {
@@ -128,16 +239,56 @@
         ]
       },
       "questions": [
-        { "id": "imp_1", "text": "A veces siento que mi éxito ha sido resultado de algún tipo de suerte" },
-        { "id": "imp_2", "text": "Temo que las personas importantes para mí descubran que no soy tan capaz como piensan" },
-        { "id": "imp_3", "text": "Evito las evaluaciones y temo que otros me evalúen" },
-        { "id": "imp_4", "text": "Cuando la gente me elogia por algo que he logrado, temo que no pueda cumplir sus expectativas en el futuro" },
-        { "id": "imp_5", "text": "A veces creo que obtuve mi posición actual o mis logros por error" },
-        { "id": "imp_6", "text": "Comparo mis habilidades con las de quienes me rodean y pienso que ellos son más inteligentes que yo" },
-        { "id": "imp_7", "text": "Me preocupa no tener éxito con un proyecto aunque otros confíen en mi capacidad" },
-        { "id": "imp_8", "text": "Rara vez siento que he logrado algo valioso por mi propio esfuerzo" },
-        { "id": "imp_9", "text": "A veces siento que si me esfuerzo demasiado, otros descubrirán que realmente no sé tanto" },
-        { "id": "imp_10", "text": "Siento que debería saber más de lo que sé para el puesto o rol que tengo" }
+        {
+          "id": "imp_1",
+          "text": "A veces siento que mi éxito ha sido resultado de algún tipo de suerte",
+          "help": "Esta pregunta mide si tiendes a atribuir tus logros a factores externos (suerte, timing) en lugar de a tu esfuerzo y capacidad. Es un patrón común conocido como síndrome del impostor."
+        },
+        {
+          "id": "imp_2",
+          "text": "Temo que las personas importantes para mí descubran que no soy tan capaz como piensan",
+          "help": "Aquí exploramos el miedo a ser 'descubierto/a' como alguien menos competente de lo que los demás creen. Este temor puede generar ansiedad constante en entornos laborales o personales."
+        },
+        {
+          "id": "imp_3",
+          "text": "Evito las evaluaciones y temo que otros me evalúen",
+          "help": "Esta pregunta mide si el miedo a ser juzgado/a te lleva a evitar situaciones donde podrían evaluar tu desempeño. La evitación es una estrategia que puede limitar tu crecimiento."
+        },
+        {
+          "id": "imp_4",
+          "text": "Cuando la gente me elogia por algo que he logrado, temo que no pueda cumplir sus expectativas en el futuro",
+          "help": "Evaluamos si los elogios, en lugar de darte confianza, te generan presión o ansiedad por mantener un estándar. Este patrón convierte el reconocimiento en una fuente de estrés."
+        },
+        {
+          "id": "imp_5",
+          "text": "A veces creo que obtuve mi posición actual o mis logros por error",
+          "help": "Esta pregunta mide si sientes que tu posición actual (laboral, académica o social) no es merecida. Es la sensación de que en algún momento alguien se dará cuenta del 'error'."
+        },
+        {
+          "id": "imp_6",
+          "text": "Comparo mis habilidades con las de quienes me rodean y pienso que ellos son más inteligentes que yo",
+          "help": "Aquí exploramos si la comparación social te lleva a minimizar tus capacidades. Compararse es natural, pero cuando siempre sales perdiendo en esa comparación, afecta tu confianza."
+        },
+        {
+          "id": "imp_7",
+          "text": "Me preocupa no tener éxito con un proyecto aunque otros confíen en mi capacidad",
+          "help": "Esta pregunta mide la desconexión entre la confianza que otros depositan en ti y la que tú sientes hacia ti mismo/a. Refleja una duda interna que persiste pese a la evidencia externa."
+        },
+        {
+          "id": "imp_8",
+          "text": "Rara vez siento que he logrado algo valioso por mi propio esfuerzo",
+          "help": "Evaluamos si tienes dificultad para internalizar tus logros y reconocer tu propio mérito. Algunas personas siempre encuentran una explicación externa para sus éxitos."
+        },
+        {
+          "id": "imp_9",
+          "text": "A veces siento que si me esfuerzo demasiado, otros descubrirán que realmente no sé tanto",
+          "help": "Esta pregunta explora una paradoja del impostor: el miedo a que el esfuerzo visible revele tus supuestas limitaciones. Puede llevar a ocultar cuánto trabajas o a evitar pedir ayuda."
+        },
+        {
+          "id": "imp_10",
+          "text": "Siento que debería saber más de lo que sé para el puesto o rol que tengo",
+          "help": "Aquí medimos si sientes una brecha entre lo que sabes y lo que crees que deberías saber. Es normal no saberlo todo, pero esta sensación constante puede indicar un patrón de impostor."
+        }
       ]
     },
     {
@@ -159,14 +310,46 @@
         ]
       },
       "questions": [
-        { "id": "as_1", "text": "Me resulta fácil decir 'no' cuando alguien me pide algo que no quiero hacer" },
-        { "id": "as_2", "text": "Expreso mis opiniones incluso cuando difieren de las del grupo" },
-        { "id": "as_3", "text": "Puedo poner límites a personas cercanas sin sentir culpa excesiva" },
-        { "id": "as_4", "text": "Cuando alguien me trata injustamente, se lo hago saber de forma calmada" },
-        { "id": "as_5", "text": "Pido lo que necesito en mis relaciones sin sentir que molesto" },
-        { "id": "as_6", "text": "Defiendo mis derechos sin agredir a los demás" },
-        { "id": "as_7", "text": "Puedo recibir críticas sin derrumbarme emocionalmente" },
-        { "id": "as_8", "text": "Me siento cómodo/a expresando mi desacuerdo con figuras de autoridad" }
+        {
+          "id": "as_1",
+          "text": "Me resulta fácil decir 'no' cuando alguien me pide algo que no quiero hacer",
+          "help": "Esta pregunta evalúa tu capacidad de poner límites ante peticiones que no deseas cumplir. La dificultad para decir 'no' suele estar relacionada con el miedo al rechazo o a decepcionar."
+        },
+        {
+          "id": "as_2",
+          "text": "Expreso mis opiniones incluso cuando difieren de las del grupo",
+          "help": "Aquí medimos si puedes mantener tu criterio propio frente a la presión social. Se relaciona con la confianza en tus ideas y tu disposición a ser auténtico/a."
+        },
+        {
+          "id": "as_3",
+          "text": "Puedo poner límites a personas cercanas sin sentir culpa excesiva",
+          "help": "Esta pregunta explora si la culpa te impide establecer límites saludables con personas que quieres. Poner límites no significa dejar de querer; es un acto de autocuidado."
+        },
+        {
+          "id": "as_4",
+          "text": "Cuando alguien me trata injustamente, se lo hago saber de forma calmada",
+          "help": "Evaluamos tu capacidad de defender tus derechos sin recurrir a la agresión ni quedarte en silencio. Es la habilidad de comunicar malestar de manera firme y respetuosa."
+        },
+        {
+          "id": "as_5",
+          "text": "Pido lo que necesito en mis relaciones sin sentir que molesto",
+          "help": "Esta pregunta mide si sientes que tus necesidades son válidas y merecen ser expresadas. La sensación de 'molestar' al pedir algo refleja cómo valoras tus propias necesidades."
+        },
+        {
+          "id": "as_6",
+          "text": "Defiendo mis derechos sin agredir a los demás",
+          "help": "Aquí exploramos el equilibrio entre defender lo tuyo y respetar a los demás. La asertividad se distingue tanto de la pasividad como de la agresividad."
+        },
+        {
+          "id": "as_7",
+          "text": "Puedo recibir críticas sin derrumbarme emocionalmente",
+          "help": "Esta pregunta mide tu resiliencia emocional frente a la crítica. No se trata de que las críticas no te afecten, sino de si puedes procesarlas sin que destruyan tu autoimagen."
+        },
+        {
+          "id": "as_8",
+          "text": "Me siento cómodo/a expresando mi desacuerdo con figuras de autoridad",
+          "help": "Evaluamos si puedes mantener tu posición ante personas con poder o autoridad sobre ti (jefes, padres, profesores). La dificultad aquí puede indicar patrones de sumisión aprendidos."
+        }
       ]
     },
     {
@@ -188,11 +371,31 @@
         ]
       },
       "questions": [
-        { "id": "sm_1", "text": "Paso más de 2 horas diarias en redes sociales" },
-        { "id": "sm_2", "text": "Después de ver redes sociales, frecuentemente me siento peor conmigo mismo/a" },
-        { "id": "sm_3", "text": "Comparo mi vida, apariencia o logros con lo que veo en redes sociales" },
-        { "id": "sm_4", "text": "Mi estado de ánimo depende de los likes o comentarios que recibo" },
-        { "id": "sm_5", "text": "Reviso redes sociales como primera actividad al despertar o última antes de dormir" }
+        {
+          "id": "sm_1",
+          "text": "Paso más de 2 horas diarias en redes sociales",
+          "help": "Esta pregunta establece tu nivel de exposición a redes sociales. El tiempo de uso por sí solo no es bueno ni malo, pero es un factor importante para entender su posible impacto en tu bienestar."
+        },
+        {
+          "id": "sm_2",
+          "text": "Después de ver redes sociales, frecuentemente me siento peor conmigo mismo/a",
+          "help": "Aquí medimos el impacto emocional directo que las redes tienen en ti. Las investigaciones muestran que este efecto varía mucho de persona a persona."
+        },
+        {
+          "id": "sm_3",
+          "text": "Comparo mi vida, apariencia o logros con lo que veo en redes sociales",
+          "help": "Esta pregunta evalúa si las redes sociales activan en ti la comparación social. Lo que vemos en redes suele ser una versión editada de la realidad, pero aun así puede afectar cómo nos vemos."
+        },
+        {
+          "id": "sm_4",
+          "text": "Mi estado de ánimo depende de los likes o comentarios que recibo",
+          "help": "Evaluamos si tu bienestar emocional está vinculado a la validación externa en redes. Cuando el ánimo depende de la aprobación digital, la autoestima se vuelve frágil e inestable."
+        },
+        {
+          "id": "sm_5",
+          "text": "Reviso redes sociales como primera actividad al despertar o última antes de dormir",
+          "help": "Esta pregunta explora si las redes sociales ocupan los momentos más vulnerables de tu día. Estos hábitos pueden influir en tu estado de ánimo general y la calidad de tu descanso."
+        }
       ]
     },
     {
@@ -214,12 +417,36 @@
         ]
       },
       "questions": [
-        { "id": "ph_1", "text": "Duermo entre 7 y 9 horas la mayoría de las noches" },
-        { "id": "ph_2", "text": "La calidad de mi sueño es buena (me despierto descansado/a)" },
-        { "id": "ph_3", "text": "Hago ejercicio físico al menos 3 veces por semana (30+ minutos)" },
-        { "id": "ph_4", "text": "Mi alimentación es equilibrada y nutritiva" },
-        { "id": "ph_5", "text": "Mi nivel de energía durante el día es bueno" },
-        { "id": "ph_6", "text": "Dedico tiempo a actividades que me relajan y disfruto" }
+        {
+          "id": "ph_1",
+          "text": "Duermo entre 7 y 9 horas la mayoría de las noches",
+          "help": "Esta pregunta evalúa la cantidad de sueño que obtienes. El sueño es uno de los pilares del bienestar y tiene un impacto directo en el estado de ánimo, la concentración y la regulación emocional."
+        },
+        {
+          "id": "ph_2",
+          "text": "La calidad de mi sueño es buena (me despierto descansado/a)",
+          "help": "Aquí medimos no solo si duermes suficiente, sino si ese sueño es reparador. Puedes dormir muchas horas y aun así no descansar, lo cual afecta tu bienestar general."
+        },
+        {
+          "id": "ph_3",
+          "text": "Hago ejercicio físico al menos 3 veces por semana (30+ minutos)",
+          "help": "Esta pregunta evalúa tu nivel de actividad física. El ejercicio regular tiene efectos comprobados sobre el estado de ánimo, la ansiedad y la percepción de uno mismo."
+        },
+        {
+          "id": "ph_4",
+          "text": "Mi alimentación es equilibrada y nutritiva",
+          "help": "Evaluamos tus hábitos alimenticios como parte del autocuidado. La relación con la comida puede reflejar cómo te tratas a ti mismo/a y afecta directamente tu energía y ánimo."
+        },
+        {
+          "id": "ph_5",
+          "text": "Mi nivel de energía durante el día es bueno",
+          "help": "Esta pregunta mide un indicador global de tu bienestar físico. La falta de energía crónica puede tener causas físicas, emocionales o de hábitos, y afecta todas las áreas de tu vida."
+        },
+        {
+          "id": "ph_6",
+          "text": "Dedico tiempo a actividades que me relajan y disfruto",
+          "help": "Aquí exploramos si te permites momentos de disfrute y descanso. El autocuidado incluye hacer cosas que te nutran emocionalmente, no solo cumplir obligaciones."
+        }
       ]
     },
     {
@@ -241,11 +468,31 @@
         ]
       },
       "questions": [
-        { "id": "pf_1", "text": "Si no hago las cosas perfectamente, siento que soy un fracaso" },
-        { "id": "pf_2", "text": "Me cuesta aceptar un resultado 'suficientemente bueno'" },
-        { "id": "pf_3", "text": "Mi valía como persona depende de mis logros" },
-        { "id": "pf_4", "text": "Siento que los demás esperan perfección de mí" },
-        { "id": "pf_5", "text": "Cuando cometo un error, lo rumio durante mucho tiempo" }
+        {
+          "id": "pf_1",
+          "text": "Si no hago las cosas perfectamente, siento que soy un fracaso",
+          "help": "Esta pregunta mide si vinculas tu valor personal con la perfección de tus resultados. El perfeccionismo dañino aparece cuando cualquier error se convierte en evidencia de que no vales."
+        },
+        {
+          "id": "pf_2",
+          "text": "Me cuesta aceptar un resultado 'suficientemente bueno'",
+          "help": "Aquí evaluamos tu flexibilidad con los estándares que te pones. La incapacidad de aceptar lo 'suficientemente bueno' puede llevar a procrastinación, agotamiento o insatisfacción constante."
+        },
+        {
+          "id": "pf_3",
+          "text": "Mi valía como persona depende de mis logros",
+          "help": "Esta pregunta explora si tu sentido de valor está condicionado a lo que produces o logras. Cuando la valía depende solo de los logros, los periodos sin éxitos visibles se vuelven muy difíciles."
+        },
+        {
+          "id": "pf_4",
+          "text": "Siento que los demás esperan perfección de mí",
+          "help": "Evaluamos si percibes presión externa por ser perfecto/a. Esta percepción, sea real o no, genera un estrés constante por cumplir estándares que sientes impuestos desde afuera."
+        },
+        {
+          "id": "pf_5",
+          "text": "Cuando cometo un error, lo rumio durante mucho tiempo",
+          "help": "Esta pregunta mide tu tendencia a quedarte atrapado/a mentalmente en tus errores. La rumiación prolongada convierte errores pequeños en fuentes de malestar desproporcionado."
+        }
       ]
     },
     {
@@ -268,10 +515,30 @@
         ]
       },
       "questions": [
-        { "id": "phq_1", "text": "Poco interés o placer en hacer las cosas", "subscale": "depression" },
-        { "id": "phq_2", "text": "Sentirte desanimado/a, deprimido/a o sin esperanza", "subscale": "depression" },
-        { "id": "gad_1", "text": "Sentirte nervioso/a, ansioso/a o con los nervios de punta", "subscale": "anxiety" },
-        { "id": "gad_2", "text": "No poder dejar de preocuparte o no poder controlar la preocupación", "subscale": "anxiety" }
+        {
+          "id": "phq_1",
+          "text": "Poco interés o placer en hacer las cosas",
+          "subscale": "depression",
+          "help": "Esta pregunta proviene del cuestionario PHQ-2, utilizado clínicamente para detectar señales de depresión. La pérdida de interés o placer en actividades que antes disfrutabas es un indicador importante de bienestar emocional."
+        },
+        {
+          "id": "phq_2",
+          "text": "Sentirte desanimado/a, deprimido/a o sin esperanza",
+          "subscale": "depression",
+          "help": "Este es el segundo ítem del PHQ-2. Evalúa si has experimentado un estado de ánimo bajo persistente. No busca diagnosticar, sino identificar si podrías beneficiarte de apoyo profesional adicional."
+        },
+        {
+          "id": "gad_1",
+          "text": "Sentirte nervioso/a, ansioso/a o con los nervios de punta",
+          "subscale": "anxiety",
+          "help": "Esta pregunta proviene del cuestionario GAD-2, que detecta señales de ansiedad. Cierto nivel de nerviosismo es normal, pero cuando es frecuente e intenso puede indicar que necesitas herramientas adicionales."
+        },
+        {
+          "id": "gad_2",
+          "text": "No poder dejar de preocuparte o no poder controlar la preocupación",
+          "subscale": "anxiety",
+          "help": "Este es el segundo ítem del GAD-2. Mide si la preocupación se ha vuelto difícil de controlar. La preocupación excesiva e incontrolable es un indicador clave de ansiedad que puede requerir atención especializada."
+        }
       ]
     }
   ]

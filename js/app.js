@@ -401,7 +401,7 @@ const App = {
       </div>
       ${section.questions.map(q => `
         <div class="bg-gray-800/50 rounded-lg p-4 mb-3">
-          <p class="text-gray-200 text-sm mb-3">${q.text}</p>
+          <p class="text-gray-200 text-sm mb-3">${q.text} ${this.questionHelp(q)}</p>
           <div class="flex gap-2 justify-between">
             ${section.scale.labels.map((label, i) => `
               <label class="flex flex-col items-center gap-1 cursor-pointer">
@@ -423,7 +423,7 @@ const App = {
       case 'text':
         return `
           <div class="space-y-2 mb-4">
-            <label class="text-gray-200 text-sm">${q.text}</label>
+            <label class="text-gray-200 text-sm">${q.text} ${this.questionHelp(q)}</label>
             <input type="text" class="w-full bg-gray-800 border border-gray-700 rounded-lg p-2 text-gray-200 focus:border-primary focus:outline-none"
               value="${this._assessmentState.answers[q.id] || ''}"
               onchange="App.saveAnswer('${q.id}', this.value)"
@@ -433,7 +433,7 @@ const App = {
       case 'radio':
         return `
           <div class="space-y-2 mb-4">
-            <p class="text-gray-200 text-sm">${q.text}</p>
+            <p class="text-gray-200 text-sm">${q.text} ${this.questionHelp(q)}</p>
             <div class="space-y-2">
               ${q.options.map(opt => `
                 <label class="flex items-center gap-3 cursor-pointer text-gray-300 hover:text-white">
@@ -450,7 +450,7 @@ const App = {
       case 'checkbox':
         return `
           <div class="space-y-2 mb-4">
-            <p class="text-gray-200 text-sm">${q.text}</p>
+            <p class="text-gray-200 text-sm">${q.text} ${this.questionHelp(q)}</p>
             <div class="space-y-2">
               ${q.options.map(opt => `
                 <label class="flex items-center gap-3 cursor-pointer text-gray-300 hover:text-white">
@@ -1150,6 +1150,30 @@ const App = {
   // ==========================================
   // HELPER: Tooltip icon (?) — generates clickable help icon
   // ==========================================
+  // Question help tooltip (?) — inline from question.help field
+  questionHelp(q) {
+    if (!q.help) return '';
+    const escapedHelp = q.help.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+    return `<span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-gray-700 text-teal-400 text-xs font-bold cursor-pointer hover:bg-teal-500 hover:text-white transition-colors ml-1 align-middle" onclick="App.showQuestionHelp('${escapedHelp}')" title="¿Por qué esta pregunta?">?</span>`;
+  },
+
+  showQuestionHelp(helpText) {
+    const modal = document.createElement('div');
+    modal.className = 'fixed inset-0 bg-black/60 flex items-end md:items-center justify-center z-50 p-0 md:p-4';
+    modal.onclick = (e) => { if (e.target === modal) modal.remove(); };
+    modal.innerHTML = `
+      <div class="bg-gray-900 rounded-t-2xl md:rounded-xl p-6 max-w-lg w-full border border-gray-800 animate-slide-up">
+        <div class="flex justify-between items-start mb-3">
+          <h3 class="text-lg font-bold text-white">¿Por qué esta pregunta?</h3>
+          <button onclick="this.closest('.fixed').remove()" class="text-gray-500 hover:text-white text-xl leading-none">&times;</button>
+        </div>
+        <p class="text-gray-300 text-sm leading-relaxed">${helpText}</p>
+        <p class="text-gray-600 text-xs mt-4">No hay respuestas correctas ni incorrectas. Responde según lo que sientes habitualmente.</p>
+      </div>
+    `;
+    document.body.appendChild(modal);
+  },
+
   tip(tooltipId, inline = true) {
     return `<span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-gray-700 text-teal-400 text-xs font-bold cursor-pointer hover:bg-teal-500 hover:text-white transition-colors ${inline ? 'ml-1 align-middle' : ''}" onclick="App.showTooltip('${tooltipId}')" title="¿Por qué?">?</span>`;
   },

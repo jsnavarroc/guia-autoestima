@@ -1,0 +1,539 @@
+{
+  "techniques": [
+    {
+      "id": "thought_record",
+      "name": "Registro de Pensamientos (7 Columnas)",
+      "origin": "CBT (Beck, 1979; Fennell, 1999; Padesky & Greenberger, 1995)",
+      "evidence": "g = 0.52-0.78 en reduccion de pensamientos automaticos negativos (meta-analisis Kolubinski et al., 2018). Eficacia sostenida a 12 meses (Fennell & Jenkins, 2004).",
+      "duration": "15-20 minutos",
+      "frequency": "2-3 veces por semana",
+      "profiles": {
+        "autocritico": 3,
+        "impostor": 2,
+        "comparador": 1,
+        "sometido": 2,
+        "desconectado": 1
+      },
+      "phase": 2,
+      "exercise_file": "thought-record.html",
+      "description": "Examina tus pensamientos automaticos negativos usando un formato estructurado de 7 columnas. Aprenderas a identificar la situacion desencadenante, la emocion que sientes, el pensamiento automatico, la evidencia a favor, la evidencia en contra, un pensamiento alternativo equilibrado, y la re-evaluacion emocional. Este proceso convierte la autocritica vaga en algo concreto y analizable.",
+      "why_it_works": "Los pensamientos automaticos negativos parecen verdades absolutas, pero a menudo son distorsiones cognitivas (sobregeneralizacion, pensamiento todo-o-nada, lectura de mente). Al escribirlos y buscar evidencia real, el cerebro activa la corteza prefrontal (razonamiento) en lugar de la amigdala (reaccion emocional). Con la practica, aprendes a cuestionar automaticamente los pensamientos criticos antes de que escalen.",
+      "steps": [
+        "Identifica la situacion: Describe brevemente que paso, donde estabas y con quien. Se especifico (ej: 'En la reunion del lunes, mi jefe no comento mi presentacion').",
+        "Registra la emocion: Nombra lo que sentiste y puntua su intensidad de 0 a 100 (ej: 'Verguenza - 75, Tristeza - 60'). Puedes tener varias emociones simultaneas.",
+        "Captura el pensamiento automatico: Escribe textualmente lo que paso por tu mente en ese momento (ej: 'Mi trabajo no vale nada', 'Todos se dieron cuenta de que soy incompetente'). Marca cual te genera mas malestar.",
+        "Busca evidencia a favor: Con honestidad, lista hechos concretos (no interpretaciones) que apoyen ese pensamiento. A menudo encontraras que hay menos evidencia real de la que creias.",
+        "Busca evidencia en contra: Lista hechos concretos que contradigan el pensamiento. Preguntate: si un amigo estuviera en esta situacion, que le dirias? Que evidencia ignoraste al principio?",
+        "Formula un pensamiento alternativo: Basandote en TODA la evidencia (a favor y en contra), escribe un pensamiento mas equilibrado y realista. No se trata de ser positivo, sino de ser justo y preciso.",
+        "Re-evalua la emocion: Vuelve a puntuar la intensidad de la emocion original (0-100). No esperes que baje a cero, pero nota cualquier cambio. Registra tambien si aparecio alguna emocion nueva."
+      ],
+      "tips": [
+        "Hazlo lo mas cerca posible del momento en que ocurrio la situacion.",
+        "No juzgues tus pensamientos; solo registralos tal cual aparecen.",
+        "Si la emocion no baja, puede ser senal de una creencia nuclear mas profunda que explorar con la Flecha Descendente."
+      ],
+      "icon": "📝"
+    },
+    {
+      "id": "self_compassion_break",
+      "name": "Pausa de Autocompasion",
+      "origin": "MSC - Mindful Self-Compassion (Neff, 2003; Neff & Germer, 2013)",
+      "evidence": "d = 0.51 en autocompasion y reduccion de autocritica (Ferrari et al., 2019). Reduccion significativa de cortisol en respuesta al estres (Breines & Chen, 2012).",
+      "duration": "5-10 minutos",
+      "frequency": "Diariamente o cuando surja malestar",
+      "profiles": {
+        "autocritico": 3,
+        "impostor": 3,
+        "comparador": 2,
+        "sometido": 2,
+        "desconectado": 2
+      },
+      "phase": 1,
+      "exercise_file": "self-compassion-break.html",
+      "description": "Una practica breve de tres pasos que puedes usar en cualquier momento de sufrimiento. Integra los tres componentes de la autocompasion segun Kristin Neff: mindfulness (reconocer el dolor sin exagerarlo ni minimizarlo), humanidad compartida (recordar que el sufrimiento es parte de la experiencia humana), y amabilidad hacia uno mismo (ofrecerte el mismo cuidado que le darias a un buen amigo).",
+      "why_it_works": "Cuando nos criticamos, activamos el sistema de amenaza del cerebro (lucha-huida), liberando cortisol y adrenalina. La autocompasion activa el sistema de calma y conexion, liberando oxitocina. Este cambio fisiologico reduce la inflamacion emocional y permite pensar con mas claridad. Ademas, la autocompasion no reduce la motivacion (como muchos temen), sino que la aumenta al crear un ambiente interno seguro desde el cual actuar.",
+      "steps": [
+        "Reconoce el momento de sufrimiento (Mindfulness): Pon una mano sobre tu pecho y di internamente: 'Esto es un momento de sufrimiento' o 'Esto duele' o 'Estoy pasandola mal'. No minimices ni exageres. Simplemente reconoce lo que esta presente.",
+        "Recuerda la humanidad compartida: Di internamente: 'El sufrimiento es parte de la vida' o 'No soy la unica persona que siente esto' o 'Otros tambien han pasado por esto'. Esto rompe el aislamiento que acompana al dolor.",
+        "Ofrecete amabilidad: Pon ambas manos sobre tu corazon (o donde se sienta natural) y di: 'Que pueda ser amable conmigo misma/o' o 'Que pueda darme lo que necesito' o 'Que pueda aceptarme tal como soy en este momento'.",
+        "Respira con la frase: Inhala recibiendo la amabilidad de tus palabras, exhala soltando la tension. Repite las frases 3-4 veces, ajustandolas a lo que resuene contigo.",
+        "Nota el cambio: Sin forzar nada, observa si algo se suavizo en tu cuerpo o en tu mente. Cualquier cambio, por pequeno que sea, es suficiente."
+      ],
+      "tips": [
+        "Personaliza las frases. Usa las palabras que tu corazón necesite escuchar.",
+        "Si te resulta dificil ser compasivo contigo, imagina que le hablas a un amigo querido que sufre.",
+        "Puedes practicarlo con los ojos abiertos, en cualquier lugar, sin que nadie lo note."
+      ],
+      "icon": "💛"
+    },
+    {
+      "id": "leaves_on_stream",
+      "name": "Hojas en el Rio (Defusion Cognitiva)",
+      "origin": "ACT - Terapia de Aceptacion y Compromiso (Hayes, Strosahl & Wilson, 1999)",
+      "evidence": "d = 0.42-0.68 en reduccion de fusion cognitiva (Levin et al., 2012). Reduccion significativa del impacto emocional de pensamientos negativos (Masuda et al., 2010).",
+      "duration": "10-15 minutos",
+      "frequency": "3-5 veces por semana",
+      "profiles": {
+        "autocritico": 3,
+        "impostor": 2,
+        "comparador": 2,
+        "sometido": 1,
+        "desconectado": 3
+      },
+      "phase": 2,
+      "exercise_file": "leaves-on-stream.html",
+      "description": "Una meditacion guiada de defusion cognitiva donde visualizas un rio tranquilo con hojas flotando en su superficie. Cada pensamiento que aparece lo colocas suavemente sobre una hoja y lo dejas pasar con la corriente. No intentas cambiar, juzgar ni detener los pensamientos. Simplemente observas como vienen y se van, aprendiendo que tu no eres tus pensamientos.",
+      "why_it_works": "Normalmente vivimos 'fusionados' con nuestros pensamientos: si pienso 'soy un fracaso', lo experimento como un hecho. La defusion cognitiva crea distancia psicologica entre tu y tus pensamientos. Al colocar el pensamiento en una hoja, pasa de ser 'soy un fracaso' a 'estoy teniendo el pensamiento de que soy un fracaso'. Este pequeno cambio reduce drasticamente el poder emocional del pensamiento sin necesidad de discutir con el.",
+      "steps": [
+        "Preparacion: Sientate comodamente, cierra los ojos y haz 3 respiraciones profundas. Permite que tu cuerpo se relaje naturalmente.",
+        "Visualiza el rio: Imagina un rio que fluye suavemente. Puede ser un rio que conozcas o uno imaginario. Observa el agua, el sonido, las hojas que flotan en la superficie. No hay prisa.",
+        "Observa tus pensamientos: Cuando aparezca un pensamiento (cualquiera: una palabra, una imagen, un recuerdo, una preocupacion), tomalo suavemente y colocalo sobre una hoja que flota en el rio.",
+        "Deja pasar la hoja: Observa como la hoja con tu pensamiento se aleja lentamente con la corriente. No la sigas. No la empujes. Solo observa como se va.",
+        "Nota cuando te enganchas: Es normal que en algun momento te 'subas' a una hoja y te vayas con el pensamiento. Cuando lo notes (y lo notaras), simplemente vuelve a la orilla del rio sin juzgarte. Esto pasara muchas veces y esta perfectamente bien.",
+        "Practica con todo tipo de pensamientos: Coloca en las hojas tanto pensamientos negativos como positivos, neutros, imagenes, recuerdos. El objetivo no es filtrar sino observar el flujo constante de la mente.",
+        "Cierra gradualmente: Despues de 10-15 minutos, deja de colocar hojas. Observa el rio unos momentos mas. Luego, suavemente, regresa tu atencion a la habitacion y abre los ojos."
+      ],
+      "tips": [
+        "Si el rio se detiene, probablemente estas intentando controlar los pensamientos. Deja que fluya.",
+        "No hay pensamientos 'malos' para poner en las hojas. Todos van al rio.",
+        "Con la practica, empezaras a usar esta habilidad en la vida diaria sin necesidad de cerrar los ojos."
+      ],
+      "icon": "🍃"
+    },
+    {
+      "id": "values_bullseye",
+      "name": "Diana de Valores",
+      "origin": "ACT (Lundgren, Luoma, Dahl, Strosahl & Melin, 2012)",
+      "evidence": "r = 0.45-0.60 entre claridad de valores y bienestar psicologico (Wilson & Murrell, 2004). Mejora significativa en sentido de proposito y autoestima (Chase et al., 2013).",
+      "duration": "20-30 minutos",
+      "frequency": "1 vez al mes (revision semanal breve)",
+      "profiles": {
+        "autocritico": 1,
+        "impostor": 2,
+        "comparador": 3,
+        "sometido": 3,
+        "desconectado": 3
+      },
+      "phase": 3,
+      "exercise_file": "values-bullseye.html",
+      "description": "Un ejercicio visual donde mapeas que tan alineada esta tu vida actual con tus valores esenciales en cuatro areas: trabajo/educacion, relaciones, crecimiento personal/salud, y ocio/diversion. Usas una diana (como la de dardos) donde el centro representa vivir plenamente alineado con tus valores y el borde exterior representa estar completamente desconectado de ellos. Marcas donde estas hoy y defines acciones concretas para acercarte al centro.",
+      "why_it_works": "Muchos problemas de autoestima surgen porque vivimos segun los valores de otros (padres, sociedad, redes sociales) en lugar de los propios. Cuando clarificamos nuestros valores autenticos y actuamos en consecuencia, la autoestima se convierte en un efecto secundario natural de vivir con integridad. La Diana de Valores te saca de la trampa de compararte con estandares externos y te ancla en lo que genuinamente te importa.",
+      "steps": [
+        "Dibuja o imprime la diana: Crea cuatro dianas (una por area vital). Cada diana tiene un centro (bullseye) y 4 anillos concentricos que van del 1 (borde, muy alejado) al 5 (centro, totalmente alineado).",
+        "Clarifica tus valores por area: Para cada area, responde: 'Si pudiera ser la persona que realmente quiero ser en esta area, que cualidades mostraria? Que seria importante para mi?'. Escribe 2-3 valores por area (ej: creatividad, conexion autentica, salud, aventura).",
+        "Marca tu posicion actual: En cada diana, coloca un punto honesto de donde estas HOY respecto a esos valores. No donde estabas ni donde quieres estar. Donde estas ahora mismo.",
+        "Identifica barreras: Para cada area donde estes lejos del centro, preguntate: que me impide acercarme? Son barreras externas reales o son pensamientos/miedos que me mantienen atascado?",
+        "Define una accion concreta por area: Elige UNA accion pequena y especifica que puedas hacer esta semana para moverte un poco mas cerca del centro en cada area. Que sea tan pequena que sea dificil decir que no.",
+        "Revisa semanalmente: Cada semana, dedica 5 minutos a revisar: hiciste las acciones? Como te sentiste? Necesitas ajustar algo? Marca tu nueva posicion en la diana."
+      ],
+      "tips": [
+        "Los valores no son metas. 'Ser un buen amigo' es un valor; 'tener 10 amigos' es una meta.",
+        "No existe una diana perfecta. El objetivo es el movimiento hacia el centro, no llegar al centro.",
+        "Si no sabes cuales son tus valores, piensa en momentos donde te sentiste mas vivo/a y autentico/a."
+      ],
+      "icon": "🎯"
+    },
+    {
+      "id": "desc_technique",
+      "name": "Tecnica DESC (Describir, Expresar, Solicitar, Consecuencias)",
+      "origin": "Entrenamiento en Asertividad (Bower & Bower, 1976; adaptado por Linehan en DBT)",
+      "evidence": "d = 0.40-0.58 en mejora de habilidades asertivas y reduccion de sometimiento (Speed et al., 2018). Mejora en autoeficacia interpersonal (Alberti & Emmons, 2017).",
+      "duration": "15-20 minutos (preparacion), 5 minutos (aplicacion)",
+      "frequency": "Practicar 1-2 veces por semana en situaciones reales",
+      "profiles": {
+        "autocritico": 1,
+        "impostor": 1,
+        "comparador": 1,
+        "sometido": 3,
+        "desconectado": 2
+      },
+      "phase": 3,
+      "exercise_file": "desc-technique.html",
+      "description": "Un guion estructurado de cuatro pasos para comunicarte de forma asertiva sin ser agresivo ni pasivo. DESC te ayuda a Describir la situacion objetivamente, Expresar como te sientes, Solicitar lo que necesitas, y explicar las Consecuencias positivas de que ambas partes colaboren. Es especialmente util para personas que tienden a callar sus necesidades por miedo al rechazo o al conflicto.",
+      "why_it_works": "Las personas con baja autoestima a menudo creen que sus necesidades no importan o que expresarlas causara rechazo. Esto crea un ciclo: callas, acumulas resentimiento, explotas o te desconectas, y esto confirma la creencia de que 'no sabes comunicarte'. DESC rompe este ciclo dando una estructura clara que reduce la ansiedad de hablar. Cada vez que te expresas y el mundo no se acaba, tu cerebro actualiza la creencia de que mereces ser escuchado/a.",
+      "steps": [
+        "Describir (D): Describe la situacion de forma objetiva, como una camara de video. Sin juicios, sin interpretaciones, sin 'siempre' ni 'nunca'. Ejemplo: 'He notado que en las ultimas tres reuniones, mis ideas no han sido discutidas por el grupo'.",
+        "Expresar (E): Comparte como te hace sentir usando mensajes en primera persona ('Yo siento...', 'A mi me afecta...'). Ejemplo: 'Me siento frustrada y poco valorada cuando esto ocurre'.",
+        "Solicitar (S): Pide de forma clara y especifica lo que necesitas. No esperes que adivinen. Ejemplo: 'Me gustaria que en la proxima reunion se destinaran 5 minutos a revisar las propuestas de cada miembro'.",
+        "Consecuencias (C): Explica los beneficios mutuos de atender tu solicitud. Ejemplo: 'Creo que esto nos ayudaria a todos a sentirnos mas involucrados y a generar mejores ideas como equipo'.",
+        "Practica por escrito primero: Antes de una conversacion importante, escribe tu guion DESC completo. Leelo en voz alta. Ajustalo hasta que suene natural y respetuoso.",
+        "Ensaya con situaciones de baja intensidad: No empieces con la conversacion mas dificil de tu vida. Practica con cosas pequenas: devolver un plato en un restaurante, pedir un cambio de horario, expresar una preferencia.",
+        "Evalua el resultado: Despues de usar DESC, registra que paso. Aunque la otra persona no responda como esperabas, el exito esta en haberte expresado."
+      ],
+      "tips": [
+        "Mantener un tono de voz calmado y firme, no apologetico.",
+        "Si te tiembla la voz o te pones rojo/a, esta bien. La valentía no es ausencia de miedo.",
+        "No necesitas el permiso de nadie para tener necesidades."
+      ],
+      "icon": "🗣️"
+    },
+    {
+      "id": "gratitude_journal",
+      "name": "Diario de Gratitud",
+      "origin": "Psicologia Positiva (Emmons & McCullough, 2003; Seligman, 2005)",
+      "evidence": "d = 0.31-0.50 en bienestar subjetivo y satisfaccion vital (Davis et al., 2016). Mejoras en calidad del sueno y reduccion de rumiacion (Wood et al., 2009).",
+      "duration": "5-10 minutos",
+      "frequency": "Diariamente (preferiblemente antes de dormir)",
+      "profiles": {
+        "autocritico": 2,
+        "impostor": 1,
+        "comparador": 3,
+        "sometido": 1,
+        "desconectado": 2
+      },
+      "phase": 1,
+      "exercise_file": "gratitude-journal.html",
+      "description": "Cada noche, escribe tres cosas por las que sientes gratitud ese dia. Pero no de forma superficial: para cada una, profundiza en por que te genera gratitud y cual fue tu papel en que ocurriera. Este formato ampliado transforma la gratitud de un ejercicio mecanico a una herramienta que reconecta con lo positivo y reconoce tu agencia en tu propia vida.",
+      "why_it_works": "El cerebro tiene un sesgo de negatividad evolutivo: recuerda mas facilmente lo malo que lo bueno. El Diario de Gratitud entrena al cerebro a escanear activamente lo positivo, creando nuevas redes neuronales. Para personas que se comparan constantemente, es especialmente poderoso porque redirige la atencion de 'lo que otros tienen y yo no' a 'lo que yo tengo y valoro'. No se trata de negar los problemas, sino de ampliar el campo de vision.",
+      "steps": [
+        "Elige tu momento: Escoge un momento fijo del dia (la noche suele funcionar mejor porque mejora el sueno). Ten un cuaderno o la app dedicada para esto.",
+        "Escribe tres cosas: Anota tres cosas especificas por las que sientas gratitud hoy. Pueden ser grandes o pequenas: desde una conversacion significativa hasta el sabor de tu cafe.",
+        "Profundiza en el por que: Para cada cosa, escribe una o dos frases sobre POR QUE te genera gratitud. Esto activa procesamiento emocional mas profundo que simplemente listar.",
+        "Reconoce tu papel: Para al menos una de las tres, identifica algo que TU hiciste para que ocurriera. Esto construye autoeficacia y agencia personal.",
+        "Varia y se especifico: Evita repetir las mismas cosas cada dia. Busca cosas nuevas y se lo mas especifico posible ('la forma en que mi hijo se rio hoy cuando jugamos' vs 'mi familia')."
+      ],
+      "tips": [
+        "Si un dia no sientes gratitud por nada, escribe eso. La honestidad emocional tambien cuenta.",
+        "Algunas semanas puedes enfocarte en gratitud hacia ti mismo: cosas que hiciste bien, esfuerzos que reconoces.",
+        "Comparte tu gratitud con alguien: decirle a una persona por que la agradeces multiplica el efecto."
+      ],
+      "icon": "🙏"
+    },
+    {
+      "id": "downward_arrow",
+      "name": "Flecha Descendente",
+      "origin": "CBT (Beck, 1979; Burns, 1980)",
+      "evidence": "Componente clave en reestructuracion de creencias nucleares con d = 0.60-0.85 (Hofmann et al., 2012). Eficacia demostrada en identificacion de esquemas tempranos (Young, 2003).",
+      "duration": "20-30 minutos",
+      "frequency": "1-2 veces por semana",
+      "profiles": {
+        "autocritico": 3,
+        "impostor": 3,
+        "comparador": 2,
+        "sometido": 2,
+        "desconectado": 1
+      },
+      "phase": 2,
+      "exercise_file": "downward-arrow.html",
+      "description": "Un ejercicio de investigacion profunda que parte de un pensamiento negativo superficial y desciende hasta la creencia nuclear que lo sostiene. Mediante preguntas sucesivas como 'Si esto fuera cierto, que significaria sobre mi?', vas pelando las capas de significado hasta llegar a la creencia central (ej: 'No soy digno de amor'). Una vez identificada, pierde parte de su poder invisible.",
+      "why_it_works": "Los pensamientos automaticos que tenemos a diario son como la punta de un iceberg. Debajo hay creencias intermedias ('Si cometo un error, demostrare que soy incompetente') y creencias nucleares ('Soy defectuoso/a'). Estas creencias nucleares, formadas generalmente en la infancia, operan como filtros invisibles que distorsionan toda nuestra experiencia. La Flecha Descendente las hace visibles, y una vez que puedes VER el filtro, puedes empezar a cuestionarlo.",
+      "steps": [
+        "Identifica un pensamiento automatico negativo recurrente: Elige uno que te genere malestar frecuente. Escribelo tal cual aparece en tu mente (ej: 'Seguro que piensan que soy tonto').",
+        "Pregunta: 'Si esto fuera cierto, que significaria sobre mi?': No discutas si es cierto o no. Asume temporalmente que lo es y preguntate que implicaria. Escribe la respuesta (ej: 'Que no soy lo suficientemente inteligente').",
+        "Repite la pregunta con la nueva respuesta: Toma lo que escribiste y vuelve a preguntar: 'Y si eso fuera cierto, que significaria?'. Escribe la siguiente capa (ej: 'Que nunca sere suficiente').",
+        "Continua descendiendo (3-7 niveles): Sigue preguntando hasta que llegues a una afirmacion corta y absoluta sobre ti mismo/a que ya no pueda descender mas. Esta es tu creencia nuclear (ej: 'No valgo nada', 'Soy un fraude', 'No merezco amor').",
+        "Registra la emocion: Nota que sientes al llegar a la creencia nuclear. Suele haber un 'momento aja' mezclado con tristeza o sorpresa. Esta emocion confirma que llegaste al fondo.",
+        "Evalua la creencia: Ahora que la ves por escrito, preguntate: de donde viene esta creencia? Quien o que experiencia me enseno esto? Es un hecho o es algo que aprendi a creer?"
+      ],
+      "tips": [
+        "Este ejercicio puede ser emocionalmente intenso. Hazlo cuando estes en un lugar seguro y tranquilo.",
+        "No necesitas 'resolver' la creencia nuclear hoy. Identificarla ya es un paso enorme.",
+        "Combina este ejercicio con la Pausa de Autocompasion si surgen emociones fuertes."
+      ],
+      "icon": "⬇️"
+    },
+    {
+      "id": "compassionate_letter",
+      "name": "Carta de Autocompasion",
+      "origin": "MSC - Mindful Self-Compassion (Neff & Germer, 2018; Gilbert, 2010)",
+      "evidence": "d = 0.47-0.62 en reduccion de autocritica y vergüenza (Beaumont et al., 2016). Cambios significativos en autocompasion tras una sola sesion de escritura (Shapira & Mongrain, 2010).",
+      "duration": "20-30 minutos",
+      "frequency": "1-2 veces por semana",
+      "profiles": {
+        "autocritico": 3,
+        "impostor": 2,
+        "comparador": 1,
+        "sometido": 2,
+        "desconectado": 2
+      },
+      "phase": 2,
+      "exercise_file": "compassionate-letter.html",
+      "description": "Escribes una carta dirigida a ti mismo/a desde la perspectiva de un amigo incondicional, infinitamente sabio y compasivo que te conoce por completo: tus luchas, tus miedos, tu historia. Este amigo imaginario ve tus imperfecciones con ternura y te recuerda tu humanidad compartida. La carta aborda un aspecto de ti que te genera vergüenza o autocritica.",
+      "why_it_works": "La autocritica activa las mismas areas cerebrales que el abuso verbal externo. Escribir una carta compasiva activa el sistema de apego seguro, liberando oxitocina y reduciendo el cortisol. Al externalizar la voz compasiva en papel, fortaleces una 'voz interna amable' que puede eventualmente competir con la voz critica. Muchas personas descubren que pueden ser increiblemente compasivas con otros pero nunca se dirigen a si mismas con esa misma ternura.",
+      "steps": [
+        "Elige el tema: Selecciona algo sobre ti que te genera dolor, vergüenza o autocritica intensa. Puede ser un defecto percibido, un error pasado, una inseguridad. Escribelo brevemente.",
+        "Conecta con las emociones: Antes de escribir la carta, toma un momento para sentir las emociones asociadas a ese aspecto. No las analices, solo sientelas. Esto es mindfulness aplicado.",
+        "Adopta la perspectiva del amigo compasivo: Imagina a alguien que te quiere incondicionalmente, que ve tu sufrimiento con ternura y no con juicio. Puede ser real o imaginario. Escribe DESDE su voz.",
+        "Incluye los tres componentes de la autocompasion: (1) Valida tu sufrimiento: 'Es comprensible que sufras por esto...'. (2) Humanidad compartida: 'Muchas personas luchan con esto...'. (3) Amabilidad: 'Mereces el mismo cuidado que le darias a alguien que amas...'.",
+        "Se especifico, no generico: No escribas 'eres una buena persona'. Escribe sobre las cualidades concretas, los esfuerzos especificos, las circunstancias particulares que este amigo ve en ti.",
+        "Cierra con una intencion: Termina la carta con un deseo o intencion compasiva: 'Espero que puedas tratarte con mas gentileza esta semana' o 'Recuerda que mereces compasion, especialmente cuando mas la necesitas'.",
+        "Relee la carta: Dejala reposar un dia y vuelve a leerla. Nota como te sientes al recibir esas palabras. Si puedes, leela en voz alta."
+      ],
+      "tips": [
+        "Llorar mientras escribes es comun y saludable. Significa que algo esta llegando a donde necesita llegar.",
+        "Guarda tus cartas. En momentos dificiles, releerlas puede ser un ancla poderosa.",
+        "Si no puedes escribirte a ti, empieza escribiendole a tu yo del pasado (tu yo de 8 anos, por ejemplo)."
+      ],
+      "icon": "💌"
+    },
+    {
+      "id": "exposure_hierarchy",
+      "name": "Jerarquia de Exposicion Gradual",
+      "origin": "CBT / Terapia de Conducta (Wolpe, 1958; Fennell, 1997; adaptado para autoestima)",
+      "evidence": "d = 0.80-1.20 para reduccion de evitacion (meta-analisis Hofmann & Smits, 2008). Componente critico en mantenimiento de logros terapeuticos a largo plazo (Fava et al., 2004).",
+      "duration": "30 minutos (creacion), variable (exposiciones)",
+      "frequency": "1-2 exposiciones por semana",
+      "profiles": {
+        "autocritico": 2,
+        "impostor": 3,
+        "comparador": 1,
+        "sometido": 3,
+        "desconectado": 2
+      },
+      "phase": 3,
+      "exercise_file": "exposure-hierarchy.html",
+      "description": "Creas una lista de situaciones que evitas debido a tu baja autoestima, ordenadas de menor a mayor ansiedad (0-100). Luego te expones gradualmente a cada una, empezando por las mas faciles, hasta que la ansiedad se reduce naturalmente. No se trata de forzarte ni de sufrir: se trata de demostrarle a tu cerebro, paso a paso, que puedes manejar lo que temes.",
+      "why_it_works": "La evitacion es el combustible de la baja autoestima. Cada vez que evitas algo por miedo al fracaso o al juicio, tu cerebro registra: 'Era peligroso, bien que lo evitaste'. Esto refuerza la creencia de que no puedes manejarlo. La exposicion gradual invierte este proceso: cada experiencia exitosa (incluso parcialmente exitosa) actualiza la creencia. Tu cerebro aprende: 'Esto era menos peligroso de lo que pensaba y yo soy mas capaz de lo que creia'.",
+      "steps": [
+        "Lista situaciones evitadas: Escribe 10-15 situaciones que evitas o que te generan mucha ansiedad relacionadas con tu autoestima. Ej: 'Dar mi opinion en una reunion', 'Publicar una foto sin filtros', 'Decir que no a un favor'.",
+        "Puntua cada situacion: Asigna un nivel de ansiedad de 0 a 100 a cada una. No pienses demasiado, usa tu primera impresion.",
+        "Ordena de menor a mayor: Crea tu jerarquia con las situaciones ordenadas de menos ansiedad (20-30) a mas ansiedad (80-100).",
+        "Empieza por abajo: Elige la situacion con menor puntuacion. Antes de exponerte, escribe: que es lo peor que podria pasar? Que tan probable es? Como lo manejarias?",
+        "Exponente y registra: Realiza la exposicion. Despues, anota: ansiedad antes (0-100), ansiedad durante (pico), ansiedad despues, y que paso realmente vs lo que temias.",
+        "Repite hasta que baje: Repite la misma situacion hasta que la ansiedad baje significativamente (generalmente a menos de 30). Luego sube al siguiente nivel.",
+        "Celebra cada paso: Cada exposicion, sin importar el resultado, es un acto de valentia. Registra tus logros. Vuelve a leerlos cuando dudes de ti."
+      ],
+      "tips": [
+        "No saltes niveles. La gradualidad es lo que hace que funcione.",
+        "Si una exposicion sale 'mal', no significa fracaso. Significa que obtuviste informacion nueva.",
+        "Combina con la Pausa de Autocompasion antes y despues de cada exposicion."
+      ],
+      "icon": "🪜"
+    },
+    {
+      "id": "positive_data_log",
+      "name": "Registro de Cualidades Positivas",
+      "origin": "CBT (Fennell, 1997; Padesky, 1994)",
+      "evidence": "d = 0.55-0.70 en fortalecimiento de creencias positivas nucleares (Padesky, 1994). Componente esencial del modelo cognitivo de autoestima de Fennell.",
+      "duration": "5-10 minutos",
+      "frequency": "Diariamente",
+      "profiles": {
+        "autocritico": 3,
+        "impostor": 3,
+        "comparador": 2,
+        "sometido": 2,
+        "desconectado": 1
+      },
+      "phase": 3,
+      "exercise_file": "positive-data-log.html",
+      "description": "Cada dia, registras evidencia real que apoye una nueva creencia positiva sobre ti que quieras fortalecer. Si tu creencia nuclear negativa es 'No soy suficiente', tu nueva creencia objetivo podria ser 'Soy una persona valiosa que esta aprendiendo y creciendo'. Cada dia buscas activamente pruebas, por pequenas que sean, de que esta nueva creencia es verdadera.",
+      "why_it_works": "Las creencias nucleares negativas funcionan como un filtro: dejan pasar toda la informacion que las confirma y bloquean la que las contradice. El Registro de Cualidades Positivas crea un 'filtro inverso' deliberado. Al buscar activamente evidencia positiva cada dia, gradualmente construyes una base de datos que compite con la creencia negativa. Con el tiempo, la nueva creencia se fortalece no porque te repitas afirmaciones vacias, sino porque tienes EVIDENCIA REAL acumulada.",
+      "steps": [
+        "Define tu nueva creencia objetivo: Basandote en tu creencia nuclear negativa (que puedes identificar con la Flecha Descendente), formula su opuesto realista. No 'Soy perfecto' sino 'Soy capaz y merezco respeto'.",
+        "Puntua cuanto crees en ella: Del 0 al 100, cuanto crees AHORA en esa nueva creencia? Registra este numero. Es tu linea base.",
+        "Configura recordatorios: Pon 2-3 alarmas al dia que te recuerden buscar evidencia. Al principio necesitaras recordatorios porque tu filtro negativo funciona automaticamente.",
+        "Registra evidencia diariamente: Cada dia, anota al menos una cosa que apoye tu nueva creencia. Puede ser algo que hiciste, algo que alguien dijo, una situacion que manejaste. Se especifico: 'Mi companera me pidio consejo sobre su proyecto' es evidencia de 'Soy competente'.",
+        "No descalifiques la evidencia: Tu mente intentara minimizar lo que registres ('Eso no cuenta', 'Cualquiera lo haria'). Registralo de todas formas. La descalificacion ES el filtro negativo en accion.",
+        "Revisa semanalmente: Cada semana, relee toda la evidencia acumulada. Vuelve a puntuar cuanto crees en la nueva creencia (0-100). Observa la tendencia."
+      ],
+      "tips": [
+        "Empieza con evidencia 'facil': cosas objetivas como completar tareas, recibir agradecimientos, cumplir compromisos.",
+        "Lleva el registro contigo (en el movil). La evidencia aparece en momentos inesperados.",
+        "Despues de un mes, tendras 30+ evidencias. Eso es poderoso contra una creencia que nunca habia sido cuestionada."
+      ],
+      "icon": "✨"
+    },
+    {
+      "id": "cognitive_continuum",
+      "name": "Continuo Cognitivo",
+      "origin": "CBT (Beck, 1995; Burns, 1999; Padesky & Mooney, 2012)",
+      "evidence": "Componente clave en la reestructuracion del pensamiento dicotomico, con d = 0.45-0.65 (meta-analisis Cristea et al., 2015). Eficaz para reducir perfeccionismo rigido.",
+      "duration": "10-15 minutos",
+      "frequency": "2-3 veces por semana o cuando notes pensamiento todo-o-nada",
+      "profiles": {
+        "autocritico": 3,
+        "impostor": 2,
+        "comparador": 3,
+        "sometido": 1,
+        "desconectado": 1
+      },
+      "phase": 2,
+      "exercise_file": "cognitive-continuum.html",
+      "description": "Un ejercicio para romper el pensamiento 'todo o nada' que alimenta la baja autoestima. Cuando piensas en terminos de 'exito total o fracaso absoluto', 'perfecto o inutil', cualquier resultado intermedio se siente como fracaso. El Continuo Cognitivo te enseña a ver la realidad en una escala de grises, reconociendo que la mayoria de las cosas existen en un espectro, no en dos extremos.",
+      "why_it_works": "El pensamiento dicotomico es una de las distorsiones mas daninas para la autoestima. Si tu estandar es 100% y logras 85%, en pensamiento dicotomico eso es fracaso. En pensamiento de continuo, es un 85%: excelente. Al entrenar a tu cerebro a pensar en espectros, amplias enormemente las posibilidades de sentirte competente. Dejas de necesitar la perfeccion para sentirte valioso/a.",
+      "steps": [
+        "Identifica un juicio dicotomico: Captura un pensamiento del tipo 'todo o nada'. Ej: 'Soy un mal padre/madre', 'Mi presentacion fue un desastre', 'No se nada de este tema'.",
+        "Dibuja una linea del 0 al 100: Traza una linea horizontal. En un extremo pon 0% (lo peor posible, ej: 'El peor padre del mundo') y en el otro 100% (lo mejor posible, ej: 'El padre perfecto').",
+        "Define los extremos con ejemplos concretos: Describe que seria realmente un 0% y un 100%. Al hacerlo concreto, descubriras que tu situacion no esta en ninguno de los dos extremos.",
+        "Coloca puntos de referencia: Marca en la linea donde estarian otras personas o situaciones que conoces. Esto crea contexto y perspectiva.",
+        "Ubicati honestamente: Marca donde estas tu realmente en esa linea. Generalmente, descubriras que estas mucho mas lejos del 0% de lo que tu pensamiento dicotomico te hacia creer.",
+        "Reformula el juicio: Reescribe tu pensamiento original usando lenguaje de espectro: 'Soy un padre/madre que lo hace bien en muchas areas y tiene espacio para mejorar en otras. Estoy en un 65-70%'."
+      ],
+      "tips": [
+        "Hazlo visual: dibujar la linea en papel es mas efectivo que hacerlo mentalmente.",
+        "Usa este ejercicio cada vez que notes palabras como 'siempre', 'nunca', 'totalmente', 'completamente'.",
+        "Puedes usar multiples dimensiones para una sola situacion (ej: puntuar una presentacion en contenido, entrega, creatividad por separado)."
+      ],
+      "icon": "📊"
+    },
+    {
+      "id": "achievements_diary",
+      "name": "Diario de Logros y Contribuciones",
+      "origin": "Psicologia del Sindrome del Impostor (Clance, 1985; Sakulku & Alexander, 2011; Young, 2011)",
+      "evidence": "d = 0.38-0.55 en reduccion de sentimientos de impostorismo (Zanchetta et al., 2020). La externalizacion de logros reduce la atribucion a 'suerte' o factores externos.",
+      "duration": "10-15 minutos",
+      "frequency": "Diariamente (revision semanal profunda)",
+      "profiles": {
+        "autocritico": 2,
+        "impostor": 3,
+        "comparador": 2,
+        "sometido": 1,
+        "desconectado": 1
+      },
+      "phase": 2,
+      "exercise_file": "achievements-diary.html",
+      "description": "Un registro diario especializado para personas con sindrome del impostor. Cada dia anotas al menos un logro o contribucion, y lo mas importante: explicas QUE HICISTE TU para que ocurriera. Esto combate directamente la tendencia del impostor a atribuir sus exitos a la suerte, el contexto, la ayuda de otros o el engano.",
+      "why_it_works": "El sindrome del impostor tiene un patron de atribucion muy especifico: los fracasos se atribuyen a la falta de capacidad ('Soy tonto/a') y los exitos a factores externos ('Tuve suerte', 'El examen era facil', 'Me ayudaron'). Este diario fuerza una reconexion entre tus acciones y tus resultados. Con el tiempo, la evidencia acumulada hace cada vez mas dificil sostener la narrativa de 'soy un fraude' cuando tienes registrados cientos de momentos donde tu esfuerzo y habilidad produjeron resultados.",
+      "steps": [
+        "Registra el logro o contribucion: Cada dia, escribe al menos una cosa que lograste o en la que contribuiste. Incluye cosas 'pequenas': resolver un problema, ayudar a alguien, completar una tarea, aprender algo nuevo.",
+        "Describe tu rol especifico: Esta es la parte clave. Escribe exactamente QUE hiciste tu. No 'el proyecto salio bien' sino 'Yo identifique el problema, propuse la solucion y coordine al equipo para implementarla'.",
+        "Desafia la atribucion externa: Si tu mente dice 'fue suerte' o 'cualquiera podria haberlo hecho', preguntate: si un companero hubiera hecho lo mismo, lo consideraria un logro? Casi siempre la respuesta es si.",
+        "Registra los sentimientos: Escribe como te sentiste en el momento del logro y como te sientes ahora al registrarlo. Nota la diferencia entre lo que sientes y lo que la evidencia dice.",
+        "Puntua el 'factor impostor': Del 0 al 10, cuanto sientes que 'no fue para tanto' o 'fue suerte'? Registra este numero. Observa como cambia con el tiempo.",
+        "Revision semanal: Cada fin de semana, relee los logros de la semana. Preguntate: si otra persona tuviera esta lista, que pensaria de ella?"
+      ],
+      "tips": [
+        "Los logros no necesitan ser 'grandes'. Sobrevivir un dia dificil es un logro. Pedir ayuda es un logro.",
+        "Comparte ocasionalmente un logro con alguien de confianza. Verbalizar ayuda a internalizar.",
+        "Si no puedes pensar en un logro, preguntale a alguien cercano. Te sorprendera lo que ven."
+      ],
+      "icon": "🏆"
+    },
+    {
+      "id": "digital_detox",
+      "name": "Plan Detox Digital para Autoestima",
+      "origin": "Psicologia de Redes Sociales (Vogel et al., 2014; Hunt et al., 2018; Verduyn et al., 2015)",
+      "evidence": "d = 0.30-0.48 en reduccion de comparacion social y mejora de bienestar (Hunt et al., 2018). Reducir redes sociales a 30 min/dia reduce significativamente soledad y depresion.",
+      "duration": "15 minutos (planificacion), continuo (implementacion)",
+      "frequency": "Revision semanal del plan",
+      "profiles": {
+        "autocritico": 1,
+        "impostor": 1,
+        "comparador": 3,
+        "sometido": 1,
+        "desconectado": 2
+      },
+      "phase": 1,
+      "exercise_file": "digital-detox.html",
+      "description": "Un plan estructurado para modificar tu relacion con las redes sociales y la tecnologia de manera que protejan tu autoestima en lugar de erosionarla. No se trata de eliminar las redes, sino de usarlas conscientemente: identificar que contenido te hace sentir peor, establecer limites de tiempo, curar tu feed, y reemplazar el scroll compulsivo con actividades que te nutran.",
+      "why_it_works": "Las redes sociales estan disenadas para maximizar la comparacion social. Ves lo mejor de la vida de todos mientras experimentas lo peor de la tuya. Estudios demuestran que el uso pasivo de redes (scrollear sin interactuar) esta directamente relacionado con peor autoestima y mas sintomas depresivos. El uso activo (publicar, interactuar genuinamente) tiene menos efectos negativos. Este plan te ayuda a pasar del consumo pasivo que dana al uso intencional que conecta.",
+      "steps": [
+        "Auditoria de consumo actual: Durante una semana, registra cuanto tiempo pasas en cada red social y como te sientes DESPUES de usarla. Usa la funcion de tiempo de pantalla de tu telefono. Se honesto/a.",
+        "Identifica los detonantes: Cuando abres las redes compulsivamente? Aburrimiento? Ansiedad? Antes de dormir? Identifica los 3 momentos principales en que recurres al scroll automatico.",
+        "Limpia tu feed: Deja de seguir o silencia cuentas que te generan comparacion negativa, envidia, o malestar. Sigue cuentas que te inspiren, te enseñen, o te hagan reir genuinamente.",
+        "Establece limites de tiempo: Configura un limite diario de 30 minutos para redes sociales en tu telefono. Cuando se acabe el tiempo, haz una actividad alternativa que tengas preparada.",
+        "Crea una lista de alternativas: Escribe 5-10 cosas que puedes hacer en lugar de scrollear: caminar, leer, llamar a alguien, dibujar, cocinar, hacer un ejercicio de esta guia. Ten esta lista visible.",
+        "Implementa zonas libres de pantallas: Define al menos dos zonas/momentos sin redes: la primera hora al despertar y la ultima hora antes de dormir. Usa un despertador fisico para no necesitar el telefono.",
+        "Evalua semanalmente: Cada semana, revisa tu consumo y como te sientes. Ajusta los limites segun lo que funcione. El objetivo es que TU controles la tecnologia, no al reves."
+      ],
+      "tips": [
+        "Desactiva TODAS las notificaciones no esenciales. Cada notificacion es un gancho disenado para atraerte.",
+        "Mueve las apps de redes a la segunda o tercera pagina de tu telefono, fuera de la vista inmediata.",
+        "Si sientes FOMO (miedo a perderte algo), recuerda: lo que te pierdes al scrollear es tu propia vida."
+      ],
+      "icon": "📱"
+    },
+    {
+      "id": "sleep_hygiene",
+      "name": "Higiene del Sueno para la Autoestima",
+      "origin": "Medicina del Sueno / Bases Biologicas (Walker, 2017; Pilcher & Huffcutt, 1996; Kahn et al., 2013)",
+      "evidence": "d = 0.70-0.90 en regulacion emocional tras mejora del sueno (Walker, 2017). La privacion de sueno aumenta la reactividad de la amigdala en un 60% y reduce la conexion con la corteza prefrontal (Yoo et al., 2007).",
+      "duration": "10 minutos (planificacion), continuo (implementacion)",
+      "frequency": "Diariamente (habitos), revision semanal",
+      "profiles": {
+        "autocritico": 2,
+        "impostor": 1,
+        "comparador": 1,
+        "sometido": 2,
+        "desconectado": 3
+      },
+      "phase": 1,
+      "exercise_file": "sleep-hygiene.html",
+      "description": "Un protocolo de higiene del sueno disenado especificamente para personas con baja autoestima, que tiende a empeorar dramaticamente con la falta de sueno. Incluye rutinas para antes de dormir, optimizacion del ambiente, manejo de la rumiacion nocturna, y un registro de sueno para identificar patrones. Dormir bien no es un lujo, es el fundamento biologico sobre el cual todas las demas tecnicas funcionan.",
+      "why_it_works": "Cuando duermes mal, tu amigdala (centro del miedo y la reactividad emocional) se hiperactiva un 60%, mientras que tu corteza prefrontal (razonamiento, perspectiva, regulacion) se desconecta. Esto significa que con sueno insuficiente, todo se siente mas amenazante, eres mas autocritico/a, tienes menos recursos para manejar emociones, y tomas peores decisiones. Mejorar el sueno es como actualizar el hardware sobre el cual corren todas las demas tecnicas psicologicas.",
+      "steps": [
+        "Establece un horario fijo: Acuestate y levantate a la misma hora TODOS los dias, incluyendo fines de semana. Tu reloj biologico necesita consistencia. Variaciones de mas de 1 hora producen 'jet lag social'.",
+        "Crea una rutina pre-sueno de 30-60 minutos: Incluye actividades relajantes: leer (libro fisico, no pantalla), estiramientos suaves, meditacion de Hojas en el Rio, Diario de Gratitud, ducha templada. Repite la misma secuencia cada noche.",
+        "Optimiza tu ambiente: Oscuridad total (usa antifaz si es necesario), temperatura fresca (18-20°C), silencio o ruido blanco constante. Tu habitacion debe asociarse SOLO con dormir (y sexo).",
+        "Elimina pantallas 1 hora antes: La luz azul suprime la melatonina. Si necesitas el telefono, usa filtro de luz azul al maximo. Mejor aun: dejalo fuera de la habitacion.",
+        "Maneja la rumiacion nocturna: Si los pensamientos no paran, ten un cuaderno junto a la cama. Escribe todo lo que te preocupa (vaciado cerebral) y di: 'Manana me ocupo, ahora mi trabajo es dormir'. Si no duermes en 20 minutos, levantate, haz algo aburrido con luz tenue, y vuelve cuando sientas sueno.",
+        "Cuida lo basico durante el dia: No cafeina despues de las 14:00 (su vida media es 6 horas). Ejercicio regular pero no intenso cerca de la hora de dormir. Exposicion a luz solar por la manana (regula el ritmo circadiano).",
+        "Lleva un registro de sueno: Anota hora de acostarte, hora estimada de dormirte, despertares, hora de levantarte, y calidad subjetiva (1-10). Busca patrones semanalmente."
+      ],
+      "tips": [
+        "El alcohol ayuda a dormir pero destruye la calidad del sueno (suprime el REM). Evitalo antes de dormir.",
+        "No mires el reloj durante la noche. Calcular cuanto has dormido genera ansiedad que empeora el insomnio.",
+        "Si llevas mas de 2 semanas con insomnio severo, consulta a un profesional. La TCC para insomnio (TCC-I) es muy efectiva."
+      ],
+      "icon": "🌙"
+    },
+    {
+      "id": "exercise_plan",
+      "name": "Plan de Ejercicio Fisico para la Autoestima",
+      "origin": "Psicologia del Ejercicio / Bases Biologicas (Biddle & Asare, 2011; Rebar et al., 2015; Lubans et al., 2016)",
+      "evidence": "d = 0.40-0.60 en mejora de autoestima global (Liu et al., 2015). Meta-analisis de Rebar et al. (2015): el ejercicio regular tiene efecto significativo en reduccion de ansiedad y depresion. Ejercicio aerobico aumenta BDNF (factor neurotrofico), mejorando plasticidad cerebral.",
+      "duration": "10 minutos (planificacion), 20-45 minutos (sesiones)",
+      "frequency": "3-5 veces por semana",
+      "profiles": {
+        "autocritico": 1,
+        "impostor": 1,
+        "comparador": 2,
+        "sometido": 1,
+        "desconectado": 3
+      },
+      "phase": 1,
+      "exercise_file": "exercise-plan.html",
+      "description": "Un plan de ejercicio fisico disenado no para cambiar tu cuerpo, sino para cambiar tu relacion con el y fortalecer tu salud mental. El enfoque esta en el movimiento como experiencia de autoeficacia, dominio y conexion cuerpo-mente, no en calorias ni apariencia. Incluye opciones para todos los niveles de condicion fisica y se integra con las demas tecnicas de la guia.",
+      "why_it_works": "El ejercicio fisico es el antidepresivo mas antiguo y uno de los mas efectivos. A nivel bioquimico, libera endorfinas, serotonina, dopamina y BDNF (que mejora la plasticidad cerebral). A nivel psicologico, cada sesion completada es una prueba de que puedes establecer y cumplir compromisos contigo mismo/a. Para personas desconectadas de su cuerpo, el ejercicio es un puente de reconexion. La clave es que el objetivo NO sea la apariencia (lo cual puede empeorar la comparacion) sino la experiencia de sentirse capaz.",
+      "steps": [
+        "Elige algo que disfrutes (o que al menos no odies): Caminar, nadar, bailar, yoga, bicicleta, artes marciales, jardineria activa... El mejor ejercicio es el que realmente haras. Ignora lo que 'debierias' hacer segun Instagram.",
+        "Empieza ridiculamente pequeno: Si no haces ejercicio actualmente, empieza con 10 minutos, 2-3 veces por semana. La consistencia importa infinitamente mas que la intensidad. Puedes aumentar gradualmente despues de 2 semanas.",
+        "Establece un horario fijo: Vincula el ejercicio a un habito existente (ej: 'Despues de dejar a los ninos en el colegio, camino 15 minutos'). Los habitos anclados a rutinas existentes se mantienen mejor.",
+        "Enfocate en sensaciones, no en resultados: Durante el ejercicio, presta atencion a como se siente tu cuerpo: el aire en tu cara, tus musculos trabajando, tu respiracion. Esto es mindfulness en movimiento y reconecta cuerpo y mente.",
+        "Registra como te sientes DESPUES: Cada sesion, anota tu estado de animo antes (1-10) y despues (1-10). Casi siempre habra mejora. Esta evidencia acumulada te motivara los dias que no quieras moverte.",
+        "No te castigues si fallas un dia: Faltar a una sesion no borra el progreso. La mentalidad de 'todo o nada' es tu enemiga aqui. Si faltas el lunes, el martes es una nueva oportunidad, no un fracaso.",
+        "Busca lo social si puedes: El ejercicio en grupo o con un companero anade el componente de conexion social, que combate el aislamiento y la desconexion. Pero si prefieres ir solo/a, eso tambien esta bien.",
+        "Integralo con la guia: Escucha la meditacion de Hojas en el Rio mientras caminas. Haz tu Diario de Logros despues de cada sesion registrando que completaste el ejercicio. Usa la Tecnica DESC si necesitas negociar tiempo para ti."
+      ],
+      "tips": [
+        "El ejercicio NO es un castigo por lo que comiste ni una transaccion para 'merecer' algo. Es un regalo que le haces a tu cuerpo y mente.",
+        "Si tienes una condicion medica, consulta con tu medico antes de empezar.",
+        "Los dias que menos quieres moverte son los que mas lo necesitas. Pero empieza con solo 5 minutos: a menudo, una vez que empiezas, quieres seguir."
+      ],
+      "icon": "🏃"
+    },
+    {
+      "id": "relapse_prevention",
+      "name": "Plan de Prevención de Recaídas",
+      "origin": "Prevención de Recaídas (Melemis, 2015; Marlatt & Donovan, 2005)",
+      "evidence": "Las 5 reglas de recuperación predicen mantenimiento a largo plazo (Melemis, 2015)",
+      "duration": "30 minutos (una vez)",
+      "frequency": "Revisar mensualmente",
+      "profiles": {
+        "autocritico": 2,
+        "impostor": 2,
+        "comparador": 2,
+        "sometido": 2,
+        "desconectado": 2
+      },
+      "phase": 4,
+      "exercise_file": "relapse-prevention.html",
+      "description": "Crea tu plan personalizado para mantener los avances logrados: señales de alerta, plan de acción, red de apoyo y hábitos de mantenimiento.",
+      "why_it_works": "La prevención de recaídas es el componente que convierte una mejora temporal en un cambio duradero. Sin un plan explícito, es fácil volver a patrones anteriores cuando aparece estrés o situaciones activadoras. Identificar tus señales de alerta únicas y tener un plan pre-establecido reduce significativamente el riesgo de retroceso.",
+      "steps": [
+        "Identifica tus señales de alerta temprana personales",
+        "Define acciones concretas para cada nivel de alerta",
+        "Identifica tu red de apoyo (personas + profesional)",
+        "Aplica las 5 reglas de recuperación a tu situación",
+        "Selecciona los hábitos de mantenimiento que seguirás",
+        "Programa tu próxima re-evaluación"
+      ],
+      "tips": [
+        "Haz este ejercicio cuando te sientas bien, no cuando estés en crisis",
+        "Comparte tu plan con una persona de confianza",
+        "Revísalo cada mes y ajústalo según tu experiencia"
+      ],
+      "icon": "🛡️"
+    }
+  ]
+}

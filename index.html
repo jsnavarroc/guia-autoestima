@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guía de Autoestima — Basada en Evidencia Científica</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            primary: { DEFAULT: '#5BBFAF', light: '#7DD4C6', dark: '#4A9B8E' },
+            secondary: { DEFAULT: '#E8985E', light: '#F0B584', dark: '#D07A3E' },
+            surface: '#1e1e2f',
+            card: '#262640',
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body class="bg-gray-950 text-gray-200 font-sans min-h-screen">
+
+  <!-- Navigation (hidden until after assessment) -->
+  <nav id="main-nav" class="hidden fixed bottom-0 left-0 right-0 z-50 bg-gray-900/95 backdrop-blur border-t border-gray-800 md:sticky md:top-0 md:bottom-auto md:border-t-0 md:border-b">
+    <div class="max-w-3xl mx-auto flex justify-around py-2 px-4">
+      <a href="#" data-view="dashboard" class="nav-item flex flex-col items-center gap-1 px-3 py-2 rounded-lg text-gray-400 hover:text-primary transition-colors">
+        <span class="text-xl">📊</span>
+        <span class="text-xs">Dashboard</span>
+      </a>
+      <a href="#" data-view="plan" class="nav-item flex flex-col items-center gap-1 px-3 py-2 rounded-lg text-gray-400 hover:text-primary transition-colors">
+        <span class="text-xl">📋</span>
+        <span class="text-xs">Plan</span>
+      </a>
+      <a href="#" data-view="exercises" class="nav-item flex flex-col items-center gap-1 px-3 py-2 rounded-lg text-gray-400 hover:text-primary transition-colors">
+        <span class="text-xl">🧘</span>
+        <span class="text-xs">Ejercicios</span>
+      </a>
+      <a href="#" data-view="learn" class="nav-item flex flex-col items-center gap-1 px-3 py-2 rounded-lg text-gray-400 hover:text-primary transition-colors">
+        <span class="text-xl">📖</span>
+        <span class="text-xs">Aprende</span>
+      </a>
+      <a href="#" data-view="tracker" class="nav-item flex flex-col items-center gap-1 px-3 py-2 rounded-lg text-gray-400 hover:text-primary transition-colors">
+        <span class="text-xl">📈</span>
+        <span class="text-xs">Progreso</span>
+      </a>
+      <a href="#" onclick="App.handleLogout()" class="flex flex-col items-center gap-1 px-3 py-2 rounded-lg text-gray-500 hover:text-red-400 transition-colors">
+        <span class="text-xl">🚪</span>
+        <span class="text-xs">Salir</span>
+      </a>
+    </div>
+  </nav>
+
+  <!-- Main content area -->
+  <main id="app" class="max-w-3xl mx-auto px-4 py-6 pb-24 md:pb-6">
+    <!-- Views loaded dynamically -->
+  </main>
+
+  <!-- Disclaimer footer -->
+  <footer class="max-w-3xl mx-auto px-4 py-6 text-center text-xs text-gray-500 border-t border-gray-800 mb-20 md:mb-0">
+    <p>Esta guía es una herramienta de autoayuda basada en 573 fuentes académicas. <strong class="text-gray-400">No sustituye la atención profesional de salud mental.</strong></p>
+    <p class="mt-1">Si experimentas sufrimiento intenso o ideas de autolesión, busca ayuda profesional inmediatamente.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/scoring.js"></script>
+  <script src="js/profiles.js"></script>
+  <script src="js/tracker.js"></script>
+  <script src="js/charts.js"></script>
+  <script src="js/exercises.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

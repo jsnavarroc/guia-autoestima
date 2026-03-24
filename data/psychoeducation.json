@@ -1,0 +1,1165 @@
+{
+  "modules": [
+    {
+      "id": "que_es_autoestima",
+      "title": "¿Qué es la autoestima y por qué importa?",
+      "icon": "brain",
+      "category": "fundamentos",
+      "order": 1,
+      "sections": [
+        {
+          "subtitle": "Definición: más que sentirse bien",
+          "content": "<p>La <strong>autoestima</strong> es la evaluación global que una persona hace de su propio valor como ser humano. Morris Rosenberg (1965) la definió como una actitud —favorable o desfavorable— hacia uno mismo. No se trata simplemente de «sentirse bien»: es la valoración profunda y relativamente estable que haces sobre quién eres.</p><p>Es importante distinguir entre <strong>autoestima global</strong> (cómo te valoras en general como persona) y <strong>autoestima específica</strong> (cómo te valoras en dominios concretos: trabajo, relaciones, apariencia, etc.). Puedes tener alta autoestima específica en lo académico pero baja en lo social. Lo que más impacta tu bienestar es la autoestima global, esa sensación básica de «soy suficiente» o «no doy la talla».</p>",
+          "references": [
+            {
+              "author": "Rosenberg, M.",
+              "year": 1965,
+              "title": "Society and the Adolescent Self-Image",
+              "source": "Princeton University Press"
+            }
+          ]
+        },
+        {
+          "subtitle": "¿Para qué sirve? La Teoría del Sociómetro",
+          "content": "<p>¿Por qué evolucionamos con la capacidad de evaluarnos a nosotros mismos? Según la <strong>Teoría del Sociómetro</strong> de Mark Leary (2005), la autoestima funciona como un <em>barómetro interno de aceptación social</em>. Durante miles de años, ser rechazado por el grupo significaba la muerte: no podías cazar solo, defenderte solo ni criar hijos solo. Tu cerebro desarrolló un sistema de alarma que monitorea constantemente cuánto te valoran los demás.</p><p>Cuando percibes señales de aceptación (te incluyen, te elogian, te buscan), tu autoestima sube y te sientes seguro. Cuando percibes señales de rechazo (te ignoran, te critican, te excluyen), tu autoestima baja y activa una respuesta de alarma: ansiedad, tristeza, motivación para «reparar» la relación. En esencia, <strong>la autoestima no es un lujo emocional: es un sistema de supervivencia</strong>.</p>",
+          "references": [
+            {
+              "author": "Leary, M. R.",
+              "year": 2005,
+              "title": "Sociometer theory and the pursuit of relational value: Getting to the root of self-esteem",
+              "source": "European Review of Social Psychology, 16, 75-111"
+            }
+          ]
+        },
+        {
+          "subtitle": "Autoestima contingente vs. óptima",
+          "content": "<p>No toda autoestima alta es saludable. La <strong>autoestima contingente</strong> depende de logros, aprobación externa o cumplir estándares: «Valgo si saco buenas notas», «Valgo si le gusto a todo el mundo». Es frágil, fluctúa constantemente y genera ansiedad porque siempre estás a un fracaso de derrumbarte (Kernis, 2003).</p><p>La <strong>autoestima óptima</strong> (también llamada «segura» o «verdadera») es estable, no depende de resultados externos y se basa en una aceptación incondicional de uno mismo como persona imperfecta pero valiosa (Vonk, 2012). No necesitas demostrar nada para sentirte digno. Esta es la autoestima que esta guía busca cultivar: no inflarte el ego, sino ayudarte a construir una base sólida que no se tambalee con cada tropiezo.</p>",
+          "references": [
+            {
+              "author": "Kernis, M. H.",
+              "year": 2003,
+              "title": "Toward a conceptualization of optimal self-esteem",
+              "source": "Psychological Inquiry, 14(1), 1-26"
+            },
+            {
+              "author": "Vonk, R.",
+              "year": 2012,
+              "title": "Self-Esteem",
+              "source": "En V. S. Ramachandran (Ed.), Encyclopedia of Human Behavior (2nd ed.), Academic Press"
+            }
+          ]
+        },
+        {
+          "subtitle": "Trayectoria a lo largo de la vida",
+          "content": "<p>La autoestima no es fija: sigue un patrón predecible a lo largo de la vida. Los estudios longitudinales muestran que <strong>aumenta desde la infancia hasta los 30 años</strong> aproximadamente, se mantiene en una <strong>meseta relativamente estable entre los 30 y los 60</strong>, y tiende a <strong>declinar gradualmente después de los 60</strong>, en parte por pérdidas asociadas al envejecimiento (jubilación, salud, roles sociales). Pero lo crucial es que en cada etapa es posible intervenir y mejorarla.</p>",
+          "references": [
+            {
+              "author": "Orth, U., Trzesniewski, K. H., & Robins, R. W.",
+              "year": 2010,
+              "title": "Self-esteem development from young adulthood to old age: A cohort-sequential longitudinal study",
+              "source": "Journal of Personality and Social Psychology, 98(4), 645-658"
+            }
+          ]
+        },
+        {
+          "subtitle": "La baja autoestima como factor transdiagnóstico",
+          "content": "<p>La baja autoestima no es simplemente «sentirse mal». Es un <strong>factor transdiagnóstico</strong>: aparece como causa, consecuencia o mantenedor de múltiples trastornos psicológicos. Melanie Fennell (1997) demostró cómo la baja autoestima alimenta la depresión, la ansiedad social, los trastornos alimentarios y las adicciones. Sowislo y Orth (2013) confirmaron con un meta-análisis que <strong>la baja autoestima predice la depresión futura</strong> (no solo al revés), lo que la convierte en un objetivo terapéutico prioritario.</p><p>Por eso trabajar tu autoestima no es vanidad ni egocentrismo: es cuidar un pilar fundamental de tu salud mental.</p>",
+          "references": [
+            {
+              "author": "Fennell, M. J. V.",
+              "year": 1997,
+              "title": "Low self-esteem: A cognitive perspective",
+              "source": "Behavioural and Cognitive Psychotherapy, 25(1), 1-26"
+            },
+            {
+              "author": "Sowislo, J. F., & Orth, U.",
+              "year": 2013,
+              "title": "Does low self-esteem predict depression and anxiety? A meta-analysis of longitudinal studies",
+              "source": "Psychological Bulletin, 139(1), 213-240"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ciclo_baja_autoestima",
+      "title": "El ciclo de la baja autoestima (Modelo de Fennell)",
+      "icon": "refresh-cw",
+      "category": "fundamentos",
+      "order": 2,
+      "sections": [
+        {
+          "subtitle": "Un ciclo que se repite... pero se puede romper",
+          "content": "<p>Melanie Fennell (1997, actualizado en 2023) desarrolló uno de los modelos más influyentes para entender cómo <strong>se mantiene</strong> la baja autoestima. No es que simplemente «tengas» baja autoestima como quien tiene los ojos marrones: es un patrón activo que se alimenta a sí mismo. La buena noticia es que, al entender el ciclo, puedes identificar en qué punto romperlo.</p>",
+          "references": [
+            {
+              "author": "Fennell, M. J. V.",
+              "year": 1997,
+              "title": "Low self-esteem: A cognitive perspective",
+              "source": "Behavioural and Cognitive Psychotherapy, 25(1), 1-26"
+            },
+            {
+              "author": "Fennell, M. J. V.",
+              "year": 2023,
+              "title": "Overcoming Low Self-Esteem (2nd ed.)",
+              "source": "Robinson/Constable"
+            }
+          ]
+        },
+        {
+          "subtitle": "Paso 1: Experiencias tempranas negativas",
+          "content": "<p>El ciclo comienza en la historia personal. <strong>Experiencias tempranas negativas</strong> —críticas constantes de padres, bullying escolar, negligencia emocional, abuso, comparaciones con hermanos, exigencia excesiva— plantan la semilla. No tiene que ser un trauma dramático: a veces basta con un entorno donde «nunca era suficiente» o donde el cariño estaba condicionado al rendimiento.</p><p><em>Ejemplo:</em> María creció con una madre que, cada vez que traía un 9, preguntaba «¿y por qué no un 10?». Nunca le dijo que estaba orgullosa.</p>",
+          "references": [
+            {
+              "author": "Beck, A. T.",
+              "year": 1979,
+              "title": "Cognitive Therapy and the Emotional Disorders",
+              "source": "Penguin Books"
+            }
+          ]
+        },
+        {
+          "subtitle": "Paso 2: La creencia nuclear negativa",
+          "content": "<p>De esas experiencias, el niño o adolescente extrae una conclusión global sobre sí mismo: la <strong>creencia nuclear</strong> (Beck, 1979). Es una afirmación absoluta, sentida como verdad profunda. Las más comunes son:</p><ul><li>«No soy suficiente»</li><li>«Soy defectuoso/a»</li><li>«No merezco amor»</li><li>«Soy incompetente»</li><li>«Soy un fraude»</li></ul><p>Estas creencias no se experimentan como opiniones sino como <em>hechos</em>. Están tan arraigadas que la persona rara vez las cuestiona.</p><p><em>Ejemplo:</em> María desarrolló la creencia nuclear: «Nunca seré lo bastante buena».</p>",
+          "references": [
+            {
+              "author": "Beck, A. T.",
+              "year": 1979,
+              "title": "Cognitive Therapy and the Emotional Disorders",
+              "source": "Penguin Books"
+            }
+          ]
+        },
+        {
+          "subtitle": "Paso 3: Reglas condicionales de vida",
+          "content": "<p>Para protegerse de la creencia nuclear (que es extremadamente dolorosa), la persona desarrolla <strong>reglas condicionales</strong> del tipo «Si... entonces...». Son estrategias de supervivencia:</p><ul><li>«Si soy perfecta en todo, entonces nadie notará que no soy suficiente»</li><li>«Si nunca digo que no, entonces no me rechazarán»</li><li>«Si no intento nada nuevo, entonces no fracasaré»</li><li>«Si siempre ayudo a los demás, entonces me querrán»</li></ul><p>Estas reglas funcionan... hasta que no pueden cumplirse. Y ahí empieza el problema.</p><p><em>Ejemplo:</em> La regla de María: «Si trabajo más que nadie y nunca cometo errores, entonces demostraré que valgo».</p>",
+          "references": [
+            {
+              "author": "Fennell, M. J. V.",
+              "year": 1997,
+              "title": "Low self-esteem: A cognitive perspective",
+              "source": "Behavioural and Cognitive Psychotherapy, 25(1), 1-26"
+            }
+          ]
+        },
+        {
+          "subtitle": "Paso 4: La situación activadora",
+          "content": "<p>Llega una <strong>situación</strong> que viola las reglas condicionales. No tiene que ser algo objetivamente grave; basta con que toque el punto vulnerable:</p><ul><li>Un error en el trabajo</li><li>Una crítica (incluso constructiva)</li><li>Una comparación desfavorable</li><li>Un rechazo social</li><li>Un momento de vulnerabilidad</li></ul><p><em>Ejemplo:</em> El jefe de María le señala un pequeño error en un informe. Objetivamente, es menor. Pero para ella, rompe la regla «nunca cometo errores».</p>",
+          "references": [
+            {
+              "author": "Waite, P., McManus, F., & Shafran, R.",
+              "year": 2012,
+              "title": "Cognitive behaviour therapy for low self-esteem: A preliminary randomized controlled trial in a primary care setting",
+              "source": "Journal of Behavior Therapy and Experimental Psychiatry, 43(4), 1049-1057"
+            }
+          ]
+        },
+        {
+          "subtitle": "Paso 5: Pensamientos automáticos negativos",
+          "content": "<p>La situación activa una cascada de <strong>pensamientos automáticos negativos</strong> (PAN). Son rápidos, involuntarios y cargados emocionalmente:</p><ul><li>«Soy una inútil»</li><li>«Siempre la estropeo»</li><li>«Van a despedirme»</li><li>«Mi jefe piensa que soy incompetente»</li><li>«Nunca debí aceptar este puesto»</li></ul><p>Estos pensamientos no se cuestionan: llegan como verdades absolutas porque están alimentados por la creencia nuclear que lleva años consolidándose.</p><p><em>Ejemplo:</em> María piensa: «Soy una incompetente. Si no puedo ni hacer un informe bien, ¿qué hago aquí?».</p>",
+          "references": [
+            {
+              "author": "Beck, A. T.",
+              "year": 1979,
+              "title": "Cognitive Therapy and the Emotional Disorders",
+              "source": "Penguin Books"
+            }
+          ]
+        },
+        {
+          "subtitle": "Paso 6: Ansiedad, evitación y autocrítica",
+          "content": "<p>Los pensamientos automáticos generan una <strong>respuesta emocional y conductual</strong>:</p><ul><li><strong>Emociones:</strong> ansiedad, vergüenza, tristeza, frustración</li><li><strong>Conductas de seguridad:</strong> perfeccionismo compensatorio, evitar tareas similares, pedir disculpas excesivas, trabajar el doble</li><li><strong>Autocrítica feroz:</strong> el diálogo interno se vuelve un ataque: «Eres patética», «No sirves para nada»</li></ul><p><em>Ejemplo:</em> María se queda hasta las 10 de la noche revisando obsesivamente cada línea del informe, sintiéndose ansiosa y repitiendo mentalmente lo estúpida que es.</p>",
+          "references": [
+            {
+              "author": "McManus, F., Waite, P., & Shafran, R.",
+              "year": 2009,
+              "title": "Cognitive-behavior therapy for low self-esteem: A case example",
+              "source": "Cognitive and Behavioral Practice, 16(3), 266-275"
+            }
+          ]
+        },
+        {
+          "subtitle": "Paso 7: Se confirma la creencia nuclear",
+          "content": "<p>Aquí está la trampa: todo lo que hizo María (quedarse tarde, criticarse, sentirse ansiosa) <strong>confirma la creencia original</strong>: «¿Ves? Necesité quedarte hasta las 10 para hacer algo decente. Cualquier otra persona lo habría hecho bien a la primera. Realmente no soy suficiente».</p><p>Y el ciclo vuelve a empezar, ahora con la creencia nuclear un poco más fuerte que antes. Es como un surco que se hace más profundo con cada vuelta.</p><p><strong>Pero el ciclo se puede romper en múltiples puntos:</strong></p><ul><li>Desafiando los pensamientos automáticos (→ registro de pensamientos)</li><li>Reduciendo la autocrítica (→ autocompasión)</li><li>Cuestionando las reglas condicionales (→ flecha descendente)</li><li>Construyendo evidencia nueva contra la creencia nuclear (→ diario de datos positivos)</li><li>Exponerse gradualmente a las situaciones temidas (→ experimentos conductuales)</li></ul>",
+          "references": [
+            {
+              "author": "Fennell, M. J. V.",
+              "year": 2023,
+              "title": "Overcoming Low Self-Esteem (2nd ed.)",
+              "source": "Robinson/Constable"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "distorsiones_cognitivas",
+      "title": "Distorsiones cognitivas: Los trucos de tu mente",
+      "icon": "zap-off",
+      "category": "cbt",
+      "order": 3,
+      "sections": [
+        {
+          "subtitle": "¿Qué son las distorsiones cognitivas?",
+          "content": "<p>Las <strong>distorsiones cognitivas</strong> son patrones sistemáticos de pensamiento que distorsionan la realidad de manera negativa. No son «pensar mal a propósito»: son atajos mentales que tu cerebro usa automáticamente, especialmente cuando estás estresado o tu autoestima está baja. Aaron Beck (1979) las identificó como componente central de la depresión, y David Burns (1980) las popularizó en su libro <em>Feeling Good</em>.</p><p>Todas las personas usan distorsiones cognitivas de vez en cuando. El problema es cuando se convierten en tu forma <em>habitual</em> de interpretar la realidad, especialmente cuando se trata de ti mismo.</p>",
+          "references": [
+            {
+              "author": "Beck, A. T.",
+              "year": 1979,
+              "title": "Cognitive Therapy and the Emotional Disorders",
+              "source": "Penguin Books"
+            },
+            {
+              "author": "Burns, D. D.",
+              "year": 1980,
+              "title": "Feeling Good: The New Mood Therapy",
+              "source": "William Morrow"
+            }
+          ]
+        },
+        {
+          "subtitle": "1. Pensamiento todo-o-nada (dicotómico)",
+          "content": "<p><strong>Qué es:</strong> Ves las cosas en dos categorías absolutas, sin grises: perfecto o desastre, éxito total o fracaso total.</p><p><strong>Ejemplo cotidiano:</strong> «Si no saco un 10 en el examen, soy un fracaso». Sacas un 8 y te sientes derrotado/a, aunque es una nota excelente.</p><p><strong>Por qué daña tu autoestima:</strong> Como la perfección es imposible, siempre caes en la categoría de «fracaso». Nunca puedes sentirte satisfecho/a.</p><p><strong>Cómo desafiarla:</strong> Busca el continuo. En una escala del 0 al 100, ¿dónde cae realmente tu resultado? Un 8 es un 80%. ¿Llamarías «fracaso» a alguien que acierta el 80% de las veces?</p>",
+          "references": [
+            {
+              "author": "Burns, D. D.",
+              "year": 1999,
+              "title": "Feeling Good: The New Mood Therapy (revised ed.)",
+              "source": "William Morrow"
+            }
+          ]
+        },
+        {
+          "subtitle": "2. Sobregeneralización",
+          "content": "<p><strong>Qué es:</strong> A partir de un solo evento negativo, extraes una conclusión universal. Las palabras clave son «siempre», «nunca», «todo el mundo», «nadie».</p><p><strong>Ejemplo cotidiano:</strong> Te rechazan en una entrevista de trabajo y piensas: «Nunca voy a encontrar trabajo. Siempre me rechazan».</p><p><strong>Por qué daña tu autoestima:</strong> Convierte un tropiezo puntual en una sentencia de vida. Un error se transforma en «soy un error».</p><p><strong>Cómo desafiarla:</strong> Busca las excepciones. ¿Realmente «siempre» te rechazan? ¿No hubo ninguna vez que te fue bien? Sustituye «siempre/nunca» por «esta vez» o «en esta ocasión».</p>",
+          "references": [
+            {
+              "author": "Burns, D. D.",
+              "year": 1980,
+              "title": "Feeling Good: The New Mood Therapy",
+              "source": "William Morrow"
+            }
+          ]
+        },
+        {
+          "subtitle": "3. Filtro mental (abstracción selectiva)",
+          "content": "<p><strong>Qué es:</strong> Te fijas exclusivamente en un detalle negativo e ignoras todo el contexto positivo. Es como llevar un filtro que solo deja pasar lo malo.</p><p><strong>Ejemplo cotidiano:</strong> Recibes una evaluación de desempeño con 9 aspectos positivos y 1 área de mejora. Te vas a casa pensando solo en esa área de mejora.</p><p><strong>Por qué daña tu autoestima:</strong> Tu visión de ti mismo se basa solo en los defectos, ignorando tus fortalezas reales. Es como juzgar una película de 2 horas por un minuto malo.</p><p><strong>Cómo desafiarla:</strong> Amplía el foco. Escribe literalmente todos los aspectos de la situación, no solo el negativo. Pregúntate: «Si un amigo me contara esto, ¿qué le parecería más importante?».</p>",
+          "references": [
+            {
+              "author": "Beck, A. T.",
+              "year": 1979,
+              "title": "Cognitive Therapy and the Emotional Disorders",
+              "source": "Penguin Books"
+            }
+          ]
+        },
+        {
+          "subtitle": "4. Descalificar lo positivo",
+          "content": "<p><strong>Qué es:</strong> No solo ignoras lo positivo (filtro mental), sino que activamente lo <em>rechazas</em> o le quitas valor: «No cuenta», «Fue suerte», «Cualquiera lo habría hecho».</p><p><strong>Ejemplo cotidiano:</strong> Te felicitan por un proyecto y piensas: «Solo lo dicen por educación» o «Si supieran lo que me costó, no estarían tan impresionados».</p><p><strong>Por qué daña tu autoestima:</strong> Crea un sistema inmune contra la información positiva. Nada bueno puede entrar. Es la distorsión favorita del síndrome del impostor.</p><p><strong>Cómo desafiarla:</strong> Practica aceptar el elogio sin añadir un «pero». Si alguien dice «buen trabajo», di «gracias» y punto. Lleva un diario de datos positivos donde registres logros sin descalificarlos.</p>",
+          "references": [
+            {
+              "author": "Fennell, M. J. V.",
+              "year": 1997,
+              "title": "Low self-esteem: A cognitive perspective",
+              "source": "Behavioural and Cognitive Psychotherapy, 25(1), 1-26"
+            }
+          ]
+        },
+        {
+          "subtitle": "5. Lectura de mente",
+          "content": "<p><strong>Qué es:</strong> Asumes que sabes lo que los demás piensan (y siempre es algo negativo sobre ti), sin evidencia real.</p><p><strong>Ejemplo cotidiano:</strong> Tu compañero de trabajo no te saluda por la mañana y piensas: «Está enfadado conmigo. Seguro que piensa que soy incompetente después de lo de ayer».</p><p><strong>Por qué daña tu autoestima:</strong> Vives en un mundo donde todos te juzgan negativamente, lo cual es agotador y refuerza la creencia de que no vales.</p><p><strong>Cómo desafiarla:</strong> Recuerda que no puedes leer mentes. Genera explicaciones alternativas: quizá no te vio, tuvo una mala noche o estaba distraído. Si es importante, pregunta directamente en vez de asumir.</p>",
+          "references": [
+            {
+              "author": "Burns, D. D.",
+              "year": 1999,
+              "title": "Feeling Good: The New Mood Therapy (revised ed.)",
+              "source": "William Morrow"
+            }
+          ]
+        },
+        {
+          "subtitle": "6. Catastrofización (magnificar lo negativo)",
+          "content": "<p><strong>Qué es:</strong> Imaginas el peor escenario posible y lo tratas como si fuera probable o inevitable. También se llama «magnificación» cuando exageras la importancia de un error.</p><p><strong>Ejemplo cotidiano:</strong> Cometes un error en una presentación y piensas: «Me van a despedir. No encontraré otro trabajo. Acabaré en la calle».</p><p><strong>Por qué daña tu autoestima:</strong> Cada pequeño error se convierte en una amenaza existencial. Vives en alerta permanente, lo que erosiona tu confianza en poder manejar la vida.</p><p><strong>Cómo desafiarla:</strong> Pregúntate: «¿Cuál es la probabilidad REAL de que pase lo peor?», «¿Qué pasó las otras veces que cometí un error?», «Si pasara lo peor, ¿podría manejarlo?». Suele ser un sí.</p>",
+          "references": [
+            {
+              "author": "Burns, D. D.",
+              "year": 1980,
+              "title": "Feeling Good: The New Mood Therapy",
+              "source": "William Morrow"
+            }
+          ]
+        },
+        {
+          "subtitle": "7. Personalización",
+          "content": "<p><strong>Qué es:</strong> Te culpas de eventos negativos que no están (totalmente) bajo tu control, o asumes que todo tiene que ver contigo.</p><p><strong>Ejemplo cotidiano:</strong> Tu hijo saca malas notas y piensas: «Es culpa mía, soy mal padre/madre». Tu pareja está de mal humor y asumes: «Hice algo mal».</p><p><strong>Por qué daña tu autoestima:</strong> Cargas con la responsabilidad del mundo. Cada cosa que sale mal es «por tu culpa», lo que confirma que eres inadecuado/a.</p><p><strong>Cómo desafiarla:</strong> Haz un «diagrama de torta» de responsabilidad: ¿qué porcentaje es realmente tuyo y qué porcentaje corresponde a otras personas, circunstancias o el azar?</p>",
+          "references": [
+            {
+              "author": "Beck, A. T.",
+              "year": 1979,
+              "title": "Cognitive Therapy and the Emotional Disorders",
+              "source": "Penguin Books"
+            }
+          ]
+        },
+        {
+          "subtitle": "8. Etiquetado",
+          "content": "<p><strong>Qué es:</strong> En vez de describir una conducta específica, te pones una etiqueta global: no es «cometí un error», sino «soy un/a idiota». No es «no conseguí ese objetivo», sino «soy un/a perdedor/a».</p><p><strong>Ejemplo cotidiano:</strong> Se te cae un vaso y piensas «soy un desastre» en vez de «se me cayó un vaso».</p><p><strong>Por qué daña tu autoestima:</strong> Convierte conductas puntuales en identidad permanente. «Hice algo torpe» es reparable; «soy torpe» no tiene solución.</p><p><strong>Cómo desafiarla:</strong> Separa la conducta de la identidad. Describe lo que pasó en vez de lo que «eres». Nadie «es» una sola cosa: eres miles de conductas, algunas buenas y algunas no tanto.</p>",
+          "references": [
+            {
+              "author": "Burns, D. D.",
+              "year": 1999,
+              "title": "Feeling Good: The New Mood Therapy (revised ed.)",
+              "source": "William Morrow"
+            }
+          ]
+        },
+        {
+          "subtitle": "9. Los «debería» (imperativos)",
+          "content": "<p><strong>Qué es:</strong> Te impones reglas rígidas sobre cómo «deberías» ser, actuar o sentir: «Debería ser capaz de manejar esto», «No debería sentirme así», «Debería ser más productivo/a».</p><p><strong>Ejemplo cotidiano:</strong> Es domingo y decides descansar, pero piensas: «Debería estar haciendo algo productivo. Soy una persona perezosa».</p><p><strong>Por qué daña tu autoestima:</strong> Crea una brecha constante entre lo que eres y lo que «deberías» ser. Esa brecha es dolorosa y genera culpa crónica.</p><p><strong>Cómo desafiarla:</strong> Sustituye «debería» por «me gustaría» o «preferiría». «Me gustaría ser más productivo» es una aspiración; «debería ser más productivo» es un látigo. ¿Quién puso esa regla? ¿Es realista?</p>",
+          "references": [
+            {
+              "author": "Burns, D. D.",
+              "year": 1980,
+              "title": "Feeling Good: The New Mood Therapy",
+              "source": "William Morrow"
+            }
+          ]
+        },
+        {
+          "subtitle": "10. Razonamiento emocional",
+          "content": "<p><strong>Qué es:</strong> Usas tus emociones como evidencia de la realidad: «Me siento incompetente, por lo tanto SOY incompetente». «Me siento culpable, por lo tanto hice algo malo».</p><p><strong>Ejemplo cotidiano:</strong> Antes de una entrevista sientes ansiedad y piensas: «Estoy nervioso/a, eso significa que no estoy preparado/a y me va a ir mal».</p><p><strong>Por qué daña tu autoestima:</strong> Cuando te sientes mal contigo mismo (que es frecuente si tienes baja autoestima), esa emoción se convierte en «prueba» de que realmente eres inadecuado. Es un razonamiento circular que se autoconfirma.</p><p><strong>Cómo desafiarla:</strong> Recuerda: las emociones son información, no evidencia. Sentir miedo no significa estar en peligro. Sentirse incompetente no significa serlo. Pregúntate: «Si no me sintiera así, ¿qué pensaría de esta situación?».</p>",
+          "references": [
+            {
+              "author": "Fennell, M. J. V.",
+              "year": 1997,
+              "title": "Low self-esteem: A cognitive perspective",
+              "source": "Behavioural and Cognitive Psychotherapy, 25(1), 1-26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "autocompasion_ciencia",
+      "title": "La ciencia de la autocompasión",
+      "icon": "heart",
+      "category": "autocompasion",
+      "order": 4,
+      "sections": [
+        {
+          "subtitle": "Los tres componentes de la autocompasión",
+          "content": "<p>Kristin Neff (2003) definió la <strong>autocompasión</strong> como tratarte a ti mismo con la misma amabilidad que tratarías a un buen amigo que está sufriendo. Tiene tres componentes interrelacionados:</p><ol><li><strong>Amabilidad hacia uno mismo (vs. autocrítica):</strong> Ser cálido y comprensivo contigo mismo cuando sufres, fallas o te sientes inadecuado, en vez de atacarte con críticas despiadadas.</li><li><strong>Humanidad compartida (vs. aislamiento):</strong> Reconocer que el sufrimiento y la imperfección son parte de la experiencia humana universal. No eres el único que se equivoca; todos lo hacemos. Tu dolor no te hace raro ni defectuoso.</li><li><strong>Mindfulness (vs. sobreidentificación):</strong> Observar tus pensamientos y emociones dolorosos con equilibrio, sin suprimirlos ni dejarte arrastrar por ellos. Ni ignorar el dolor ni ahogarte en él.</li></ol>",
+          "references": [
+            {
+              "author": "Neff, K. D.",
+              "year": 2003,
+              "title": "Self-compassion: An alternative conceptualization of a healthy attitude toward oneself",
+              "source": "Self and Identity, 2(2), 85-101"
+            }
+          ]
+        },
+        {
+          "subtitle": "Autocompasión vs. autoestima: primas, no gemelas",
+          "content": "<p>La autocompasión y la autoestima están correlacionadas (r=0.65), pero no son lo mismo, y la autocompasión tiene un <strong>valor aditivo único</strong> (Muris & Otgaar, 2023). La autoestima dice «soy bueno/a»; la autocompasión dice «me trato bien incluso cuando no me siento bueno/a».</p><p><strong>Ventajas de la autocompasión sobre la autoestima:</strong></p><ul><li>No requiere sentirse superior a los demás</li><li>No fluctúa con el éxito o el fracaso</li><li>No genera narcisismo</li><li>Es más fácil de incrementar en intervenciones (tamaño del efecto g=0.75 para autocompasión vs. efectos generalmente menores para autoestima pura)</li></ul><p>Por eso en esta guía usamos la autocompasión como <em>vehículo</em> para mejorar la autoestima: cuando te tratas mejor, tu autoestima sube de forma natural y sostenible.</p>",
+          "references": [
+            {
+              "author": "Muris, P., & Otgaar, H.",
+              "year": 2023,
+              "title": "Self-esteem and self-compassion: A narrative review and meta-analysis on their links and their unique and combined contribution to various forms of psychopathology",
+              "source": "Clinical Psychology Review, 101, 102284"
+            },
+            {
+              "author": "Neff, K. D., & Vonk, R.",
+              "year": 2009,
+              "title": "Self-compassion versus global self-esteem: Two different ways of relating to oneself",
+              "source": "Journal of Personality, 77(1), 23-50"
+            }
+          ]
+        },
+        {
+          "subtitle": "La autocompasión NO es autocomplacencia",
+          "content": "<p>El miedo más común: «Si soy compasivo conmigo mismo, me volveré perezoso/a y no mejoraré». La investigación muestra exactamente lo contrario. Las personas autocompasivas:</p><ul><li><strong>Se motivan más</strong>, no menos, porque su motivación viene del deseo de crecer, no del miedo a no ser suficiente</li><li><strong>Asumen más responsabilidad</strong> por sus errores (porque no necesitan defenderse)</li><li><strong>Son más resilientes</strong> ante el fracaso (se recuperan más rápido)</li><li><strong>Tienen estándares igual de altos</strong>, pero no se destruyen cuando no los alcanzan</li></ul><p>Neff distingue entre la <strong>autocompasión tierna</strong> (confortarse, validarse, calmarse) y la <strong>autocompasión feroz</strong> (proteger límites, proveer lo que necesitas, motivarte a actuar). A veces la compasión es un abrazo; a veces es decir «basta, mereces más que esto».</p>",
+          "references": [
+            {
+              "author": "Ferrari, M., Hunt, C., Harrysunker, A., Abbott, M. J., Beath, A. P., & Einstein, D. A.",
+              "year": 2019,
+              "title": "Self-compassion interventions and psychosocial outcomes: A meta-analysis of RCTs",
+              "source": "Mindfulness, 10, 1455-1473"
+            }
+          ]
+        },
+        {
+          "subtitle": "Los tres sistemas de regulación emocional (Paul Gilbert)",
+          "content": "<p>Paul Gilbert (2010) propuso que tenemos <strong>tres sistemas de regulación emocional</strong>, y que las personas con baja autoestima tienen un desequilibrio:</p><ol><li><strong>Sistema de amenaza (rojo):</strong> Detecta peligros, activa el modo lucha/huida/parálisis. Emociones: ansiedad, ira, vergüenza. Neuroquímica: cortisol, adrenalina. En la baja autoestima, este sistema está <em>hiperactivo</em>: la autocrítica lo dispara constantemente.</li><li><strong>Sistema de logro/impulso (azul):</strong> Te motiva a conseguir recursos, estatus, reconocimiento. Emociones: entusiasmo, excitación. Neuroquímica: dopamina. En la autoestima contingente, es el único que compensa al sistema de amenaza: «Si logro más, me sentiré mejor». Pero es efímero.</li><li><strong>Sistema de calma/afiliación (verde):</strong> Se activa cuando te sientes seguro, conectado y cuidado. Emociones: paz, calidez, satisfacción. Neuroquímica: oxitocina, endorfinas. En la baja autoestima, este sistema está <em>infraactivado</em>.</li></ol><p>La autocompasión activa directamente el <strong>sistema verde</strong>, que es precisamente el que necesita fortalecerse. No es debilidad: es equilibrar el sistema nervioso.</p>",
+          "references": [
+            {
+              "author": "Gilbert, P.",
+              "year": 2010,
+              "title": "Compassion Focused Therapy",
+              "source": "Routledge"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "que_es_act",
+      "title": "ACT: Aceptar y actuar según tus valores",
+      "icon": "compass",
+      "category": "act",
+      "order": 5,
+      "sections": [
+        {
+          "subtitle": "¿Qué es ACT y en qué se diferencia de la CBT?",
+          "content": "<p>La <strong>Terapia de Aceptación y Compromiso</strong> (ACT, pronunciado como la palabra «acto», no como siglas) fue desarrollada por Steven Hayes y colegas (1999). Mientras que la terapia cognitivo-conductual (CBT) tradicional busca <em>cambiar el contenido</em> de tus pensamientos negativos («¿Es verdad que soy incompetente? ¿Cuál es la evidencia?»), ACT busca <em>cambiar tu relación</em> con esos pensamientos («Puedo tener el pensamiento de que soy incompetente y aun así actuar según mis valores»).</p><p>No son enfoques opuestos sino complementarios. Esta guía usa ambos: CBT cuando es útil cuestionar pensamientos distorsionados, y ACT cuando los pensamientos son difíciles de cambiar pero no necesitas obedecerlos para vivir una vida plena.</p>",
+          "references": [
+            {
+              "author": "Hayes, S. C., Strosahl, K. D., & Wilson, K. G.",
+              "year": 1999,
+              "title": "Acceptance and Commitment Therapy: An Experiential Approach to Behavior Change",
+              "source": "Guilford Press"
+            }
+          ]
+        },
+        {
+          "subtitle": "Los 6 procesos del Hexaflex",
+          "content": "<p>ACT trabaja con seis procesos interconectados, representados en un hexágono (el «hexaflex»), que juntos producen <strong>flexibilidad psicológica</strong>: la capacidad de estar presente, abierto a tu experiencia y actuar según tus valores.</p><ol><li><strong>Aceptación:</strong> Permitirte sentir lo que sientes sin intentar controlar, evitar o suprimir tus emociones. No es resignación; es dejar de luchar contra lo que ya está ahí.</li><li><strong>Defusión cognitiva:</strong> Ver tus pensamientos como lo que son (eventos mentales, palabras en tu cabeza) en vez de verdades absolutas. «Tengo el pensamiento de que soy un fraude» vs. «Soy un fraude».</li><li><strong>Contacto con el presente:</strong> Estar aquí y ahora, con atención plena, en vez de perderte en el pasado (rumiación) o el futuro (preocupación).</li><li><strong>Yo como contexto (yo observador):</strong> Conectar con la parte de ti que observa tus experiencias sin ser definida por ellas. Tú no eres tus pensamientos ni tus emociones: eres quien los observa.</li><li><strong>Valores:</strong> Clarificar qué tipo de persona quieres ser y qué es realmente importante para ti (no lo que «deberías» valorar).</li><li><strong>Acción comprometida:</strong> Dar pasos concretos, pequeños y consistentes en dirección a tus valores, incluso cuando es incómodo.</li></ol>",
+          "references": [
+            {
+              "author": "Hayes, S. C., Strosahl, K. D., & Wilson, K. G.",
+              "year": 1999,
+              "title": "Acceptance and Commitment Therapy: An Experiential Approach to Behavior Change",
+              "source": "Guilford Press"
+            }
+          ]
+        },
+        {
+          "subtitle": "El «Confidence Gap» de Russ Harris",
+          "content": "<p>Russ Harris (2011) llama <strong>«The Confidence Gap»</strong> (la brecha de la confianza) a la trampa en la que caemos cuando pensamos: «Primero necesito sentirme seguro/a de mí mismo/a, y ENTONCES podré actuar». ACT propone lo contrario: <strong>las acciones de confianza vienen primero; los sentimientos de confianza vienen después</strong>.</p><p>No esperes a «sentirte listo» para actuar. Actúa con los nervios, con la duda, con la inseguridad. Cada vez que haces algo valioso a pesar del miedo, tu cerebro registra evidencia nueva: «Lo hice y sobreviví. Quizá puedo más de lo que creo».</p><p>Esto es especialmente relevante para la autoestima: si esperas a sentirte valioso para hacer cosas valiosas, estarás esperando para siempre. Haz cosas valiosas (según TUS valores), y la sensación de valía vendrá como consecuencia.</p>",
+          "references": [
+            {
+              "author": "Harris, R.",
+              "year": 2011,
+              "title": "The Confidence Gap: A Guide to Overcoming Fear and Self-Doubt",
+              "source": "Trumpeter Books"
+            }
+          ]
+        },
+        {
+          "subtitle": "¿Funciona? La evidencia",
+          "content": "<p>ACT tiene una sólida base de evidencia. Un meta-análisis de A-Tjak et al. (2015) encontró que ACT es superior a lista de espera y al placebo, y comparable a la CBT tradicional para depresión, ansiedad y otros trastornos. Un meta-análisis más reciente de Zhao et al. (2023) confirma su eficacia.</p><p>La base teórica de ACT es la <strong>Teoría del Marco Relacional</strong> (RFT), una teoría del lenguaje y la cognición que explica cómo las palabras adquieren el poder de causar sufrimiento. Cuando piensas «soy un fracaso», tu cerebro reacciona como si estuvieras <em>viviendo</em> un fracaso. La defusión rompe esa equivalencia entre la palabra y la experiencia.</p>",
+          "references": [
+            {
+              "author": "A-Tjak, J. G. L., Davis, M. L., Morina, N., Powers, M. B., Smits, J. A. J., & Emmelkamp, P. M. G.",
+              "year": 2015,
+              "title": "A meta-analysis of the efficacy of acceptance and commitment therapy for clinically relevant mental and physical health problems",
+              "source": "Psychotherapy and Psychosomatics, 84(1), 30-36"
+            },
+            {
+              "author": "Zhao, Y., Jiang, Z., Li, Y., & Guo, R.",
+              "year": 2023,
+              "title": "The effectiveness of ACT on psychological flexibility: A meta-analysis",
+              "source": "Journal of Contextual Behavioral Science, 28, 88-103"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sindrome_impostor",
+      "title": "Síndrome del impostor: No estás solo/a",
+      "icon": "mask",
+      "category": "impostor",
+      "order": 6,
+      "sections": [
+        {
+          "subtitle": "¿Qué es el síndrome del impostor?",
+          "content": "<p>El <strong>síndrome del impostor</strong> (o fenómeno del impostor) fue descrito por primera vez por Pauline Clance y Suzanne Imes en 1978. Es la experiencia persistente de sentir que tus logros no son merecidos, que eres un «fraude» y que en cualquier momento «te van a descubrir». A pesar de la evidencia objetiva de competencia (títulos, evaluaciones positivas, logros), la persona está convencida de que ha engañado a todos.</p><p>No es un trastorno clínico sino un <strong>patrón de pensamiento</strong> que afecta aproximadamente al <strong>70% de las personas</strong> en algún momento de su vida (Sakulku & Alexander, 2011). Es decir: si lo sientes, estás en la mayoría, no en la minoría.</p>",
+          "references": [
+            {
+              "author": "Clance, P. R., & Imes, S. A.",
+              "year": 1978,
+              "title": "The Impostor Phenomenon in High-Achieving Women: Dynamics and Therapeutic Intervention",
+              "source": "Psychotherapy: Theory, Research and Practice, 15(3), 241-247"
+            },
+            {
+              "author": "Sakulku, J., & Alexander, J.",
+              "year": 2011,
+              "title": "The Impostor Phenomenon",
+              "source": "International Journal of Behavioral Science, 6(1), 73-92"
+            }
+          ]
+        },
+        {
+          "subtitle": "Los 5 tipos de impostor (Valerie Young)",
+          "content": "<p>Valerie Young (2011) identificó <strong>cinco subtipos</strong> del síndrome del impostor. Conocer el tuyo te ayuda a entender qué mecanismo te atrapa:</p><ol><li><strong>El/La Perfeccionista:</strong> Pone el listón tan alto que cualquier resultado que no sea perfecto es un fracaso. Si consigue un 95%, se enfoca en el 5% que faltó. Se siente impostor/a porque «si fuera realmente competente, habría sido perfecto». La autoexigencia es brutal y nunca siente satisfacción.</li><li><strong>El/La Superhumano/a:</strong> Necesita trabajar más duro que todos para «compensar» su supuesta falta de talento. Se queda hasta tarde, no dice que no, se sobrecarga. Si necesita esfuerzo, lo interpreta como prueba de que no es lo suficientemente bueno/a. Cree que los demás lo hacen sin esfuerzo.</li><li><strong>El/La Genio Natural:</strong> Creció siendo «el/la listo/a» y cree que todo debería salirle fácil. Si necesita tiempo para aprender algo, se siente fracasado/a. Evita los desafíos donde no puede brillar de inmediato. Confunde esfuerzo con incompetencia.</li><li><strong>El/La Solista:</strong> Cree que pedir ayuda es signo de debilidad o incompetencia. «Si fuera realmente capaz, podría solo/a». Rechaza colaboración y se aísla, lo cual, irónicamente, reduce su rendimiento y confirma sus temores.</li><li><strong>El/La Experto/a:</strong> Nunca siente que sabe lo suficiente. Acumula títulos, cursos y certificaciones pero nunca se siente preparado/a. Antes de hablar en una reunión, necesita haber leído todo. El miedo a ser descubierto/a como ignorante le paraliza.</li></ol>",
+          "references": [
+            {
+              "author": "Young, V.",
+              "year": 2011,
+              "title": "The Secret Thoughts of Successful Women: Why Capable People Suffer from the Impostor Syndrome and How to Thrive in Spite of It",
+              "source": "Crown Business"
+            }
+          ]
+        },
+        {
+          "subtitle": "El ciclo del impostor",
+          "content": "<p>El síndrome del impostor se mantiene mediante un ciclo predecible:</p><ol><li><strong>Nuevo desafío</strong> (proyecto, presentación, responsabilidad)</li><li><strong>Ansiedad intensa</strong> y miedo a ser «descubierto/a»</li><li><strong>Respuesta:</strong> o bien procrastinación seguida de esfuerzo frenético de última hora, o bien preparación excesiva y obsesiva</li><li><strong>Éxito</strong> (generalmente, porque la persona ES competente)</li><li><strong>Descalificación del éxito:</strong> Si procrastinó: «Fue suerte, no puedo confiar en que funcione siempre». Si se sobrepreparó: «Cualquiera lo habría logrado con tanto esfuerzo, no tiene mérito»</li><li><strong>La creencia de ser impostor/a se mantiene intacta</strong></li><li>Vuelta al paso 1 con el siguiente desafío</li></ol><p>Observa la trampa: <em>ningún resultado positivo puede cambiar la creencia</em>, porque siempre se reinterpreta. Es la distorsión de «descalificar lo positivo» aplicada a toda tu carrera y tu vida.</p>",
+          "references": [
+            {
+              "author": "Clance, P. R., & Imes, S. A.",
+              "year": 1978,
+              "title": "The Impostor Phenomenon in High-Achieving Women: Dynamics and Therapeutic Intervention",
+              "source": "Psychotherapy: Theory, Research and Practice, 15(3), 241-247"
+            }
+          ]
+        },
+        {
+          "subtitle": "Impostorización: no siempre es «tu» problema",
+          "content": "<p>Un concepto importante y reciente es el de <strong>«impostorización»</strong>: la idea de que el entorno puede <em>generar</em> el fenómeno del impostor en la persona, en vez de ser un problema exclusivamente individual. Esto ocurre especialmente en:</p><ul><li>Entornos laborales donde eres minoría (género, raza, clase social)</li><li>Culturas organizacionales de competitividad extrema</li><li>Contextos donde recibes microagresiones que cuestionan tu pertenencia</li><li>Familias donde el cariño es condicional al rendimiento</li></ul><p>Reconocer la impostorización es liberador: <strong>no siempre es tu mente la que falla; a veces es el sistema el que te envía señales de que no perteneces</strong>. La solución entonces no es solo trabajo individual sino también reconocer y, cuando sea posible, cambiar esos contextos.</p><p>La escala CIPS (Clance Impostor Phenomenon Scale) es el instrumento más utilizado para medir la intensidad del fenómeno del impostor y puede ayudarte a tener una referencia objetiva de tu experiencia.</p>",
+          "references": [
+            {
+              "author": "Kolubinski, D. C., Frings, D., Nikčević, A. V., Lawrence, J. A., & Spada, M. M.",
+              "year": 2018,
+              "title": "A systematic review of CBT and third-wave approaches for the impostor phenomenon",
+              "source": "Journal of Cognitive Psychotherapy, 32(4), 307-326"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asertividad_derechos",
+      "title": "Asertividad: Tus derechos y cómo ejercerlos",
+      "icon": "shield",
+      "category": "asertividad",
+      "order": 7,
+      "sections": [
+        {
+          "subtitle": "Los tres estilos de comunicación",
+          "content": "<p>Existen tres estilos principales de comunicación que afectan directamente tu autoestima:</p><ul><li><strong>Estilo pasivo:</strong> Priorizas las necesidades de los demás sobre las tuyas. No expresas lo que piensas o sientes. Dices que sí cuando quieres decir que no. Evitas el conflicto a toda costa. <em>Ejemplo:</em> Tu compañero te pide que hagas su parte del trabajo y dices «vale, no pasa nada», aunque estás saturado/a. Resultado: resentimiento, sensación de ser pisoteado/a, confirmación de «no importo».</li><li><strong>Estilo agresivo:</strong> Impones tus necesidades sobre las de los demás. No respetas límites ajenos. Usas la intimidación, el sarcasmo o la culpa. <em>Ejemplo:</em> «¿Otra vez me pides que haga tu trabajo? ¡Es increíble lo vago que eres!». Resultado: conflicto, rechazo social, culpa posterior.</li><li><strong>Estilo asertivo:</strong> Expresas tus necesidades, pensamientos y sentimientos de forma clara, directa y respetuosa, sin agredir ni someterte. <em>Ejemplo:</em> «Entiendo que necesitas ayuda, pero ahora mismo estoy con una carga alta. ¿Podemos buscar otra solución?». Resultado: respeto mutuo, autoestima intacta, relaciones más sanas.</li></ul>",
+          "references": [
+            {
+              "author": "Bower, S. A., & Bower, G. H.",
+              "year": 1976,
+              "title": "Asserting Yourself: A Practical Guide for Positive Change",
+              "source": "Addison-Wesley"
+            }
+          ]
+        },
+        {
+          "subtitle": "Tus derechos asertivos",
+          "content": "<p>La asertividad se basa en reconocer que tienes <strong>derechos fundamentales</strong> como persona. Si tienes baja autoestima, probablemente sientes que estos derechos aplican para los demás pero no para ti. Lee la lista y observa tu reacción interna:</p><ul><li>Tienes derecho a <strong>decir que no</strong> sin sentir culpa</li><li>Tienes derecho a <strong>cambiar de opinión</strong></li><li>Tienes derecho a <strong>cometer errores</strong> y ser responsable de ellos sin destruirte</li><li>Tienes derecho a <strong>pedir lo que necesitas</strong></li><li>Tienes derecho a <strong>ser tratado/a con respeto y dignidad</strong></li><li>Tienes derecho a <strong>no justificarte</strong> ante todo el mundo</li><li>Tienes derecho a <strong>expresar tus emociones</strong></li><li>Tienes derecho a <strong>no ser perfecto/a</strong></li><li>Tienes derecho a <strong>priorizar tu bienestar</strong></li><li>Tienes derecho a <strong>no asumir los problemas de otros como propios</strong></li></ul><p>Si alguno de estos te generó incomodidad o un «sí, pero...», esa es exactamente la creencia que la asertividad te invita a cuestionar.</p>",
+          "references": [
+            {
+              "author": "Linehan, M. M.",
+              "year": 1993,
+              "title": "Skills Training Manual for Treating Borderline Personality Disorder",
+              "source": "Guilford Press"
+            }
+          ]
+        },
+        {
+          "subtitle": "La asertividad y el sistema nervioso",
+          "content": "<p>La asertividad no es solo una técnica de comunicación: es un <strong>reentrenamiento del sistema nervioso</strong>. Cuando tienes baja autoestima, expresar una necesidad o poner un límite activa el sistema de amenaza (amígdala, cortisol, respuesta de lucha/huida). Tu cuerpo reacciona como si decir «no» fuera peligroso, porque en algún momento de tu historia, <em>lo fue</em> (rechazo parental, castigo, abandono).</p><p>Por eso la asertividad se practica gradualmente, empezando por situaciones de baja intensidad. No se trata solo de «aprender frases»: se trata de <strong>reentrenar la sensación de seguridad en tu cuerpo</strong> al expresar quién eres.</p><p>Las diferencias de género también son relevantes: la investigación sugiere que las creencias nucleares asociadas a la baja autoestima tienden a girar en torno al <strong>apego y la conexión</strong> en mujeres («Si digo que no, me dejarán de querer») y en torno a la <strong>competencia y el estatus</strong> en hombres («Si pido ayuda, pareceré débil»). Ambas dificultan la asertividad, pero por caminos diferentes (Speed, Goldstein & Goldfried, 2018).</p>",
+          "references": [
+            {
+              "author": "Speed, B. C., Goldstein, B. L., & Goldfried, M. R.",
+              "year": 2018,
+              "title": "Assertiveness training: A forgotten evidence-based treatment",
+              "source": "Clinical Psychology: Science and Practice, 25(1), e12216"
+            }
+          ]
+        },
+        {
+          "subtitle": "La asertividad como experimento conductual",
+          "content": "<p>Desde la perspectiva de la terapia cognitivo-conductual, cada acto de asertividad es un <strong>experimento conductual</strong> contra la creencia de inadecuación. Si tu creencia nuclear es «No merezco que me escuchen», expresar tu opinión y ser escuchado/a es evidencia directa contra esa creencia.</p><p>El proceso es:</p><ol><li><strong>Identificar la predicción</strong>: «Si digo que no, se enfadarán y me rechazarán»</li><li><strong>Diseñar el experimento</strong>: Decir que no en una situación de bajo riesgo</li><li><strong>Ejecutar</strong>: Hacerlo realmente (con ansiedad, que es esperable)</li><li><strong>Evaluar el resultado</strong>: ¿Pasó lo que predijiste? ¿Fue tan catastrófico?</li><li><strong>Actualizar la creencia</strong>: «Dije que no y no pasó nada terrible. Quizá puedo poner límites sin que el mundo se acabe»</li></ol><p>Con la repetición, la nueva creencia se fortalece y la antigua se debilita. La asertividad no solo mejora tus relaciones: <strong>reconstruye tu autoestima desde la acción</strong>.</p>",
+          "references": [
+            {
+              "author": "Bower, S. A., & Bower, G. H.",
+              "year": 1976,
+              "title": "Asserting Yourself: A Practical Guide for Positive Change",
+              "source": "Addison-Wesley"
+            },
+            {
+              "author": "Speed, B. C., Goldstein, B. L., & Goldfried, M. R.",
+              "year": 2018,
+              "title": "Assertiveness training: A forgotten evidence-based treatment",
+              "source": "Clinical Psychology: Science and Practice, 25(1), e12216"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "neurociencia_autoestima",
+      "title": "Tu cerebro y la autoestima",
+      "icon": "activity",
+      "category": "biologia",
+      "order": 8,
+      "sections": [
+        {
+          "subtitle": "Las regiones cerebrales de la autoestima",
+          "content": "<p>Tu autoestima no es algo abstracto: tiene una <strong>firma neural</strong> identificable. Las principales regiones cerebrales involucradas son:</p><ul><li><strong>Corteza prefrontal medial (mPFC):</strong> Se activa cuando piensas sobre ti mismo, tus cualidades y tu identidad. Es el «centro de autorreferencia». En personas con baja autoestima, muestra patrones de activación diferentes al procesar información positiva vs. negativa sobre uno mismo.</li><li><strong>Corteza cingulada anterior (ACC):</strong> Monitorea conflictos y errores. En personas con baja autoestima, se hiperactiva ante señales de rechazo o error, generando una respuesta desproporcionada de «algo va mal».</li><li><strong>Ínsula:</strong> Procesa señales corporales (interoceptivas) y contribuye a la experiencia subjetiva de las emociones. La vergüenza y la humillación tienen una fuerte representación insular.</li><li><strong>Estriado ventral (núcleo accumbens):</strong> Centro de recompensa. Se activa ante experiencias placenteras, elogios y aceptación social. En personas con baja autoestima, responde menos a los elogios (como si no «registraran»).</li><li><strong>Amígdala:</strong> Detector de amenazas. En personas con baja autoestima, muestra mayor reactividad ante rostros de desaprobación y señales de rechazo social.</li></ul>",
+          "references": [
+            {
+              "author": "Somerville, L. H., Kelley, W. M., & Heatherton, T. F.",
+              "year": 2010,
+              "title": "Self-esteem modulates medial prefrontal cortical responses to evaluative social feedback",
+              "source": "Cerebral Cortex, 20(12), 3005-3013"
+            }
+          ]
+        },
+        {
+          "subtitle": "La Default Mode Network y la rumiación",
+          "content": "<p>La <strong>Red de Modo por Defecto</strong> (Default Mode Network, DMN) es un conjunto de regiones cerebrales que se activan cuando no estás enfocado en una tarea externa: cuando tu mente «divaga». Incluye la mPFC, la corteza cingulada posterior y el lóbulo temporal medial.</p><p>El problema: en personas con baja autoestima y depresión, la DMN tiende a generar <strong>rumiación</strong>: un bucle repetitivo de pensamientos negativos sobre ti mismo. «¿Por qué dije eso?», «¿Qué pensarán de mí?», «¿Por qué soy así?». La rumiación no resuelve nada; solo profundiza el surco de la autocrítica.</p><p>La buena noticia: la <strong>meditación y el mindfulness</strong> alteran el funcionamiento de la DMN. Los meditadores experimentados muestran menos activación de la DMN durante el reposo y mayor capacidad para «desengancharse» de los pensamientos rumiativos cuando aparecen. No necesitas ser monje budista: con 10-15 minutos diarios de práctica de atención plena ya se observan cambios.</p>",
+          "references": [
+            {
+              "author": "Eisenberger, N. I.",
+              "year": 2012,
+              "title": "The neural bases of social pain: Evidence for shared representations with physical pain",
+              "source": "Psychosomatic Medicine, 74(2), 126-135"
+            }
+          ]
+        },
+        {
+          "subtitle": "La neuroquímica de la autoestima",
+          "content": "<p>Varios neurotransmisores y hormonas juegan un papel en cómo te sientes contigo mismo:</p><ul><li><strong>Dopamina (recompensa y motivación):</strong> Se libera cuando logras algo, recibes un elogio o anticipas una experiencia positiva. Es la molécula de la «motivación hacia». En la baja autoestima, el sistema dopaminérgico puede estar menos sensibilizado a las recompensas sociales positivas.</li><li><strong>Serotonina (bienestar y regulación del ánimo):</strong> Niveles adecuados se asocian con estabilidad emocional y sensación de bienestar. La baja serotonina se relaciona con irritabilidad, impulsividad y vulnerabilidad a la depresión.</li><li><strong>Oxitocina (conexión y confianza):</strong> Se libera en momentos de conexión social, contacto físico y cuidado. Es clave para el sistema de calma/afiliación de Gilbert. Los ejercicios de autocompasión pueden activar la liberación de oxitocina.</li><li><strong>Cortisol (estrés):</strong> La hormona del estrés. El estrés crónico mantiene niveles elevados de cortisol que, a su vez, afectan la síntesis de serotonina. Este mecanismo molecular (cortisol elevado → reducción de serotonina) explica en parte por qué el estrés sostenido erosiona la autoestima.</li></ul>",
+          "references": [
+            {
+              "author": "Walker, M. P.",
+              "year": 2017,
+              "title": "Why We Sleep: Unlocking the Power of Sleep and Dreams",
+              "source": "Scribner"
+            }
+          ]
+        },
+        {
+          "subtitle": "El dolor del rechazo social es dolor real",
+          "content": "<p>Uno de los hallazgos más impactantes de la neurociencia social: <strong>el rechazo social activa las mismas regiones cerebrales que el dolor físico</strong> (Eisenberger, 2012). La corteza cingulada anterior dorsal y la ínsula anterior, que procesan el componente afectivo del dolor, se iluminan tanto cuando te dan un golpe como cuando te excluyen de un grupo.</p><p>Esto explica por qué la baja autoestima «duele» literalmente. No es exageración ni debilidad: tu cerebro procesa el rechazo (real o percibido) como una herida. Y si vives con una autocrítica constante, es como si te estuvieras infligiendo microagresiones dolorosas todo el día.</p><p>Esto también explica por qué la autocompasión es tan potente: al tratarte con amabilidad, estás literalmente <strong>desactivando la respuesta de dolor</strong> y activando el sistema de calma y seguridad. No es un ejercicio bonito; es medicina para tu cerebro.</p>",
+          "references": [
+            {
+              "author": "Eisenberger, N. I.",
+              "year": 2012,
+              "title": "The neural bases of social pain: Evidence for shared representations with physical pain",
+              "source": "Psychosomatic Medicine, 74(2), 126-135"
+            },
+            {
+              "author": "Leary, M. R.",
+              "year": 2005,
+              "title": "Sociometer theory and the pursuit of relational value",
+              "source": "European Review of Social Psychology, 16, 75-111"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sueno_ejercicio_autoestima",
+      "title": "Sueño y ejercicio: La base biológica de tu autoestima",
+      "icon": "moon",
+      "category": "biologia",
+      "order": 9,
+      "sections": [
+        {
+          "subtitle": "Ejercicio y autoestima: la evidencia",
+          "content": "<p>La relación entre ejercicio físico y autoestima está sólidamente respaldada por la ciencia. El meta-análisis de Liu et al. (2015) encontró un <strong>tamaño del efecto de d=0.49</strong> (efecto medio), lo que significa que el ejercicio tiene un impacto significativo y clínicamente relevante en la autoestima.</p><p>La <strong>cadena mediacional</strong> funciona así: el ejercicio mejora la imagen corporal (cómo percibes tu cuerpo), que a su vez mejora la autoestima (cómo te valoras globalmente), que a su vez mejora el bienestar general. No se trata solo de «estar en forma»: se trata de la experiencia de ser capaz, de superar retos, de cuidarte.</p><p>Biddle y Asare (2011) mostraron que el ejercicio es particularmente efectivo para reducir la ansiedad y la depresión, ambas estrechamente relacionadas con la baja autoestima. El ejercicio aeróbico (caminar, correr, nadar, bailar) parece tener los efectos más robustos, aunque el ejercicio de fuerza también muestra beneficios.</p>",
+          "references": [
+            {
+              "author": "Liu, M., Wu, L., & Ming, Q.",
+              "year": 2015,
+              "title": "How does physical activity intervention improve self-esteem and self-concept in children and adolescents? Evidence from a meta-analysis",
+              "source": "PLoS ONE, 10(8), e0134804"
+            },
+            {
+              "author": "Biddle, S. J. H., & Asare, M.",
+              "year": 2011,
+              "title": "Physical activity and mental health in children and adolescents: A review of reviews",
+              "source": "British Journal of Sports Medicine, 45(11), 886-895"
+            }
+          ]
+        },
+        {
+          "subtitle": "Sueño y autoestima: más importante de lo que crees",
+          "content": "<p>La calidad del sueño tiene un impacto directo en cómo te ves a ti mismo. La investigación muestra que:</p><ul><li>La <strong>calidad del sueño importa más que la duración</strong>: la correlación con resiliencia es de r=0.27 (Steptoe et al., 2013). Un sueño fragmentado o de mala calidad erosiona la capacidad de regular emociones.</li><li>La calidad del sueño <strong>media la relación entre estrés y autoestima</strong>: el estrés afecta el sueño, el mal sueño reduce tu capacidad de manejar pensamientos negativos, y esto erosiona la autoestima. Es un círculo vicioso.</li><li>Dormir mal aumenta la reactividad de la <strong>amígdala</strong> (centro de amenazas) y reduce la conectividad con la corteza prefrontal (centro de regulación). Literalmente, con mal sueño, tu cerebro está en modo «amenaza» con menos freno racional.</li></ul><p>Matthew Walker (2017) documenta cómo la privación de sueño afecta la toma de decisiones, la regulación emocional, la memoria y el procesamiento de recompensas. Todo lo que necesitas para mantener una autoestima saludable se deteriora cuando no duermes bien.</p>",
+          "references": [
+            {
+              "author": "Steptoe, A., O'Donnell, K., Marmot, M., & Wardle, J.",
+              "year": 2013,
+              "title": "Positive affect, psychological well-being, and good sleep",
+              "source": "Journal of Psychosomatic Research, 64(4), 409-415"
+            },
+            {
+              "author": "Walker, M. P.",
+              "year": 2017,
+              "title": "Why We Sleep: Unlocking the Power of Sleep and Dreams",
+              "source": "Scribner"
+            }
+          ]
+        },
+        {
+          "subtitle": "Prescripciones concretas basadas en evidencia",
+          "content": "<p>No basta con decir «haz ejercicio y duerme bien». Aquí van las recomendaciones específicas que la evidencia respalda:</p><p><strong>Ejercicio:</strong></p><ul><li><strong>Tipo:</strong> Aeróbico (caminar rápido, trotar, nadar, bicicleta, bailar) + algo de fuerza</li><li><strong>Duración:</strong> 30-45 minutos por sesión</li><li><strong>Frecuencia:</strong> 3-5 veces por semana</li><li><strong>Intensidad:</strong> Moderada (puedes hablar pero no cantar)</li><li><strong>Clave:</strong> La consistencia importa más que la intensidad. 30 minutos caminando 5 veces por semana supera a una sesión extenuante de 2 horas una vez</li><li><strong>Extra:</strong> Ejercicio al aire libre tiene beneficios adicionales (exposición a la naturaleza, luz solar, vitamina D)</li></ul><p><strong>Sueño:</strong></p><ul><li><strong>Duración:</strong> 7-9 horas (la mayoría de adultos necesita alrededor de 8)</li><li><strong>Horario:</strong> Acostarse y levantarse a la misma hora, incluso los fines de semana</li><li><strong>Higiene del sueño:</strong><ul><li>No pantallas 1 hora antes de dormir (la luz azul suprime la melatonina)</li><li>Habitación fresca (18-20°C), oscura y silenciosa</li><li>No cafeína después de las 14:00 (la vida media de la cafeína es de 5-7 horas)</li><li>No alcohol antes de dormir (fragmenta el sueño REM)</li><li>Rutina de relajación: lectura, respiración, estiramientos suaves</li></ul></li></ul>",
+          "references": [
+            {
+              "author": "Walker, M. P.",
+              "year": 2017,
+              "title": "Why We Sleep: Unlocking the Power of Sleep and Dreams",
+              "source": "Scribner"
+            },
+            {
+              "author": "Liu, M., Wu, L., & Ming, Q.",
+              "year": 2015,
+              "title": "How does physical activity intervention improve self-esteem and self-concept in children and adolescents?",
+              "source": "PLoS ONE, 10(8), e0134804"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "redes_sociales_autoestima",
+      "title": "Redes sociales y tu autoestima",
+      "icon": "smartphone",
+      "category": "redes",
+      "order": 10,
+      "sections": [
+        {
+          "subtitle": "Los mecanismos del daño",
+          "content": "<p>Las redes sociales no son intrínsecamente buenas o malas, pero activan varios <strong>mecanismos psicológicos</strong> que pueden erosionar la autoestima:</p><ul><li><strong>Comparación social ascendente:</strong> Constantemente te comparas con las versiones «editadas» y «curadas» de la vida de otros. Huang (2017) confirmó en un meta-análisis que el uso de redes sociales se asocia significativamente con mayor comparación social y menor autoestima.</li><li><strong>Feedback loop de likes:</strong> Tu valía se cuantifica en likes, comentarios y seguidores. Esto convierte la autoestima en algo contingente a métricas externas, exactamente el tipo de autoestima frágil que queremos evitar.</li><li><strong>FOMO (Fear of Missing Out):</strong> El miedo a perderte algo. Ves a otros disfrutando y sientes que tu vida es insuficiente.</li><li><strong>Edición de la realidad:</strong> La gente publica sus mejores momentos, creando una ilusión de vidas perfectas. Comparas tu «detrás de cámaras» con el «tráiler» de otros.</li><li><strong>Tiempo desplazado:</strong> El tiempo en redes desplaza actividades que SÍ construyen autoestima: socialización cara a cara, ejercicio, hobbies, sueño.</li></ul>",
+          "references": [
+            {
+              "author": "Huang, C.",
+              "year": 2017,
+              "title": "Time spent on social network sites and psychological well-being: A meta-analysis",
+              "source": "Cyberpsychology, Behavior, and Social Networking, 20(6), 346-354"
+            },
+            {
+              "author": "Vogel, E. A., Rose, J. P., Roberts, L. R., & Eckles, K.",
+              "year": 2014,
+              "title": "Social comparison, social media, and self-esteem",
+              "source": "Psychology of Popular Media Culture, 3(4), 206-222"
+            }
+          ]
+        },
+        {
+          "subtitle": "No todo uso es igual",
+          "content": "<p>La investigación distingue entre dos tipos de uso:</p><ul><li><strong>Uso pasivo</strong> (scrollear, mirar perfiles sin interactuar, comparar): Se asocia consistentemente con <em>peor</em> autoestima y mayor depresión. Es el «modo espectador» donde te sientes invisible y comparas sin parar.</li><li><strong>Uso activo</strong> (publicar, comentar, enviar mensajes, interactuar): Los resultados son mixtos. Cuando implica conexión genuina con personas cercanas, puede ser incluso positivo. Cuando implica buscar validación a través de likes, es perjudicial.</li></ul><p>El <strong>efecto moderador de cercanía relacional</strong> es clave: usar redes sociales para comunicarte con amigos cercanos y familiares tiene efectos neutros o positivos. Usarlas para seguir a desconocidos o celebridades cuyas vidas te hacen sentir inadecuado/a es consistentemente negativo (Vogel et al., 2014).</p>",
+          "references": [
+            {
+              "author": "Vogel, E. A., Rose, J. P., Roberts, L. R., & Eckles, K.",
+              "year": 2014,
+              "title": "Social comparison, social media, and self-esteem",
+              "source": "Psychology of Popular Media Culture, 3(4), 206-222"
+            }
+          ]
+        },
+        {
+          "subtitle": "El detox digital: ¿funciona?",
+          "content": "<p>Hunt et al. (2018) realizaron un experimento controlado donde limitar el uso de redes sociales a 30 minutos al día durante 3 semanas produjo <strong>mejoras significativas en bienestar, soledad y depresión</strong>. Los meta-análisis de detox digital muestran mejoras modestas pero significativas, con una duración óptima de 1 a 4 semanas.</p><p>No se trata necesariamente de eliminar las redes por completo, sino de <strong>usarlas conscientemente</strong>. Un detox temporal sirve para romper el hábito automático y recalibrar tu relación con la tecnología.</p>",
+          "references": [
+            {
+              "author": "Hunt, M. G., Marx, R., Lipson, C., & Young, J.",
+              "year": 2018,
+              "title": "No more FOMO: Limiting social media decreases loneliness and depression",
+              "source": "Journal of Social and Clinical Psychology, 37(10), 751-768"
+            }
+          ]
+        },
+        {
+          "subtitle": "Estrategias concretas",
+          "content": "<p>Basándote en la evidencia, aquí van estrategias prácticas para proteger tu autoestima en la era digital:</p><ol><li><strong>Auditoría de feeds:</strong> Revisa a quién sigues. ¿Te hacen sentir inspirado/a o inadecuado/a? Deja de seguir cuentas que activan la comparación negativa. Sigue cuentas que te aportan valor real.</li><li><strong>Establece límites de tiempo:</strong> Usa las herramientas de tu teléfono para limitar el uso diario. Los estudios sugieren que 30 minutos al día es un punto de referencia razonable.</li><li><strong>Regla de la primera y última hora:</strong> No uses redes sociales en la primera hora después de despertar ni en la última hora antes de dormir. La mañana marca el tono emocional del día; la noche afecta la calidad del sueño.</li><li><strong>Distingue consumo pasivo de conexión activa:</strong> Scrollear no es conectar. Si quieres usar redes, hazlo para enviar un mensaje a un amigo, comentar algo genuino o compartir algo auténtico.</li><li><strong>Detox periódicos:</strong> Prueba 1-2 semanas sin redes cada ciertos meses para recalibrar. Observa cómo cambia tu humor y tu diálogo interno.</li><li><strong>Recuerda el «backstage»:</strong> Todo lo que ves en redes está editado. Detrás de cada foto perfecta hay 50 descartadas, discusiones, inseguridades y días malos que nadie publica.</li></ol>",
+          "references": [
+            {
+              "author": "Hunt, M. G., Marx, R., Lipson, C., & Young, J.",
+              "year": 2018,
+              "title": "No more FOMO: Limiting social media decreases loneliness and depression",
+              "source": "Journal of Social and Clinical Psychology, 37(10), 751-768"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tooltips": {
+    "rosenberg_scale": {
+      "title": "Escala de Autoestima de Rosenberg",
+      "short": "Es la escala más utilizada en el mundo para medir la autoestima global. Tiene solo 10 preguntas y más de 50 años de validación científica.",
+      "long": "Desarrollada por Morris Rosenberg en 1965, esta escala evalúa la actitud global (positiva o negativa) hacia uno mismo. Es breve, fiable (consistencia interna alfa > 0.85) y ha sido validada en más de 50 idiomas. Mide autoestima global, no específica: cómo te valoras como persona en general, no en áreas concretas. Puntuaciones bajas se asocian con depresión, ansiedad y menor bienestar, y predicen problemas de salud mental futuros (Sowislo & Orth, 2013).",
+      "references": [
+        {"author": "Rosenberg, M.", "year": 1965},
+        {"author": "Sowislo, J. F., & Orth, U.", "year": 2013}
+      ],
+      "moduleLink": "que_es_autoestima"
+    },
+    "scs_scale": {
+      "title": "Escala de Autocompasión (SCS-SF)",
+      "short": "Mide cómo te tratas cuando las cosas van mal: con amabilidad o con autocrítica. Es una de las escalas más investigadas en psicología positiva.",
+      "long": "La Self-Compassion Scale - Short Form (SCS-SF) de Kristin Neff mide los tres componentes de la autocompasión (amabilidad hacia uno mismo, humanidad compartida, mindfulness) y sus opuestos (autocrítica, aislamiento, sobreidentificación). A diferencia de la autoestima, la autocompasión no depende de sentirse superior a otros ni de logros externos. Meta-análisis recientes (Ferrari et al., 2019) muestran que las intervenciones que mejoran la autocompasión tienen un tamaño del efecto grande (g=0.75) sobre el bienestar psicológico.",
+      "references": [
+        {"author": "Neff, K. D.", "year": 2003},
+        {"author": "Ferrari, M. et al.", "year": 2019}
+      ],
+      "moduleLink": "autocompasion_ciencia"
+    },
+    "impostor_scale": {
+      "title": "Escala de Clance del Fenómeno del Impostor (CIPS)",
+      "short": "Mide la intensidad de tu experiencia del síndrome del impostor: esa sensación de ser un fraude a pesar de tus logros.",
+      "long": "La Clance Impostor Phenomenon Scale (CIPS) fue creada por Pauline Clance, co-descubridora del fenómeno. Contiene 20 ítems que evalúan la intensidad de la experiencia impostora: miedo a ser descubierto, atribución del éxito a factores externos, dificultad para internalizar logros y ansiedad ante la evaluación. Aproximadamente el 70% de las personas experimentan el fenómeno del impostor en algún momento, pero la intensidad varía. Puntuaciones altas se asocian con ansiedad, depresión, perfeccionismo y agotamiento laboral (Sakulku & Alexander, 2011).",
+      "references": [
+        {"author": "Clance, P. R., & Imes, S. A.", "year": 1978},
+        {"author": "Sakulku, J., & Alexander, J.", "year": 2011}
+      ],
+      "moduleLink": "sindrome_impostor"
+    },
+    "assertiveness_scale": {
+      "title": "¿Por qué medimos la asertividad?",
+      "short": "La baja asertividad y la baja autoestima van de la mano: si no expresas tus necesidades, confirmas la creencia de que no importas.",
+      "long": "La asertividad —la capacidad de expresar necesidades, opiniones y límites de forma clara y respetuosa— está estrechamente ligada a la autoestima. Cuando no eres asertivo/a, las interacciones sociales confirman la creencia nuclear de que tus necesidades no importan o de que eres inadecuado/a. Speed, Goldstein y Goldfried (2018) revisaron la evidencia y concluyeron que el entrenamiento en asertividad es una intervención olvidada pero altamente efectiva que mejora tanto las habilidades sociales como la autovaloración. Medir tu nivel de asertividad ayuda a identificar si este es un área clave para tu plan de mejora.",
+      "references": [
+        {"author": "Speed, B. C., Goldstein, B. L., & Goldfried, M. R.", "year": 2018},
+        {"author": "Bower, S. A., & Bower, G. H.", "year": 1976}
+      ],
+      "moduleLink": "asertividad_derechos"
+    },
+    "social_media_scale": {
+      "title": "Redes sociales y autoestima",
+      "short": "El uso pasivo de redes sociales se asocia con mayor comparación social y menor autoestima. Evaluamos cómo te afectan a ti.",
+      "long": "Meta-análisis como el de Huang (2017) confirman que el tiempo en redes sociales se asocia negativamente con el bienestar psicológico. El mecanismo principal es la comparación social ascendente: compararte con versiones editadas de la vida de otros. Sin embargo, no todo uso es igual. El uso pasivo (scrollear sin interactuar) es más dañino que el uso activo (comunicarse con personas cercanas). Evaluar tu relación con las redes permite diseñar estrategias personalizadas: no se trata de eliminarlas, sino de usarlas de forma que protejan, no erosionen, tu autoestima.",
+      "references": [
+        {"author": "Huang, C.", "year": 2017},
+        {"author": "Vogel, E. A. et al.", "year": 2014}
+      ],
+      "moduleLink": "redes_sociales_autoestima"
+    },
+    "physical_scale": {
+      "title": "Conexión cuerpo-mente-autoestima",
+      "short": "Tu cuerpo afecta cómo te ves: el sueño, el ejercicio y la alimentación influyen directamente en tu autoestima.",
+      "long": "La investigación muestra una cadena mediacional clara: el ejercicio físico mejora la imagen corporal, que mejora la autoestima, que mejora el bienestar general (Liu et al., 2015, d=0.49). La calidad del sueño media la relación entre estrés y autoestima: dormir mal reduce tu capacidad de regular emociones y resistir la autocrítica. A nivel neurobiológico, el estrés crónico eleva el cortisol, que a su vez reduce la serotonina, creando una base biológica para la baja autoestima. Evaluar tus hábitos físicos permite identificar si hay una base biológica que está contribuyendo a tu malestar.",
+      "references": [
+        {"author": "Liu, M., Wu, L., & Ming, Q.", "year": 2015},
+        {"author": "Walker, M. P.", "year": 2017}
+      ],
+      "moduleLink": "sueno_ejercicio_autoestima"
+    },
+    "perfectionism_scale": {
+      "title": "Perfeccionismo y autoestima",
+      "short": "El perfeccionismo desadaptativo tiene una correlación negativa de r=-0.42 con la autoestima. Cuanto más perfeccionista, peor te sientes contigo mismo/a.",
+      "long": "Existe un tipo de perfeccionismo saludable (estándares altos pero flexibles) y otro desadaptativo (estándares imposibles con autocrítica brutal ante cualquier desviación). El perfeccionismo desadaptativo correlaciona negativamente con la autoestima (r=-0.42) porque crea una brecha permanente entre lo que eres y lo que «deberías» ser. Además, alimenta la procrastinación (si no puedo hacerlo perfecto, mejor no lo hago), la evitación y el agotamiento. Es un factor clave en el síndrome del impostor y en el ciclo de baja autoestima de Fennell.",
+      "references": [
+        {"author": "Fennell, M. J. V.", "year": 1997},
+        {"author": "Young, V.", "year": 2011}
+      ],
+      "moduleLink": "ciclo_baja_autoestima"
+    },
+    "thought_record": {
+      "title": "Registro de pensamientos",
+      "short": "Escribir tus pensamientos negativos y examinar la evidencia a favor y en contra es una de las técnicas más efectivas de la terapia cognitiva.",
+      "long": "El registro de pensamientos es una técnica central de la terapia cognitivo-conductual desarrollada por Aaron Beck (1979). Consiste en identificar la situación, el pensamiento automático negativo, la emoción asociada, la evidencia a favor y en contra del pensamiento, y generar un pensamiento alternativo más equilibrado. Funciona porque saca el pensamiento de la «rumiación invisible» y lo somete a un análisis racional. McManus, Waite y Shafran (2009) demostraron su eficacia específica para la baja autoestima. No se trata de «pensar positivo», sino de pensar con más precisión.",
+      "references": [
+        {"author": "Beck, A. T.", "year": 1979},
+        {"author": "McManus, F., Waite, P., & Shafran, R.", "year": 2009}
+      ],
+      "moduleLink": "distorsiones_cognitivas"
+    },
+    "self_compassion_break": {
+      "title": "Pausa de autocompasión",
+      "short": "Un ejercicio breve de 3 pasos que activa tu sistema de calma cuando estás sufriendo: reconoce el dolor, recuerda que eres humano/a, y trátate con amabilidad.",
+      "long": "La pausa de autocompasión de Kristin Neff integra los tres componentes de la autocompasión en un ejercicio de 2-3 minutos: (1) Mindfulness: «Este es un momento de sufrimiento» (reconocer sin exagerar ni minimizar), (2) Humanidad compartida: «El sufrimiento es parte de la vida, no estoy solo/a en esto», (3) Amabilidad: «Que pueda tratarme con la misma amabilidad que trataría a un amigo». Desde la neurociencia, este ejercicio desactiva el sistema de amenaza (amígdala, cortisol) y activa el sistema de calma y afiliación (oxitocina, sistema vagal). Ferrari et al. (2019) mostraron que intervenciones basadas en autocompasión tienen un efecto grande sobre el bienestar (g=0.75).",
+      "references": [
+        {"author": "Neff, K. D.", "year": 2003},
+        {"author": "Gilbert, P.", "year": 2010},
+        {"author": "Ferrari, M. et al.", "year": 2019}
+      ],
+      "moduleLink": "autocompasion_ciencia"
+    },
+    "cognitive_defusion": {
+      "title": "Defusión cognitiva",
+      "short": "Una técnica de ACT que te ayuda a ver tus pensamientos como simples palabras en tu mente, no como verdades absolutas sobre ti.",
+      "long": "La defusión cognitiva es un proceso central de la Terapia de Aceptación y Compromiso (ACT). Se basa en la idea de que no son los pensamientos negativos los que causan sufrimiento, sino tu «fusión» con ellos: tratarlos como verdades literales sobre la realidad. Técnicas como repetir el pensamiento rápidamente, prefijarlo con «estoy teniendo el pensamiento de que...», o cantarlo con una melodía absurda cambian la relación con el pensamiento sin necesitar cambiar su contenido. La base teórica es la Teoría del Marco Relacional (RFT), que explica cómo las palabras adquieren funciones emocionales que pueden desactivarse alterando el contexto (Hayes, Strosahl & Wilson, 1999).",
+      "references": [
+        {"author": "Hayes, S. C., Strosahl, K. D., & Wilson, K. G.", "year": 1999},
+        {"author": "Harris, R.", "year": 2011}
+      ],
+      "moduleLink": "que_es_act"
+    },
+    "values_clarification": {
+      "title": "Clarificación de valores",
+      "short": "Saber qué es realmente importante para ti protege tu autoestima de depender solo de resultados externos.",
+      "long": "Los valores en ACT son direcciones de vida elegidas, no metas que se alcanzan. A diferencia de los objetivos (que se cumplen y terminan), los valores son continuos: «ser una persona honesta» nunca se «completa». Clarificar tus valores es fundamental para la autoestima porque desplaza la fuente de tu valía: de los logros y la aprobación externa (frágiles) a vivir de acuerdo con lo que te importa (estable). Las investigaciones de Hayes y colegas muestran que actuar consistentemente con los valores propios se asocia con mayor bienestar, mayor sentido de propósito y menor vulnerabilidad a la depresión y la ansiedad. Es la diferencia entre preguntarte «¿Soy exitoso/a?» y preguntarte «¿Estoy viviendo de acuerdo con lo que me importa?».",
+      "references": [
+        {"author": "Hayes, S. C., Strosahl, K. D., & Wilson, K. G.", "year": 1999},
+        {"author": "A-Tjak, J. G. L. et al.", "year": 2015}
+      ],
+      "moduleLink": "que_es_act"
+    },
+    "desc_technique": {
+      "title": "La asertividad como constructor de autoestima",
+      "short": "Cada vez que expresas una necesidad o pones un límite de forma respetuosa, le demuestras a tu cerebro que tus necesidades importan.",
+      "long": "La técnica DESC (Describir, Expresar, Especificar, Consecuencias) de Bower y Bower (1976) es una de las herramientas de asertividad más estructuradas y efectivas. Pero más allá de la técnica concreta, lo relevante para la autoestima es el mecanismo subyacente: cada acto de asertividad funciona como un experimento conductual contra la creencia nuclear de inadecuación. Si crees «no merezco que me escuchen» y expresas tu opinión y eres escuchado/a, eso es evidencia directa contra tu creencia. Con la repetición, la nueva evidencia se acumula y la creencia se debilita. Speed et al. (2018) argumentan que el entrenamiento en asertividad es una intervención infrautilizada pero altamente efectiva.",
+      "references": [
+        {"author": "Bower, S. A., & Bower, G. H.", "year": 1976},
+        {"author": "Speed, B. C., Goldstein, B. L., & Goldfried, M. R.", "year": 2018}
+      ],
+      "moduleLink": "asertividad_derechos"
+    },
+    "gratitude_practice": {
+      "title": "Intervenciones de gratitud",
+      "short": "Practicar la gratitud regularmente tiene efectos modestos pero significativos sobre el bienestar. Funciona mejor como complemento, no como solución única.",
+      "long": "Las intervenciones de gratitud (como escribir 3 cosas por las que estás agradecido/a) han sido ampliamente estudiadas. Los meta-análisis muestran efectos modestos pero significativos sobre el bienestar subjetivo y la satisfacción vital. El mecanismo propuesto es que la gratitud contrarresta el sesgo negativista: entrena al cerebro para notar lo positivo, no solo lo negativo. Sin embargo, es importante no usarla como «positivismo tóxico»: no se trata de ignorar el sufrimiento sino de ampliar el foco atencional. Funciona mejor como complemento de otras estrategias (como el trabajo cognitivo o la autocompasión) que como intervención aislada.",
+      "references": [
+        {"author": "Emmons, R. A., & McCullough, M. E.", "year": 2003},
+        {"author": "Wood, A. M., Froh, J. J., & Geraghty, A. W. A.", "year": 2010}
+      ],
+      "moduleLink": "que_es_autoestima"
+    },
+    "downward_arrow": {
+      "title": "Técnica de la flecha descendente",
+      "short": "Una técnica para llegar desde un pensamiento superficial hasta la creencia nuclear que lo alimenta, preguntando repetidamente: «¿Y si fuera verdad, qué significaría?».",
+      "long": "La técnica de la flecha descendente (Burns, 1980; Beck, 1979) es una herramienta fundamental para identificar las creencias nucleares que mantienen la baja autoestima. Partiendo de un pensamiento automático negativo, se pregunta repetidamente: «Si esto fuera verdad, ¿qué significaría para mí?» o «¿Qué es lo peor de eso?». Cada respuesta revela una capa más profunda de significado hasta llegar a la creencia nuclear (por ejemplo, «no soy suficiente» o «no merezco amor»). Una vez identificada, la creencia puede ser trabajada directamente con técnicas como el diario de datos positivos o el continuo cognitivo. Es como seguir las raíces de una mala hierba hasta encontrar el bulbo principal.",
+      "references": [
+        {"author": "Burns, D. D.", "year": 1980},
+        {"author": "Fennell, M. J. V.", "year": 1997}
+      ],
+      "moduleLink": "ciclo_baja_autoestima"
+    },
+    "compassionate_letter": {
+      "title": "Carta compasiva",
+      "short": "Escribirte una carta desde la perspectiva de un amigo compasivo activa los mismos circuitos cerebrales que recibir compasión de otro.",
+      "long": "La carta compasiva es un ejercicio terapéutico en el que te escribes a ti mismo/a desde la perspectiva de un amigo incondicional, sabio y compasivo. La investigación de Paul Gilbert (2010) muestra que generar compasión hacia uno mismo activa el sistema de calma y afiliación (oxitocina, sistema vagal parasimpático), incluso cuando la compasión proviene de uno mismo. El ejercicio de escritura tiene la ventaja de externalizar la voz compasiva, haciéndola más concreta y accesible. Neff y Germer (2013) incluyen la carta compasiva como ejercicio central del programa Mindful Self-Compassion, que ha demostrado mejoras significativas en autocompasión, bienestar y reducción de ansiedad y depresión.",
+      "references": [
+        {"author": "Gilbert, P.", "year": 2010},
+        {"author": "Neff, K. D., & Germer, C. K.", "year": 2013}
+      ],
+      "moduleLink": "autocompasion_ciencia"
+    },
+    "exposure_therapy": {
+      "title": "Exposición gradual",
+      "short": "Enfrentarte poco a poco a lo que evitas —empezando por lo más fácil— reduce el miedo y te demuestra que puedes manejarlo.",
+      "long": "La exposición gradual es una de las técnicas con mayor evidencia en psicoterapia. Se basa en el principio de habituación: la exposición repetida y prolongada a un estímulo temido reduce la respuesta de ansiedad. En el contexto de la autoestima, la exposición funciona como un experimento conductual: si evitas situaciones por miedo al rechazo o al fracaso, nunca obtienes la evidencia de que puedes manejarlas. Se construye una jerarquía de exposición (del 1 al 10 en dificultad) y se avanza gradualmente, permitiendo que cada experiencia exitosa construya confianza para la siguiente. Es el mecanismo detrás de la idea de ACT: las acciones de confianza vienen primero, los sentimientos de confianza después.",
+      "references": [
+        {"author": "Fennell, M. J. V.", "year": 1997},
+        {"author": "Harris, R.", "year": 2011}
+      ],
+      "moduleLink": "que_es_act"
+    },
+    "positive_data": {
+      "title": "Diario de datos positivos",
+      "short": "Un registro diario de evidencias que contradicen tu creencia nuclear negativa. Con el tiempo, construye una nueva narrativa sobre ti.",
+      "long": "El diario de datos positivos (Positive Data Log) es una técnica de la CBT para baja autoestima desarrollada específicamente para contrarrestar las creencias nucleares negativas. La persona identifica su creencia nuclear (p. ej., «No soy suficiente») y, cada día, registra cualquier evidencia —por pequeña que sea— que la contradiga: un elogio recibido, una tarea completada, un momento de conexión, un acto de amabilidad. El mecanismo es doble: (1) entrena la atención selectiva para notar lo positivo (contrarrestando el filtro mental), y (2) acumula evidencia concreta contra la creencia nuclear. Fennell (1997) y Waite et al. (2012) documentan su eficacia como componente del tratamiento de baja autoestima.",
+      "references": [
+        {"author": "Fennell, M. J. V.", "year": 1997},
+        {"author": "Waite, P., McManus, F., & Shafran, R.", "year": 2012}
+      ],
+      "moduleLink": "ciclo_baja_autoestima"
+    },
+    "cognitive_continuum": {
+      "title": "Continuo cognitivo",
+      "short": "Una herramienta para salir del pensamiento blanco y negro, colocando las cosas en una escala del 0 al 100 en vez de «todo o nada».",
+      "long": "El continuo cognitivo es una técnica de la terapia cognitiva diseñada para combatir el pensamiento dicotómico (todo-o-nada). En vez de categorías absolutas («éxito total» vs. «fracaso total»), la persona coloca su experiencia en una escala continua del 0 al 100. Por ejemplo, en vez de «soy incompetente» (0) o «soy brillante» (100), evalúas: «En esta tarea específica, mi rendimiento fue de un 70/100». Esto introduce matices, reduce la autocrítica extrema y permite reconocer logros parciales. Burns (1980) lo recomienda como antídoto directo contra la distorsión todo-o-nada, una de las más dañinas para la autoestima.",
+      "references": [
+        {"author": "Burns, D. D.", "year": 1980},
+        {"author": "Beck, A. T.", "year": 1979}
+      ],
+      "moduleLink": "distorsiones_cognitivas"
+    },
+    "achievements_log": {
+      "title": "Registro de logros (anti-impostor)",
+      "short": "Un registro específico para contrarrestar el síndrome del impostor: documentas tus logros y practicas no descalificarlos.",
+      "long": "El registro de logros es una intervención diseñada específicamente para combatir el ciclo del impostor. La persona documenta sus logros, habilidades demostradas, feedback positivo y momentos de competencia. La clave es la columna de «descalificaciones»: al lado de cada logro, se anota la forma habitual en que lo descalificarías («fue suerte», «cualquiera lo habría hecho», «no era tan difícil») y se cuestiona esa descalificación con la misma rigurosidad que un registro de pensamientos. Kolubinski et al. (2018) revisaron las intervenciones para el fenómeno del impostor y encontraron que las aproximaciones cognitivo-conductuales (identificar y cuestionar las distorsiones del impostor) son las más prometedoras.",
+      "references": [
+        {"author": "Kolubinski, D. C. et al.", "year": 2018},
+        {"author": "Clance, P. R., & Imes, S. A.", "year": 1978}
+      ],
+      "moduleLink": "sindrome_impostor"
+    },
+    "digital_detox": {
+      "title": "La ciencia del detox digital",
+      "short": "Reducir el uso de redes sociales durante 1-4 semanas produce mejoras modestas pero significativas en bienestar y autoestima.",
+      "long": "Los estudios experimentales muestran que limitar el uso de redes sociales produce beneficios psicológicos. Hunt et al. (2018) encontraron que reducir el uso a 30 minutos diarios durante 3 semanas mejoró significativamente los niveles de soledad, depresión y ansiedad. Los meta-análisis de intervenciones de detox digital muestran efectos modestos pero consistentes, con una duración óptima de 1 a 4 semanas. El mecanismo es doble: se reduce la exposición a la comparación social ascendente y se recupera tiempo para actividades que genuinamente construyen autoestima (ejercicio, socialización cara a cara, hobbies, sueño). No es necesario eliminar las redes permanentemente: el objetivo es resetear el hábito automático y establecer un uso más consciente.",
+      "references": [
+        {"author": "Hunt, M. G. et al.", "year": 2018},
+        {"author": "Huang, C.", "year": 2017}
+      ],
+      "moduleLink": "redes_sociales_autoestima"
+    },
+    "sleep_hygiene": {
+      "title": "Por qué el sueño afecta cómo te ves",
+      "short": "Dormir mal aumenta la reactividad emocional, reduce tu capacidad de regular pensamientos negativos y erosiona directamente la autoestima.",
+      "long": "La privación de sueño y la mala calidad del sueño afectan la autoestima a través de múltiples mecanismos. A nivel neural, el mal sueño aumenta la reactividad de la amígdala (procesamiento de amenazas) en un 60% y reduce la conectividad con la corteza prefrontal (regulación emocional). A nivel hormonal, altera el eje HPA produciendo más cortisol, que a su vez reduce la disponibilidad de serotonina. A nivel cognitivo, reduce la capacidad de desafiar pensamientos negativos, haciéndote más vulnerable a las distorsiones cognitivas. La calidad del sueño importa más que la duración: un sueño fragmentado de 8 horas es peor que un sueño continuo de 7. Las recomendaciones clave: horario consistente, no pantallas 1 hora antes, habitación fresca y oscura, no cafeína después de las 14:00 (Walker, 2017).",
+      "references": [
+        {"author": "Walker, M. P.", "year": 2017},
+        {"author": "Steptoe, A. et al.", "year": 2013}
+      ],
+      "moduleLink": "sueno_ejercicio_autoestima"
+    },
+    "exercise_plan": {
+      "title": "Cómo el ejercicio mejora la autoestima",
+      "short": "El ejercicio regular mejora la autoestima con un efecto medio (d=0.49), a través de la mejora de la imagen corporal y la sensación de competencia.",
+      "long": "El meta-análisis de Liu et al. (2015) establece un tamaño del efecto de d=0.49 para la relación entre ejercicio y autoestima, lo cual es clínicamente significativo. La cadena mediacional es: ejercicio → mejora de la imagen corporal → mejora de la autoestima → mejora del bienestar general. Pero hay mecanismos adicionales: el ejercicio aumenta la autoeficacia (la sensación de «puedo hacer cosas difíciles»), mejora la regulación emocional, reduce los niveles de cortisol y aumenta las endorfinas y la serotonina. Las recomendaciones basadas en evidencia son 30-45 minutos de ejercicio aeróbico moderado, 3-5 veces por semana. La consistencia es más importante que la intensidad, y el ejercicio al aire libre suma beneficios adicionales.",
+      "references": [
+        {"author": "Liu, M., Wu, L., & Ming, Q.", "year": 2015},
+        {"author": "Biddle, S. J. H., & Asare, M.", "year": 2011}
+      ],
+      "moduleLink": "sueno_ejercicio_autoestima"
+    },
+    "distortion_todo_nada": {
+      "title": "Distorsión: Todo-o-nada",
+      "short": "Ves las cosas en dos categorías extremas: perfecto o desastre, sin puntos intermedios.",
+      "long": "El pensamiento todo-o-nada (o dicotómico) es una de las distorsiones cognitivas más comunes en la baja autoestima. Clasificas las experiencias en categorías absolutas: éxito total o fracaso total, bueno o malo, digno o indigno. No hay grises. Esto es devastador para la autoestima porque, como la perfección es inalcanzable, siempre caes en la categoría de «fracaso». La técnica del continuo cognitivo (colocar las cosas en una escala del 0 al 100) es el antídoto directo. La realidad casi siempre está en algún punto intermedio, y reconocerlo te permite valorar logros parciales y progresos graduales.",
+      "references": [
+        {"author": "Burns, D. D.", "year": 1980},
+        {"author": "Beck, A. T.", "year": 1979}
+      ],
+      "moduleLink": "distorsiones_cognitivas"
+    },
+    "distortion_sobregeneralizacion": {
+      "title": "Distorsión: Sobregeneralización",
+      "short": "De un solo evento negativo sacas una conclusión universal: «Siempre me pasa», «Nunca lo consigo».",
+      "long": "La sobregeneralización consiste en extraer una regla general a partir de un incidente aislado y aplicarla a situaciones no relacionadas. Las palabras clave son «siempre», «nunca», «todo», «nadie». Un rechazo se convierte en «nadie me quiere», un error se convierte en «siempre meto la pata». Esta distorsión convierte tropiezos puntuales en sentencias de vida, lo que erosiona profundamente la autoestima. Para desafiarla, busca las excepciones: ¿realmente «siempre» fallas? ¿No hubo ninguna vez que te fue bien? Sustituye las palabras absolutas por otras más precisas: «esta vez», «en esta ocasión», «algunas veces».",
+      "references": [
+        {"author": "Burns, D. D.", "year": 1980}
+      ],
+      "moduleLink": "distorsiones_cognitivas"
+    },
+    "distortion_filtro": {
+      "title": "Distorsión: Filtro mental",
+      "short": "Te fijas exclusivamente en un detalle negativo e ignoras todo el contexto positivo.",
+      "long": "El filtro mental (o abstracción selectiva) funciona como un colador que solo deja pasar la información negativa. De 10 aspectos de una situación, te quedas rumiando sobre el único negativo y descartas los 9 positivos. Es como juzgar una película de 2 horas por un minuto malo. Esta distorsión trabaja en tándem con «descalificar lo positivo» para crear una visión de ti mismo/a basada exclusivamente en los defectos. El antídoto es ampliar deliberadamente el foco: listar TODOS los aspectos de una situación, no solo el que te molesta, y preguntarte: «¿qué destacaría un observador neutral?».",
+      "references": [
+        {"author": "Beck, A. T.", "year": 1979},
+        {"author": "Fennell, M. J. V.", "year": 1997}
+      ],
+      "moduleLink": "distorsiones_cognitivas"
+    },
+    "distortion_descalificar": {
+      "title": "Distorsión: Descalificar lo positivo",
+      "short": "Rechazas activamente las experiencias positivas: «No cuenta», «Fue suerte», «Cualquiera lo haría».",
+      "long": "Descalificar lo positivo va más allá del filtro mental: no solo ignoras lo bueno, sino que activamente lo reinterpretas para quitarle valor. Un elogio se descarta como «solo es educación», un logro se minimiza como «no era tan difícil», una buena nota se atribuye a «tuve suerte». Esta distorsión es especialmente dañina porque crea un sistema inmune contra la información positiva: nada bueno puede entrar. Es la distorsión favorita del síndrome del impostor y el principal obstáculo para construir una nueva narrativa sobre ti mismo/a. El diario de datos positivos está diseñado específicamente para contrarrestarla.",
+      "references": [
+        {"author": "Fennell, M. J. V.", "year": 1997},
+        {"author": "Clance, P. R., & Imes, S. A.", "year": 1978}
+      ],
+      "moduleLink": "distorsiones_cognitivas"
+    },
+    "distortion_lectura_mente": {
+      "title": "Distorsión: Lectura de mente",
+      "short": "Asumes que sabes lo que otros piensan de ti, y siempre es algo negativo.",
+      "long": "La lectura de mente es la tendencia a asumir que sabes lo que los demás están pensando, sin evidencia. Y cuando tienes baja autoestima, siempre asumes que piensan algo negativo sobre ti: «Seguro que piensa que soy incompetente», «Probablemente le parezco aburrido/a», «Se estará arrepintiendo de haberme invitado». Esta distorsión genera un mundo interior donde estás constantemente siendo juzgado/a negativamente, lo que activa el sistema de amenaza y confirma la creencia de no ser suficiente. Para desafiarla, genera explicaciones alternativas y, cuando sea posible, verifica tus suposiciones preguntando directamente.",
+      "references": [
+        {"author": "Burns, D. D.", "year": 1999}
+      ],
+      "moduleLink": "distorsiones_cognitivas"
+    },
+    "distortion_catastrofizacion": {
+      "title": "Distorsión: Catastrofización",
+      "short": "Imaginas el peor escenario posible y lo tratas como probable o inevitable.",
+      "long": "La catastrofización (o magnificación) consiste en imaginar el peor resultado posible y actuar como si fuera probable o inevitable. Un pequeño error en el trabajo se convierte en «van a despedirme», una discusión se convierte en «va a dejarme», un síntoma físico se convierte en «es algo grave». Esta distorsión mantiene la baja autoestima porque cada situación se convierte en una amenaza existencial, generando ansiedad constante y una sensación de no poder manejar la vida. Para desafiarla: ¿cuál es la probabilidad REAL del peor escenario? ¿Qué pasó las otras veces? Si pasara lo peor, ¿podrías manejarlo? La respuesta suele ser más tranquilizadora de lo que la catastrofización permite ver.",
+      "references": [
+        {"author": "Burns, D. D.", "year": 1980}
+      ],
+      "moduleLink": "distorsiones_cognitivas"
+    },
+    "distortion_personalizacion": {
+      "title": "Distorsión: Personalización",
+      "short": "Te culpas de cosas que no están (totalmente) bajo tu control o asumes que todo tiene que ver contigo.",
+      "long": "La personalización consiste en asumir una responsabilidad desproporcionada por eventos negativos o interpretar situaciones neutras como referencias a ti. Si tu pareja está de mal humor, asumes que es por algo que hiciste. Si tu hijo saca malas notas, es «tu culpa». Si alguien cancela planes, es porque no quiere verte. Esta distorsión genera una carga emocional enorme porque cargas con la responsabilidad del mundo, confirmando la creencia de que eres inadecuado/a. El antídoto es el «diagrama de torta de responsabilidad»: analiza qué porcentaje es realmente tuyo y cuánto corresponde a otras personas, circunstancias y factores fuera de tu control.",
+      "references": [
+        {"author": "Beck, A. T.", "year": 1979}
+      ],
+      "moduleLink": "distorsiones_cognitivas"
+    },
+    "distortion_etiquetado": {
+      "title": "Distorsión: Etiquetado",
+      "short": "En vez de describir una conducta («cometí un error»), te pones una etiqueta global («soy un/a idiota»).",
+      "long": "El etiquetado es una forma extrema de sobregeneralización: en vez de describir lo que hiciste, defines lo que «eres». «Cometí un error» (conducta) se transforma en «soy un desastre» (identidad). «No entendí ese concepto» se transforma en «soy estúpido/a». Esta distorsión es especialmente dañina porque convierte conductas puntuales y modificables en rasgos de identidad permanentes. Una conducta se puede cambiar; una identidad, no. Por eso las etiquetas generan desesperanza. El antídoto es ser descriptivo y específico: describe lo que pasó, no lo que «eres». Nadie ES una sola cosa: eres miles de conductas diferentes.",
+      "references": [
+        {"author": "Burns, D. D.", "year": 1999}
+      ],
+      "moduleLink": "distorsiones_cognitivas"
+    },
+    "distortion_deberia": {
+      "title": "Distorsión: Los «debería»",
+      "short": "Te impones reglas rígidas: «debería ser capaz de...», «no debería sentirme así...», generando culpa constante.",
+      "long": "Los imperativos del «debería» crean una brecha permanente entre cómo eres y cómo «deberías» ser. Son reglas rígidas, a menudo heredadas de la familia o la cultura, que se aplican sin flexibilidad: «Debería poder con todo», «No debería necesitar ayuda», «Debería ser más productivo/a», «No debería sentirme triste». Cada «debería» incumplido genera culpa, vergüenza o frustración, erosionando la autoestima. El antídoto es sustituir «debería» por «me gustaría» o «preferiría»: «Me gustaría ser más productivo» es una aspiración; «debería ser más productivo» es un castigo. También ayuda preguntarse: ¿quién puso esa regla? ¿Es realista? ¿Le exigiría lo mismo a un amigo?",
+      "references": [
+        {"author": "Burns, D. D.", "year": 1980},
+        {"author": "Fennell, M. J. V.", "year": 1997}
+      ],
+      "moduleLink": "distorsiones_cognitivas"
+    },
+    "distortion_razonamiento_emocional": {
+      "title": "Distorsión: Razonamiento emocional",
+      "short": "Usas lo que sientes como prueba de la realidad: «Me siento incompetente, por lo tanto SOY incompetente».",
+      "long": "El razonamiento emocional es una de las distorsiones más tramposas: tomas tus emociones como evidencia objetiva de la realidad. «Me siento culpable, por lo tanto hice algo malo». «Me siento un fraude, por lo tanto soy un fraude». «Me siento ansioso/a, por lo tanto algo malo va a pasar». Esta distorsión es particularmente viciosa en la baja autoestima porque crea un razonamiento circular: te sientes mal contigo mismo/a (porque tienes baja autoestima), y esa emoción se convierte en «prueba» de que realmente no vales (lo que mantiene la baja autoestima). El antídoto es recordar que las emociones son información, no evidencia. Pregúntate: si no me sintiera así, ¿qué pensaría de esta situación?",
+      "references": [
+        {"author": "Fennell, M. J. V.", "year": 1997},
+        {"author": "Beck, A. T.", "year": 1979}
+      ],
+      "moduleLink": "distorsiones_cognitivas"
+    },
+    "profile_autocritico": {
+      "title": "Perfil autocrítico: por qué se te asignó",
+      "short": "Tu patrón principal es la autocrítica: un diálogo interno severo que te evalúa constantemente y rara vez te da aprobación.",
+      "long": "El perfil autocrítico se asigna cuando tus respuestas indican un patrón predominante de autoevaluación negativa, diálogo interno severo y dificultad para tratarte con amabilidad. La autocrítica es el «motor» del ciclo de baja autoestima de Fennell: cada error activa una voz interna implacable que te ataca, generando vergüenza y confirmando la creencia nuclear de inadecuación. Paul Gilbert (2010) explica que la autocrítica activa el sistema de amenaza del cerebro (cortisol, amígdala) como si estuvieras siendo atacado por un depredador, pero el «depredador» eres tú mismo. Las intervenciones prioritarias para este perfil son la autocompasión (para desactivar la autocrítica) y el registro de pensamientos (para cuestionar los pensamientos autocríticos).",
+      "references": [
+        {"author": "Gilbert, P.", "year": 2010},
+        {"author": "Fennell, M. J. V.", "year": 1997},
+        {"author": "Neff, K. D.", "year": 2003}
+      ],
+      "moduleLink": "autocompasion_ciencia"
+    },
+    "profile_impostor": {
+      "title": "Perfil impostor: qué significa",
+      "short": "Tu patrón principal es sentir que tus logros no son merecidos y que en cualquier momento serás descubierto/a como fraude.",
+      "long": "El perfil impostor se asigna cuando tus respuestas indican una experiencia significativa del fenómeno del impostor: dificultad para internalizar logros, atribución del éxito a factores externos, miedo a ser «descubierto/a» como incompetente y descalificación sistemática de evidencia positiva. Es importante entender que el síndrome del impostor afecta desproporcionadamente a personas competentes: las personas verdaderamente incompetentes rara vez lo experimentan (efecto Dunning-Kruger inverso). Las intervenciones prioritarias para este perfil son el registro de logros (para contrarrestar la descalificación), la defusión cognitiva (para desengancharse de los pensamientos impostores) y la exposición gradual (para acumular experiencias de éxito no descalificables).",
+      "references": [
+        {"author": "Clance, P. R., & Imes, S. A.", "year": 1978},
+        {"author": "Kolubinski, D. C. et al.", "year": 2018}
+      ],
+      "moduleLink": "sindrome_impostor"
+    },
+    "profile_comparador": {
+      "title": "Perfil comparador social: qué significa",
+      "short": "Tu patrón principal es compararte constantemente con los demás, casi siempre de forma desfavorable.",
+      "long": "El perfil comparador social se asigna cuando tus respuestas indican una tendencia predominante a evaluar tu propio valor en comparación con otros, generalmente mediante comparación ascendente (compararte con personas que percibes como superiores). La teoría de la comparación social de Festinger (1954) establece que todos nos comparamos, pero en personas con baja autoestima, la comparación se sesga sistemáticamente hacia arriba y se interpreta como evidencia de inferioridad. Las redes sociales amplifican este patrón. Las intervenciones prioritarias para este perfil son la clarificación de valores (para anclar tu valía en algo propio, no relativo), el detox digital (para reducir la exposición a comparaciones) y técnicas de defusión (para desengancharte de los pensamientos comparativos).",
+      "references": [
+        {"author": "Vogel, E. A. et al.", "year": 2014},
+        {"author": "Huang, C.", "year": 2017}
+      ],
+      "moduleLink": "redes_sociales_autoestima"
+    },
+    "profile_sometido": {
+      "title": "Perfil de sometimiento: qué significa",
+      "short": "Tu patrón principal es poner las necesidades de los demás por encima de las tuyas, no poner límites y temer el rechazo si dices no.",
+      "long": "El perfil de sometimiento se asigna cuando tus respuestas indican un patrón predominante de baja asertividad, dificultad para decir no, supresión de necesidades propias y priorización sistemática de las necesidades ajenas. La creencia nuclear subyacente suele ser «Si muestro quién soy realmente o digo lo que necesito, me rechazarán» o «Las necesidades de los demás son más importantes que las mías». Esto genera un ciclo donde la falta de asertividad confirma la creencia de que no importas. Las intervenciones prioritarias para este perfil son el entrenamiento en asertividad (empezando por situaciones de bajo riesgo), la identificación de derechos asertivos y los experimentos conductuales de poner límites.",
+      "references": [
+        {"author": "Speed, B. C., Goldstein, B. L., & Goldfried, M. R.", "year": 2018},
+        {"author": "Bower, S. A., & Bower, G. H.", "year": 1976}
+      ],
+      "moduleLink": "asertividad_derechos"
+    },
+    "profile_desconectado": {
+      "title": "Perfil desconectado: la desconexión mente-cuerpo",
+      "short": "Tu patrón principal es descuidar la base biológica de tu bienestar: sueño, ejercicio, alimentación y descanso.",
+      "long": "El perfil desconectado se asigna cuando tus respuestas indican que los factores biológicos pueden estar jugando un papel importante en tu baja autoestima. Esto incluye mala calidad de sueño, sedentarismo, estrés crónico no gestionado y posiblemente uso excesivo de redes sociales. No se trata de que tu problema sea «solo físico», sino de que la base biológica (cortisol elevado, serotonina baja, mala regulación emocional por falta de sueño) puede estar amplificando las dificultades psicológicas. Es como intentar pensar con claridad con fiebre alta: técnicamente puedes, pero todo es más difícil. Las intervenciones prioritarias para este perfil son la higiene del sueño, el plan de ejercicio, el detox digital y las técnicas de regulación del estrés.",
+      "references": [
+        {"author": "Walker, M. P.", "year": 2017},
+        {"author": "Liu, M., Wu, L., & Ming, Q.", "year": 2015}
+      ],
+      "moduleLink": "sueno_ejercicio_autoestima"
+    },
+    "weekly_checklist": {
+      "title": "¿Por qué estos hábitos específicos?",
+      "short": "Cada hábito del checklist semanal está respaldado por evidencia: no son sugerencias genéricas, sino intervenciones con impacto demostrado.",
+      "long": "El checklist semanal está diseñado para cubrir las múltiples dimensiones que afectan la autoestima, basándose en la evidencia acumulada. Incluye hábitos de las principales áreas: (1) Cognitiva: registro de pensamientos para desafiar distorsiones (Beck, 1979; McManus et al., 2009), (2) Emocional: prácticas de autocompasión para reducir la autocrítica (Neff, 2003; Ferrari et al., 2019), (3) Conductual: ejercicios de asertividad como experimentos conductuales contra la creencia de inadecuación (Speed et al., 2018), (4) Valores: acciones alineadas con lo que te importa (Hayes et al., 1999), (5) Biológica: ejercicio (d=0.49, Liu et al., 2015), sueño de calidad y gestión del uso de redes sociales. La combinación de múltiples micro-intervenciones diarias produce un efecto acumulativo mayor que depender de una sola estrategia.",
+      "references": [
+        {"author": "Fennell, M. J. V.", "year": 1997},
+        {"author": "Neff, K. D.", "year": 2003},
+        {"author": "Hayes, S. C. et al.", "year": 1999},
+        {"author": "Liu, M. et al.", "year": 2015}
+      ],
+      "moduleLink": "que_es_autoestima"
+    }
+  }
+}

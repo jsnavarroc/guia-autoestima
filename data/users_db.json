@@ -1,0 +1,223 @@
+{
+  "_metadata": {
+    "version": "1.0",
+    "created": "2026-03-24T00:38:45.850Z",
+    "description": "Guía de Autoestima - Base de datos de usuarios. Compatible con MongoDB.",
+    "lastModified": "2026-03-24T02:11:44.500Z",
+    "totalUsers": 1
+  },
+  "users": [
+    {
+      "_id": "1053813532",
+      "createdAt": "2026-03-24T00:52:20.457Z",
+      "cedula": "1053813532",
+      "name": "",
+      "ageRange": "26-35",
+      "motivation": [
+        "Me critico mucho"
+      ],
+      "scores": {
+        "rosenberg": {
+          "score": 28,
+          "level": "Moderada",
+          "color": "#F39C12"
+        },
+        "scs": {
+          "score": 2.5,
+          "level": "Moderada",
+          "color": "#F39C12"
+        },
+        "impostor": {
+          "score": 24,
+          "level": "Moderado",
+          "color": "#F39C12"
+        },
+        "assertiveness": {
+          "score": 28,
+          "level": "Moderada",
+          "color": "#F39C12"
+        },
+        "social_media": {
+          "score": 12,
+          "level": "Impacto moderado",
+          "color": "#F39C12"
+        },
+        "physical": {
+          "score": 19,
+          "level": "Adecuado",
+          "color": "#F39C12"
+        },
+        "perfectionism": {
+          "score": 19,
+          "level": "Alto",
+          "color": "#27AE60"
+        }
+      },
+      "profile": {
+        "name": "El Autocrítico",
+        "emoji": "🪞",
+        "description": "Tu patrón principal es la autocrítica elevada combinada con baja autocompasión. Esto mantiene un ciclo donde los pensamientos negativos sobre ti se refuerzan constantemente. Tu diálogo interno está dominado por una voz crítica que magnifica errores y minimiza logros.",
+        "encouragement": "La buena noticia: este patrón responde muy bien a las técnicas de autocompasión (g=0.75 en meta-análisis). Reconocer tu autocrítica ya es un acto de valentía. Vamos a aprender a tratarte con la misma amabilidad que le darías a un amigo cercano.",
+        "key": "autocritico",
+        "secondary": "El Impostor",
+        "priorities": [
+          {
+            "area": "Perfeccionismo",
+            "key": "perfectionism",
+            "reason": "Tu nivel de autoexigencia está erosionando tu autoestima.",
+            "priority": 3
+          },
+          {
+            "area": "Autocompasión",
+            "key": "scs",
+            "reason": "Tu nivel de autocompasión es bajo. Es la base para una relación sana contigo mismo/a.",
+            "priority": 1
+          },
+          {
+            "area": "Autoestima",
+            "key": "rosenberg",
+            "reason": "Tu autoestima general necesita refuerzo. Es el indicador central de este proceso.",
+            "priority": 1
+          }
+        ]
+      },
+      "assessmentDate": "2026-03-24T00:24:56.034Z",
+      "answers": {
+        "age_range": "26-35",
+        "previous_therapy": "Algo",
+        "motivation": [
+          "Me critico mucho"
+        ],
+        "ros_1": 4,
+        "ros_2": 4,
+        "ros_3": 3,
+        "ros_4": 3,
+        "ros_5": 2,
+        "ros_6": 1,
+        "ros_7": 3,
+        "ros_8": 3,
+        "ros_9": 2,
+        "ros_10": 2,
+        "scs_1": 4,
+        "scs_2": 3,
+        "scs_3": 3,
+        "scs_4": 3,
+        "scs_5": 3,
+        "scs_6": 2,
+        "scs_7": 2,
+        "scs_8": 5,
+        "scs_9": 4,
+        "scs_10": 3,
+        "scs_11": 3,
+        "scs_12": 3,
+        "imp_1": 2,
+        "imp_2": 3,
+        "imp_3": 3,
+        "imp_4": 4,
+        "imp_6": 3,
+        "imp_7": 3,
+        "imp_8": 2,
+        "imp_9": 1,
+        "imp_10": 3,
+        "as_1": 3,
+        "as_2": 3,
+        "as_3": 3,
+        "as_4": 4,
+        "as_5": 4,
+        "as_6": 4,
+        "as_7": 3,
+        "as_8": 4,
+        "sm_1": 3,
+        "sm_2": 2,
+        "sm_3": 2,
+        "sm_4": 3,
+        "sm_5": 2,
+        "ph_1": 2,
+        "ph_2": 2,
+        "ph_3": 5,
+        "ph_4": 5,
+        "ph_5": 3,
+        "ph_6": 2,
+        "pf_1": 3,
+        "pf_2": 3,
+        "pf_3": 4,
+        "pf_4": 4,
+        "pf_5": 5
+      },
+      "assessments": [
+        {
+          "date": "2026-03-24T00:24:56.034Z",
+          "scores": {
+            "rosenberg": {
+              "score": 28,
+              "level": "Moderada",
+              "color": "#F39C12"
+            },
+            "scs": {
+              "score": 2.5,
+              "level": "Moderada",
+              "color": "#F39C12"
+            },
+            "impostor": {
+              "score": 24,
+              "level": "Moderado",
+              "color": "#F39C12"
+            },
+            "assertiveness": {
+              "score": 28,
+              "level": "Moderada",
+              "color": "#F39C12"
+            },
+            "social_media": {
+              "score": 12,
+              "level": "Impacto moderado",
+              "color": "#F39C12"
+            },
+            "physical": {
+              "score": 19,
+              "level": "Adecuado",
+              "color": "#F39C12"
+            },
+            "perfectionism": {
+              "score": 19,
+              "level": "Alto",
+              "color": "#27AE60"
+            }
+          },
+          "profile": {
+            "name": "El Autocrítico",
+            "emoji": "🪞",
+            "description": "Tu patrón principal es la autocrítica elevada combinada con baja autocompasión. Esto mantiene un ciclo donde los pensamientos negativos sobre ti se refuerzan constantemente. Tu diálogo interno está dominado por una voz crítica que magnifica errores y minimiza logros.",
+            "encouragement": "La buena noticia: este patrón responde muy bien a las técnicas de autocompasión (g=0.75 en meta-análisis). Reconocer tu autocrítica ya es un acto de valentía. Vamos a aprender a tratarte con la misma amabilidad que le darías a un amigo cercano.",
+            "key": "autocritico",
+            "secondary": "El Impostor",
+            "priorities": [
+              {
+                "area": "Perfeccionismo",
+                "key": "perfectionism",
+                "reason": "Tu nivel de autoexigencia está erosionando tu autoestima.",
+                "priority": 3
+              },
+              {
+                "area": "Autocompasión",
+                "key": "scs",
+                "reason": "Tu nivel de autocompasión es bajo. Es la base para una relación sana contigo mismo/a.",
+                "priority": 1
+              },
+              {
+                "area": "Autoestima",
+                "key": "rosenberg",
+                "reason": "Tu autoestima general necesita refuerzo. Es el indicador central de este proceso.",
+                "priority": 1
+              }
+            ]
+          }
+        }
+      ],
+      "updatedAt": "2026-03-24T01:16:23.011Z",
+      "migratedFrom": "localStorage",
+      "migratedAt": "2026-03-24T01:16:23.011Z",
+      "lastLogin": "2026-03-24T02:11:44.500Z"
+    }
+  ]
+}

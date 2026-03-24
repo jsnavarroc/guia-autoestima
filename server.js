@@ -1,20 +1,24 @@
 /**
- * server.js — Mini servidor para la Guía de Autoestima
+ * server.js — Servidor para la Guía de Autoestima
  *
  * - Sirve archivos estáticos
- * - API REST para persistir datos en users_db.json
- * - Estructura MongoDB-compatible (documentos con _id, timestamps)
+ * - API REST para persistir datos
+ * - MongoDB Atlas en producción, JSON local en desarrollo
  *
  * Uso: node server.js
- * URL: http://localhost:3000
+ * Env: MONGODB_URI=mongodb+srv://... (opcional, si no existe usa JSON local)
  */
 
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
+const { MongoClient, ServerApiVersion } = require('mongodb');
 
 const app = express();
 const PORT = process.env.PORT || 3040;
+const MONGODB_URI = process.env.MONGODB_URI;
+const DB_NAME = 'guia_autoestima';
+const COLLECTION = 'users';
 const DB_FILE = path.join(__dirname, 'data', 'users_db.json');
 
 // Middleware
@@ -22,289 +26,340 @@ app.use(express.json({ limit: '10mb' }));
 app.use(express.static(__dirname));
 
 // ============================================
-// Database helpers (JSON file)
+// Database abstraction layer
 // ============================================
 
-function readDB() {
+let mongoClient = null;
+let db = null;
+let useMongo = false;
+
+async function initDB() {
+  if (MONGODB_URI) {
+    try {
+      mongoClient = new MongoClient(MONGODB_URI, {
+        serverApi: { version: ServerApiVersion.v1, strict: true, deprecationErrors: true }
+      });
+      await mongoClient.connect();
+      db = mongoClient.db(DB_NAME);
+      // Create index on _id (already exists by default)
+      useMongo = true;
+      console.log('   DB: MongoDB Atlas conectado');
+    } catch (e) {
+      console.error('   DB: Error conectando MongoDB, usando JSON local:', e.message);
+      useMongo = false;
+    }
+  } else {
+    console.log('   DB: JSON local (data/users_db.json)');
+    useMongo = false;
+  }
+}
+
+// --- MongoDB operations ---
+const mongoDB = {
+  async findAll() {
+    return db.collection(COLLECTION).find({}).project({ answers: 0 }).toArray();
+  },
+  async findUser(id) {
+    return db.collection(COLLECTION).findOne({ _id: id });
+  },
+  async upsertUser(id, data) {
+    const now = new Date().toISOString();
+    const result = await db.collection(COLLECTION).findOneAndUpdate(
+      { _id: id },
+      {
+        $set: { ...data, _id: id, updatedAt: now, lastLogin: now },
+        $setOnInsert: { createdAt: now }
+      },
+      { upsert: true, returnDocument: 'after' }
+    );
+    return result;
+  },
+  async updateField(id, field, value) {
+    const now = new Date().toISOString();
+    await db.collection(COLLECTION).updateOne(
+      { _id: id },
+      { $set: { [field]: value, updatedAt: now } }
+    );
+  },
+  async pushAssessment(id, assessment) {
+    const now = new Date().toISOString();
+    await db.collection(COLLECTION).updateOne(
+      { _id: id },
+      {
+        $push: { assessments: assessment },
+        $set: { scores: assessment.scores, profile: assessment.profile, updatedAt: now }
+      }
+    );
+  },
+  async pushExercise(id, exerciseId, data) {
+    const now = new Date().toISOString();
+    await db.collection(COLLECTION).updateOne(
+      { _id: id },
+      {
+        $push: { [`exercises.${exerciseId}`]: { ...data, date: now } },
+        $set: { updatedAt: now }
+      }
+    );
+  },
+  async getExercises(id, exerciseId) {
+    const user = await db.collection(COLLECTION).findOne(
+      { _id: id },
+      { projection: { [`exercises.${exerciseId}`]: 1 } }
+    );
+    return user?.exercises?.[exerciseId] || [];
+  },
+  async deleteUser(id) {
+    await db.collection(COLLECTION).deleteOne({ _id: id });
+  }
+};
+
+// --- JSON file operations (fallback) ---
+function readJSON() {
   try {
     if (!fs.existsSync(DB_FILE)) {
-      const initial = { _metadata: { version: '1.0', created: new Date().toISOString(), description: 'Guía de Autoestima - Base de datos de usuarios. Compatible con MongoDB.' }, users: [] };
+      const initial = { _metadata: { version: '1.0', created: new Date().toISOString() }, users: [] };
       fs.writeFileSync(DB_FILE, JSON.stringify(initial, null, 2), 'utf-8');
       return initial;
     }
     return JSON.parse(fs.readFileSync(DB_FILE, 'utf-8'));
   } catch (e) {
-    console.error('Error reading DB:', e);
     return { _metadata: {}, users: [] };
   }
 }
 
-function writeDB(db) {
+function writeJSON(data) {
   try {
-    db._metadata.lastModified = new Date().toISOString();
-    db._metadata.totalUsers = db.users.length;
-    fs.writeFileSync(DB_FILE, JSON.stringify(db, null, 2), 'utf-8');
-    return true;
+    data._metadata.lastModified = new Date().toISOString();
+    data._metadata.totalUsers = data.users.length;
+    fs.writeFileSync(DB_FILE, JSON.stringify(data, null, 2), 'utf-8');
   } catch (e) {
-    console.error('Error writing DB:', e);
-    return false;
+    console.error('Error writing JSON:', e);
   }
 }
 
-function findUser(db, cedula) {
-  return db.users.find(u => u._id === cedula);
+const jsonDB = {
+  async findAll() {
+    const data = readJSON();
+    return data.users.map(u => ({
+      _id: u._id, name: u.name || '', registeredAt: u.createdAt,
+      lastLogin: u.lastLogin, hasAssessment: !!(u.scores && Object.keys(u.scores).length > 0)
+    }));
+  },
+  async findUser(id) {
+    const data = readJSON();
+    return data.users.find(u => u._id === id) || null;
+  },
+  async upsertUser(id, userData) {
+    const data = readJSON();
+    const now = new Date().toISOString();
+    let user = data.users.find(u => u._id === id);
+    if (user) {
+      Object.assign(user, userData, { _id: id, updatedAt: now, lastLogin: now });
+    } else {
+      user = { ...userData, _id: id, createdAt: now, updatedAt: now, lastLogin: now };
+      data.users.push(user);
+    }
+    writeJSON(data);
+    return user;
+  },
+  async updateField(id, field, value) {
+    const data = readJSON();
+    const user = data.users.find(u => u._id === id);
+    if (user) {
+      user[field] = value;
+      user.updatedAt = new Date().toISOString();
+      writeJSON(data);
+    }
+  },
+  async pushAssessment(id, assessment) {
+    const data = readJSON();
+    const user = data.users.find(u => u._id === id);
+    if (user) {
+      if (!user.assessments) user.assessments = [];
+      user.assessments.push(assessment);
+      user.scores = assessment.scores;
+      user.profile = assessment.profile;
+      user.updatedAt = new Date().toISOString();
+      writeJSON(data);
+    }
+  },
+  async pushExercise(id, exerciseId, exerciseData) {
+    const data = readJSON();
+    const user = data.users.find(u => u._id === id);
+    if (user) {
+      if (!user.exercises) user.exercises = {};
+      if (!user.exercises[exerciseId]) user.exercises[exerciseId] = [];
+      user.exercises[exerciseId].push({ ...exerciseData, date: new Date().toISOString() });
+      user.updatedAt = new Date().toISOString();
+      writeJSON(data);
+    }
+  },
+  async getExercises(id, exerciseId) {
+    const data = readJSON();
+    const user = data.users.find(u => u._id === id);
+    return user?.exercises?.[exerciseId] || [];
+  },
+  async deleteUser(id) {
+    const data = readJSON();
+    data.users = data.users.filter(u => u._id !== id);
+    writeJSON(data);
+  }
+};
+
+// Get active DB layer
+function getDB() {
+  return useMongo ? mongoDB : jsonDB;
 }
 
 // ============================================
 // API Routes
 // ============================================
 
-// GET /api/users — Listar todos los usuarios (solo resumen)
-app.get('/api/users', (req, res) => {
-  const db = readDB();
-  const summary = db.users.map(u => ({
-    _id: u._id,
-    name: u.name || '',
-    registeredAt: u.createdAt,
-    lastLogin: u.lastLogin,
-    hasAssessment: !!(u.scores && Object.keys(u.scores).length > 0)
-  }));
-  res.json({ ok: true, users: summary });
+// GET /api/users
+app.get('/api/users', async (req, res) => {
+  try {
+    const users = await getDB().findAll();
+    res.json({ ok: true, users });
+  } catch (e) {
+    res.status(500).json({ ok: false, error: e.message });
+  }
 });
 
-// GET /api/users/:cedula — Obtener datos completos de un usuario
-app.get('/api/users/:cedula', (req, res) => {
-  const db = readDB();
-  const user = findUser(db, req.params.cedula);
-  if (!user) {
-    return res.status(404).json({ ok: false, error: 'Usuario no encontrado' });
+// GET /api/users/:id
+app.get('/api/users/:id', async (req, res) => {
+  try {
+    const user = await getDB().findUser(req.params.id);
+    if (!user) return res.status(404).json({ ok: false, error: 'Usuario no encontrado' });
+    res.json({ ok: true, user });
+  } catch (e) {
+    res.status(500).json({ ok: false, error: e.message });
   }
-  // Update last login
-  user.lastLogin = new Date().toISOString();
-  writeDB(db);
-  res.json({ ok: true, user });
 });
 
-// POST /api/users — Crear o actualizar usuario completo
-app.post('/api/users', (req, res) => {
-  const db = readDB();
-  const data = req.body;
-
-  if (!data._id && !data.cedula) {
-    return res.status(400).json({ ok: false, error: 'Se requiere _id o cedula' });
+// POST /api/users
+app.post('/api/users', async (req, res) => {
+  try {
+    const data = req.body;
+    const id = data._id || data.cedula;
+    if (!id) return res.status(400).json({ ok: false, error: 'Se requiere _id' });
+    const user = await getDB().upsertUser(id, data);
+    res.json({ ok: true, user });
+  } catch (e) {
+    res.status(500).json({ ok: false, error: e.message });
   }
+});
 
-  const cedula = data._id || data.cedula;
-  let user = findUser(db, cedula);
-
-  if (user) {
-    // Update existing
-    Object.assign(user, data, {
-      _id: cedula,
-      updatedAt: new Date().toISOString(),
-      lastLogin: new Date().toISOString()
+// PUT /api/users/:id/scores
+app.put('/api/users/:id/scores', async (req, res) => {
+  try {
+    const { scores, profile, answers } = req.body;
+    const db = getDB();
+    // Ensure user exists
+    await db.upsertUser(req.params.id, { answers });
+    await db.pushAssessment(req.params.id, {
+      date: new Date().toISOString(), scores, profile
     });
-  } else {
-    // Create new
-    user = {
-      _id: cedula,
-      ...data,
-      createdAt: new Date().toISOString(),
-      updatedAt: new Date().toISOString(),
-      lastLogin: new Date().toISOString()
-    };
-    db.users.push(user);
+    res.json({ ok: true });
+  } catch (e) {
+    res.status(500).json({ ok: false, error: e.message });
   }
-
-  writeDB(db);
-  res.json({ ok: true, user });
 });
 
-// PUT /api/users/:cedula/scores — Guardar/actualizar scores
-app.put('/api/users/:cedula/scores', (req, res) => {
-  const db = readDB();
-  let user = findUser(db, req.params.cedula);
-
-  if (!user) {
-    // Auto-create user
-    user = {
-      _id: req.params.cedula,
-      createdAt: new Date().toISOString(),
-      assessments: []
-    };
-    db.users.push(user);
+// PUT /api/users/:id/weeks
+app.put('/api/users/:id/weeks', async (req, res) => {
+  try {
+    await getDB().updateField(req.params.id, 'weeks', req.body.weeks || req.body);
+    res.json({ ok: true });
+  } catch (e) {
+    res.status(500).json({ ok: false, error: e.message });
   }
-
-  user.scores = req.body.scores;
-  user.profile = req.body.profile;
-  user.answers = req.body.answers;
-  user.updatedAt = new Date().toISOString();
-
-  // Append to assessments history
-  if (!user.assessments) user.assessments = [];
-  user.assessments.push({
-    date: new Date().toISOString(),
-    scores: req.body.scores,
-    profile: req.body.profile
-  });
-
-  writeDB(db);
-  res.json({ ok: true, user });
 });
 
-// PUT /api/users/:cedula/weeks — Guardar datos semanales
-app.put('/api/users/:cedula/weeks', (req, res) => {
-  const db = readDB();
-  let user = findUser(db, req.params.cedula);
-
-  if (!user) {
-    return res.status(404).json({ ok: false, error: 'Usuario no encontrado' });
+// POST /api/users/:id/exercises
+app.post('/api/users/:id/exercises', async (req, res) => {
+  try {
+    const { exerciseId, data } = req.body;
+    await getDB().pushExercise(req.params.id, exerciseId, data);
+    res.json({ ok: true });
+  } catch (e) {
+    res.status(500).json({ ok: false, error: e.message });
   }
-
-  user.weeks = req.body.weeks || req.body;
-  user.updatedAt = new Date().toISOString();
-
-  writeDB(db);
-  res.json({ ok: true });
 });
 
-// POST /api/users/:cedula/exercises — Guardar ejercicio
-app.post('/api/users/:cedula/exercises', (req, res) => {
-  const db = readDB();
-  let user = findUser(db, req.params.cedula);
-
-  if (!user) {
-    return res.status(404).json({ ok: false, error: 'Usuario no encontrado' });
+// GET /api/users/:id/exercises/:exerciseId
+app.get('/api/users/:id/exercises/:exerciseId', async (req, res) => {
+  try {
+    const logs = await getDB().getExercises(req.params.id, req.params.exerciseId);
+    res.json({ ok: true, logs });
+  } catch (e) {
+    res.status(500).json({ ok: false, error: e.message });
   }
-
-  if (!user.exercises) user.exercises = {};
-
-  const exerciseId = req.body.exerciseId;
-  if (!user.exercises[exerciseId]) user.exercises[exerciseId] = [];
-
-  user.exercises[exerciseId].push({
-    ...req.body.data,
-    date: new Date().toISOString()
-  });
-
-  user.updatedAt = new Date().toISOString();
-  writeDB(db);
-  res.json({ ok: true });
 });
 
-// GET /api/users/:cedula/exercises/:exerciseId — Obtener historial de ejercicio
-app.get('/api/users/:cedula/exercises/:exerciseId', (req, res) => {
-  const db = readDB();
-  const user = findUser(db, req.params.cedula);
-
-  if (!user) {
-    return res.status(404).json({ ok: false, error: 'Usuario no encontrado' });
+// DELETE /api/users/:id
+app.delete('/api/users/:id', async (req, res) => {
+  try {
+    await getDB().deleteUser(req.params.id);
+    res.json({ ok: true, message: 'Usuario eliminado' });
+  } catch (e) {
+    res.status(500).json({ ok: false, error: e.message });
   }
-
-  const logs = user.exercises?.[req.params.exerciseId] || [];
-  res.json({ ok: true, logs });
 });
 
-// DELETE /api/users/:cedula — Eliminar usuario
-app.delete('/api/users/:cedula', (req, res) => {
-  const db = readDB();
-  const idx = db.users.findIndex(u => u._id === req.params.cedula);
+// POST /api/migrate-localstorage
+app.post('/api/migrate-localstorage', async (req, res) => {
+  const localData = req.body;
+  let migrated = 0;
 
-  if (idx === -1) {
-    return res.status(404).json({ ok: false, error: 'Usuario no encontrado' });
+  for (const [key, value] of Object.entries(localData)) {
+    if (key === 'guia_users') continue;
+    const match = key.match(/^guia_(.+?)_data$/);
+    if (!match) continue;
+    const id = match[1];
+    let userData;
+    try { userData = JSON.parse(value); } catch (e) { continue; }
+
+    await getDB().upsertUser(id, {
+      ...userData, migratedFrom: 'localStorage', migratedAt: new Date().toISOString()
+    });
+
+    // Weeks
+    const weeksKey = `guia_${id}_weeks`;
+    if (localData[weeksKey]) {
+      try {
+        await getDB().updateField(id, 'weeks', JSON.parse(localData[weeksKey]));
+      } catch (e) {}
+    }
+
+    // Exercises
+    for (const [eKey, eVal] of Object.entries(localData)) {
+      const eMatch = eKey.match(new RegExp(`^guia_${id}_exercise_(.+)$`));
+      if (eMatch) {
+        try {
+          const exercises = JSON.parse(eVal);
+          for (const ex of exercises) {
+            await getDB().pushExercise(id, eMatch[1], ex);
+          }
+        } catch (e) {}
+      }
+    }
+    migrated++;
   }
 
-  db.users.splice(idx, 1);
-  writeDB(db);
-  res.json({ ok: true, message: 'Usuario eliminado' });
-});
-
-// GET /api/export — Exportar toda la base de datos
-app.get('/api/export', (req, res) => {
-  const db = readDB();
-  res.setHeader('Content-Disposition', 'attachment; filename=users_db.json');
-  res.json(db);
+  res.json({ ok: true, migrated });
 });
 
 // ============================================
 // Start server
 // ============================================
 
-app.listen(PORT, () => {
-  console.log(`\n🌱 Guía de Autoestima — Servidor activo`);
-  console.log(`   URL: http://localhost:${PORT}`);
-  console.log(`   DB:  ${DB_FILE}`);
-  console.log(`   API: http://localhost:${PORT}/api/users\n`);
-});
+async function start() {
+  await initDB();
+  app.listen(PORT, () => {
+    console.log(`\n🌱 Guía de Autoestima — Servidor activo`);
+    console.log(`   URL: http://localhost:${PORT}`);
+    console.log(`   Mode: ${useMongo ? 'MongoDB Atlas' : 'JSON local'}\n`);
+  });
+}
 
-// One-time migration endpoint: receives localStorage dump and imports to JSON
-app.post('/api/migrate-localstorage', (req, res) => {
-  const localData = req.body;
-  const db = readDB();
-  let migrated = 0;
-
-  // Find all user data keys
-  for (const [key, value] of Object.entries(localData)) {
-    if (key === 'guia_users') continue; // skip index
-    
-    const match = key.match(/^guia_(.+?)_data$/);
-    if (!match) continue;
-    
-    const cedula = match[1];
-    let userData;
-    try {
-      userData = JSON.parse(value);
-    } catch (e) { continue; }
-
-    let user = findUser(db, cedula);
-    if (!user) {
-      user = { _id: cedula, createdAt: new Date().toISOString() };
-      db.users.push(user);
-    }
-
-    // Merge all data
-    Object.assign(user, userData, {
-      _id: cedula,
-      updatedAt: new Date().toISOString(),
-      migratedFrom: 'localStorage',
-      migratedAt: new Date().toISOString()
-    });
-
-    // Also look for weeks data
-    const weeksKey = `guia_${cedula}_weeks`;
-    if (localData[weeksKey]) {
-      try {
-        user.weeks = JSON.parse(localData[weeksKey]);
-      } catch (e) {}
-    }
-
-    // Look for exercise data
-    for (const [eKey, eVal] of Object.entries(localData)) {
-      const eMatch = eKey.match(new RegExp(`^guia_${cedula}_exercise_(.+)$`));
-      if (eMatch) {
-        if (!user.exercises) user.exercises = {};
-        try {
-          user.exercises[eMatch[1]] = JSON.parse(eVal);
-        } catch (e) {}
-      }
-    }
-
-    migrated++;
-  }
-
-  // Also import user index
-  if (localData['guia_users']) {
-    try {
-      const usersList = JSON.parse(localData['guia_users']);
-      for (const u of usersList) {
-        let existing = findUser(db, u.cedula);
-        if (existing && !existing.name && u.name) {
-          existing.name = u.name;
-        }
-      }
-    } catch (e) {}
-  }
-
-  writeDB(db);
-  res.json({ ok: true, migrated, totalUsers: db.users.length });
-});
+start().catch(console.error);
